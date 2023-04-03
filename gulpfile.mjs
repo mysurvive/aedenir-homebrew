@@ -20,13 +20,13 @@ import rollupConfig from "./rollup.config.mjs";
 /*  CONFIGURATION   */
 /********************/
 
-const packageId = "ms-tiny-swade-tweaks";
+const packageId = "aedenir-homebrew";
 const sourceDirectory = "./src";
 const distDirectory = "./dist";
 const stylesDirectory = `${sourceDirectory}/styles`;
 const stylesExtension = "css";
 const sourceFileExtension = "js";
-const staticFiles = ["module.json"];
+const staticFiles = ["module.json", "packs"];
 
 /********************/
 /*      BUILD       */
@@ -90,10 +90,7 @@ export function watch() {
   );
 }
 
-export const build = gulp.series(
-  clean,
-  gulp.parallel(buildCode, buildStyles, copyFiles)
-);
+export const build = gulp.series(clean, gulp.parallel(buildCode, copyFiles));
 
 /********************/
 /*      CLEAN       */
