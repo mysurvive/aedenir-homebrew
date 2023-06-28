@@ -18,7 +18,14 @@ Hooks.on("init", async () => {
   });
 
   game.settings.register(moduleId, "loadedHomebrew", {
-    scope: "user",
+    scope: "world",
+    config: false,
+    type: Boolean,
+    default: false,
+  });
+
+  game.settings.register(moduleId, "loadedSettings", {
+    scope: "world",
     config: false,
     type: Boolean,
     default: false,
@@ -30,6 +37,7 @@ Hooks.on("ready", async () => {
   if (game.system.id === "pf2e") {
     loadCompendiumPacks();
     loadHomebrew();
+    loadSettings();
   }
   //#endregion Pathfinder 2e
 });
@@ -69,6 +77,23 @@ async function loadHomebrew() {
     await game.settings.set(moduleId, "loadedHomebrew", true);
     console.log(
       "%cAedenir Homebrew Traits have been successfully loaded",
+      "color: green; font-weight: bold"
+    );
+  }
+}
+
+async function loadSettings() {
+  if (!game.settings.get(moduleId, "loadedSettings")) {
+    //automation settings
+    await game.settings.set("pf2e", "automation.iwr", true);
+    await game.settings.set("pf2e", "automation.removeExpiredEffects", true);
+
+    //variant rules
+    await game.settings.set("pf2e", "freeArchetypeVariant", true);
+
+    await game.settings.set(moduleId, "loadedSettings", true);
+    console.log(
+      "%cAedenir Specific System Settings have been successfully loaded",
       "color: green; font-weight: bold"
     );
   }

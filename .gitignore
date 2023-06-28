@@ -1,3 +1,7 @@
 /.vs/
 /src/.vs/
 /node_modules/
+/.husky/
+/dist/
+/foundryconfig.json
+/package-lock.json

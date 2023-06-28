@@ -10,8 +10,8 @@
     }
   ],
   "compatibility": {
-    "minimum": "10",
-    "verified": "10"
+    "minimum": "11",
+    "verified": "11"
   },
   "relationships": {
     "systems": [
@@ -19,8 +19,8 @@
         "id": "pf2e",
         "type": "system",
         "compatibility": {
-          "minimum": "4.10.0",
-          "verified": "4.10.3"
+          "minimum": "5",
+          "verified": "5"
         }
       }
     ]
@@ -31,67 +31,104 @@
   "esmodules": ["module/aedenir-homebrew.js"],
   "packs": [
     {
-      "name": "abilities",
+      "name": "aed-abilities",
       "label": "Aedenir Homebrew Abilities",
       "system": "pf2e",
-      "path": "packs/aedenir-homebrew-abilities.db",
+      "path": "packs/aedenir-homebrew-abilities",
       "type": "Item",
-      "private": "false",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
-      "name": "ancestries",
+      "name": "aed-ancestries",
       "label": "Aedenir Homebrew Ancestries",
       "system": "pf2e",
-      "path": "packs/aedenir-homebrew-ancestries.db",
+      "path": "packs/aedenir-homebrew-ancestries",
       "type": "Item",
-      "private": "false",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
-      "name": "deities",
+      "name": "aed-deities",
       "label": "Aedenir Homebrew Deities",
       "system": "pf2e",
-      "path": "packs/aedenir-homebrew-deities.db",
+      "path": "packs/aedenir-homebrew-deities",
       "type": "Item",
-      "private": "false",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
-      "name": "effects",
+      "name": "aed-effects",
       "label": "Aedenir Homebrew Effects",
       "system": "pf2e",
-      "path": "packs/aedenir-homebrew-effects.db",
+      "path": "packs/aedenir-homebrew-effects",
       "type": "Item",
-      "private": "false",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
-      "name": "equipment",
+      "name": "aed-equipment",
       "label": "Aedenir Homebrew Equipment",
       "system": "pf2e",
-      "path": "packs/aedenir-homebrew-equipment.db",
+      "path": "packs/aedenir-homebrew-equipment",
       "type": "Item",
-      "private": "false",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
-      "name": "featsfeatures",
+      "name": "aed-featsfeatures",
       "label": "Aedenir Homebrew Feats and Features",
       "system": "pf2e",
-      "path": "packs/aedenir-homebrew-featsfeatures.db",
+      "path": "packs/aedenir-homebrew-featsfeatures",
       "type": "Item",
-      "private": "false",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
-      "name": "heritages",
+      "name": "aed-heritages",
       "label": "Aedenir Homebrew Heritages",
       "system": "pf2e",
-      "path": "packs/aedenir-homebrew-heritages.db",
+      "path": "packs/aedenir-homebrew-heritages",
       "type": "Item",
-      "private": "false",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     }
-  ]
+  ],
+  "packFolders": [
+    {
+      "name": "Aedenir Homebrew Content",
+      "sorting": "m",
+      "packs": [
+        "aed-abilities",
+        "aed-ancestries",
+        "aed-deities",
+        "aed-effects",
+        "aed-equipment",
+        "aed-featsfeatures",
+        "aed-heritages"
+      ]
+    }
+  ],
+  "styles": ["/styles/aedenir-homebrew.css"]
 }

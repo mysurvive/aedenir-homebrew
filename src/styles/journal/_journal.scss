@@ -1,0 +1,31 @@
+.aed-journal {
+  .names {
+    font-style: italic;
+    margin-bottom: 1em;
+  }
+
+  .note {
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-style: italic;
+  }
+
+  .body {
+    margin-top: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2em;
+  }
+
+  .additional {
+    display: flex;
+    min-width: 100%;
+
+    .note {
+      flex: 1;
+      font-style: normal;
+    }
+  }
+}
