@@ -30,11 +30,19 @@ Hooks.on("init", async () => {
     type: Boolean,
     default: false,
   });
+
+  game.settings.register(moduleId, "homebrewVersion", {
+    scope: "world",
+    config: false,
+    type: String,
+    default: "0.0.0",
+  });
 });
 
 Hooks.on("ready", async () => {
   //#region Pathfinder 2e
   if (game.system.id === "pf2e") {
+    checkVersion();
     loadCompendiumPacks();
     loadHomebrew();
     loadSettings();
@@ -42,15 +50,42 @@ Hooks.on("ready", async () => {
   //#endregion Pathfinder 2e
 });
 
+async function checkVersion() {
+  console.log(
+    "%cChecking homebrew version.",
+    "color: green; font-weight: bold"
+  );
+  const loadedVersion = await game.settings.get(moduleId, "homebrewVersion");
+  const latestVersion = await game.modules.get(moduleId).version;
+  console.log(
+    `%cLoaded version: ${loadedVersion}`,
+    "color: green; font-weight: bold"
+  );
+  console.log(
+    `%cLatest version: ${latestVersion}`,
+    "color: green; font-weight: bold"
+  );
+  if (loadedVersion < latestVersion) {
+    console.log(
+      "%cVersion mismatch, updating.",
+      "color: red; font-weight: bold"
+    );
+    await game.settings.set(moduleId, "addedToCompendium", false);
+    await game.settings.set(moduleId, "loadedHomebrew", false);
+    await game.settings.set(moduleId, "loadedSettings", false);
+    await game.settings.set(moduleId, "homebrewVersion", latestVersion);
+  }
+}
+
 async function loadCompendiumPacks() {
   if (!game.settings.get(moduleId, "addedToCompendium")) {
     // Grab the settings
     const settings = await game.settings.get("pf2e", "compendiumBrowserPacks");
 
     // Add the pack to the settings
-    settings.action[`${moduleId}.abilities`].load = true;
-    settings.equipment[`${moduleId}.equipment`].load = true;
-    settings.feat[`${moduleId}.featsfeatures`].load = true;
+    settings.action[`${moduleId}.aed-abilities`].load = true;
+    settings.equipment[`${moduleId}.aed-equipment`].load = true;
+    settings.feat[`${moduleId}.aed-featsfeatures`].load = true;
 
     // Set the settings, both in the client settings and the current session respectively
     await game.settings.set("pf2e", "compendiumBrowserPacks", settings);
@@ -87,6 +122,7 @@ async function loadSettings() {
     //automation settings
     await game.settings.set("pf2e", "automation.iwr", true);
     await game.settings.set("pf2e", "automation.removeExpiredEffects", true);
+    await game.settings.set("pf2e", "automation.encumbrance", true);
 
     //variant rules
     await game.settings.set("pf2e", "freeArchetypeVariant", true);
