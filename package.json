@@ -57,6 +57,10 @@
     "*.(json|yml|css)": "prettier --write"
   },
   "dependencies": {
-    "link": "^1.5.1"
+    "16": "^0.0.2",
+    "link": "^1.5.1",
+    "lint": "^0.8.19",
+    "node": "^20.5.0",
+    "word-wrap": "^1.2.5"
   }
 }
