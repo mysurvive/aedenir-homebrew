@@ -1,9 +1,3 @@
-2023/07/25-01:47:14.885 b724 Recovering log #3
-2023/07/25-01:47:14.886 b724 Level-0 table #5: started
-2023/07/25-01:47:14.889 b724 Level-0 table #5: 66795 bytes OK
-2023/07/25-01:47:14.895 b724 Recovering log #6
-2023/07/25-01:47:14.895 b724 Level-0 table #6: started
-2023/07/25-01:47:14.897 b724 Level-0 table #6: 28896 bytes OK
-2023/07/25-01:47:14.902 b724 Delete type=0 #3
-2023/07/25-01:47:14.902 b724 Delete type=0 #6
-2023/07/25-01:47:14.902 b724 Delete type=3 #2
+2023/07/30-19:17:05.309 c62c Recovering log #16
+2023/07/30-19:17:05.314 c62c Delete type=0 #16
+2023/07/30-19:17:05.314 c62c Delete type=3 #15
