@@ -14,6 +14,9 @@ const featTraits = [
 const languages = [
   { id: "hb_skin-cant", value: "Skin Cant" },
   { id: "hb_oropin", value: "Oropin" },
+  { id: "hb_ekkdu", value: "Ekkdu" },
+  { id: "hb_isserian", value: "Isserian" },
+  { id: "hb_hetzlati", value: "Hetz'lati" },
 ];
 
 const weaponGroups = [{ id: "hb_oropin", value: "Oropin" }];

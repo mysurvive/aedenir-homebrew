@@ -70,10 +70,10 @@ async function checkVersion() {
       "%cVersion mismatch, updating.",
       "color: red; font-weight: bold"
     );
-    await game.settings.set(moduleId, "addedToCompendium", false);
-    await game.settings.set(moduleId, "loadedHomebrew", false);
-    await game.settings.set(moduleId, "loadedSettings", false);
-    await game.settings.set(moduleId, "homebrewVersion", latestVersion);
+    game.settings.set(moduleId, "addedToCompendium", false);
+    game.settings.set(moduleId, "loadedHomebrew", false);
+    game.settings.set(moduleId, "loadedSettings", false);
+    game.settings.set(moduleId, "homebrewVersion", latestVersion);
   }
 }
 
