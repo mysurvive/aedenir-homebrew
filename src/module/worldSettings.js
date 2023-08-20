@@ -17,6 +17,15 @@ const languages = [
   { id: "hb_ekkdu", value: "Ekkdu" },
   { id: "hb_isserian", value: "Isserian" },
   { id: "hb_hetzlati", value: "Hetz'lati" },
+  { id: "hb_ekkaril", value: "Ekkaril" },
+  { id: "hb_liluathan", value: "Liluathan" },
+  { id: "hb_skree", value: "Skree" },
+  { id: "hb_oropini", value: "Oropini" },
+  { id: "hb_sultic", value: "Sultic" },
+  { id: "hb_bastaandi", value: "Bastaandi" },
+  { id: "hb_dockspeak", value: "Dockspeak" },
+  { id: "hb_patchwerk", value: "Patchwerk" },
+  { id: "hb_tripup", value: "Tripup" },
 ];
 
 const weaponGroups = [{ id: "hb_oropin", value: "Oropin" }];

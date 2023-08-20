@@ -43,9 +43,6 @@ Hooks.on("ready", async () => {
   //#region Pathfinder 2e
   if (game.system.id === "pf2e") {
     checkVersion();
-    loadCompendiumPacks();
-    loadHomebrew();
-    loadSettings();
   }
   //#endregion Pathfinder 2e
 });
@@ -73,7 +70,15 @@ async function checkVersion() {
     game.settings.set(moduleId, "addedToCompendium", false);
     game.settings.set(moduleId, "loadedHomebrew", false);
     game.settings.set(moduleId, "loadedSettings", false);
-    game.settings.set(moduleId, "homebrewVersion", latestVersion);
+
+    const CPLoaded = loadCompendiumPacks();
+    const HBLoaded = loadHomebrew();
+    const SettingsLoaded = loadSettings();
+    if (CPLoaded && HBLoaded && SettingsLoaded) {
+      game.settings.set(moduleId, "homebrewVersion", latestVersion);
+    } else {
+      throw new Error("Something went wrong loading module data");
+    }
   }
 }
 
@@ -83,9 +88,14 @@ async function loadCompendiumPacks() {
     const settings = await game.settings.get("pf2e", "compendiumBrowserPacks");
 
     // Add the pack to the settings
-    settings.action[`${moduleId}.aed-abilities`].load = true;
-    settings.equipment[`${moduleId}.aed-equipment`].load = true;
-    settings.feat[`${moduleId}.aed-featsfeatures`].load = true;
+    try {
+      settings.action[`${moduleId}.aed-abilities`].load = true;
+      settings.equipment[`${moduleId}.aed-equipment`].load = true;
+      settings.feat[`${moduleId}.aed-featsfeatures`].load = true;
+      settings.bestiary[`${moduleId}.aed-bestiary-i`].load = true;
+    } catch {
+      return false;
+    }
 
     // Set the settings, both in the client settings and the current session respectively
     await game.settings.set("pf2e", "compendiumBrowserPacks", settings);
@@ -97,40 +107,57 @@ async function loadCompendiumPacks() {
       "%cAedenir Homebrew Compendiums have been added to the compendium browser",
       "color: green; font-weight: bold"
     );
+    return true;
   }
 }
 
 async function loadHomebrew() {
   if (!game.settings.get(moduleId, "loadedHomebrew")) {
-    await game.settings.set("pf2e", "homebrew.creatureTraits", creatureTraits);
-    await game.settings.set("pf2e", "homebrew.featTraits", featTraits);
-    await game.settings.set("pf2e", "homebrew.languages", languages);
-    await game.settings.set("pf2e", "homebrew.weaponGroups", weaponGroups);
-    await game.settings.set("pf2e", "homebrew.baseWeapons", baseWeapons);
-    await game.settings.set("pf2e", "homebrew.weaponTraits", weaponTraits);
+    try {
+      await game.settings.set(
+        "pf2e",
+        "homebrew.creatureTraits",
+        creatureTraits
+      );
+      await game.settings.set("pf2e", "homebrew.featTraits", featTraits);
+      await game.settings.set("pf2e", "homebrew.languages", languages);
+      await game.settings.set("pf2e", "homebrew.weaponGroups", weaponGroups);
+      await game.settings.set("pf2e", "homebrew.baseWeapons", baseWeapons);
+      await game.settings.set("pf2e", "homebrew.weaponTraits", weaponTraits);
+    } catch {
+      console.error("Error loading creature traits.");
+      return false;
+    }
 
     await game.settings.set(moduleId, "loadedHomebrew", true);
     console.log(
       "%cAedenir Homebrew Traits have been successfully loaded",
       "color: green; font-weight: bold"
     );
+    return true;
   }
 }
 
 async function loadSettings() {
   if (!game.settings.get(moduleId, "loadedSettings")) {
-    //automation settings
-    await game.settings.set("pf2e", "automation.iwr", true);
-    await game.settings.set("pf2e", "automation.removeExpiredEffects", true);
-    await game.settings.set("pf2e", "automation.encumbrance", true);
+    try {
+      //automation settings
+      await game.settings.set("pf2e", "automation.iwr", true);
+      await game.settings.set("pf2e", "automation.removeExpiredEffects", true);
+      await game.settings.set("pf2e", "automation.encumbrance", true);
 
-    //variant rules
-    await game.settings.set("pf2e", "freeArchetypeVariant", true);
+      //variant rules
+      await game.settings.set("pf2e", "freeArchetypeVariant", true);
+    } catch {
+      console.error("Error loading system settings.");
+      return false;
+    }
 
     await game.settings.set(moduleId, "loadedSettings", true);
     console.log(
       "%cAedenir Specific System Settings have been successfully loaded",
       "color: green; font-weight: bold"
     );
+    return true;
   }
 }

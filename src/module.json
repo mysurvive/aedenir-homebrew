@@ -113,6 +113,18 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "name": "aed-bestiary-i",
+      "label": "Aedenir Homebrew Bestiary I",
+      "system": "pf2e",
+      "path": "packs/aedenir-homebrew-bestiary-i",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -126,7 +138,8 @@
         "aed-effects",
         "aed-equipment",
         "aed-featsfeatures",
-        "aed-heritages"
+        "aed-heritages",
+        "aed-bestiary-i"
       ]
     }
   ],
