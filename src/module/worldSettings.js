@@ -13,7 +13,7 @@ const featTraits = [
 
 const languages = [
   { id: "skin-cant", value: "Skin Cant" },
-  { id: "oropin", value: "Oropin" },
+  { id: "oropini", value: "Oropini" },
   { id: "ekkdu", value: "Ekkdu" },
   { id: "isserian", value: "Isserian" },
   { id: "hetzlati", value: "Hetz'lati" },
