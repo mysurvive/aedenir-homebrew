@@ -114,12 +114,6 @@
       },
       "allSaves": {
         "value": ""
-      },
-      "initiative": {
-        "statistic": "perception"
-      },
-      "perception": {
-        "value": 4
       }
     },
     "initiative": {
@@ -142,19 +136,16 @@
         "license": "OGL",
         "remaster": false
       },
-      "alignment": {
-        "value": "N"
-      },
-      "source": {
-        "value": "",
-        "author": ""
-      },
       "creatureType": ""
     },
     "resources": {},
     "_migration": {
-      "version": null,
-      "previous": null
+      "version": 0.932,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.330",
+        "system": "6.2.0"
+      }
     },
     "abilities": {
       "str": {
@@ -178,8 +169,14 @@
     },
     "perception": {
       "details": "",
-      "mod": 0,
-      "senses": [],
+      "mod": 4,
+      "senses": [
+        {
+          "type": "scent",
+          "acuity": "imprecise",
+          "range": 30
+        }
+      ],
       "vision": true
     },
     "saves": {
@@ -196,7 +193,14 @@
         "saveDetail": ""
       }
     },
-    "skills": {},
+    "skills": {
+      "acrobatics": {
+        "base": 7
+      },
+      "athletics": {
+        "base": 4
+      }
+    },
     "traits": {
       "value": [
         "animal"
@@ -204,140 +208,11 @@
       "rarity": "common",
       "size": {
         "value": "sm"
-      },
-      "senses": {
-        "value": "scent (imprecise) 30 feet"
-      },
-      "languages": {
-        "value": [],
-        "custom": ""
       }
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": null
     }
   },
   "img": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Portraits/eerdot.png",
   "items": [
-    {
-      "name": "Acrobatics",
-      "type": "lore",
-      "effects": [],
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 7
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        }
-      },
-      "_id": "ANmkoyIADpi0phLp",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "NX3qHeMsqsVjwJ0v": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
-        "createdTime": 1692417113029,
-        "modifiedTime": 1692417161718,
-        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!Fwaenj6ssw4eAKPD.ANmkoyIADpi0phLp"
-    },
-    {
-      "name": "Athletics",
-      "type": "lore",
-      "effects": [],
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 4
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        }
-      },
-      "_id": "DT6d5RlS7jhu5aa1",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "NX3qHeMsqsVjwJ0v": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
-        "createdTime": 1692417148625,
-        "modifiedTime": 1692417161718,
-        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!Fwaenj6ssw4eAKPD.DT6d5RlS7jhu5aa1"
-    },
     {
       "flags": {
         "core": {
@@ -355,8 +230,13 @@
         "rules": [],
         "slug": "scent",
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.854,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -364,7 +244,7 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "",
+          "title": "Pathfinder Bestiary",
           "authors": "",
           "license": "OGL",
           "remaster": false
@@ -377,13 +257,6 @@
           "value": null
         },
         "deathNote": false,
-        "source": {
-          "value": "Pathfinder Bestiary"
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        },
         "requirements": {
           "value": ""
         },
@@ -423,29 +296,11 @@
           "gm": "",
           "value": ""
         },
-        "source": {
-          "value": ""
-        },
         "rules": [],
         "slug": null,
-        "schema": {
-          "version": 0.854,
-          "lastMigration": {
-            "version": {
-              "schema": null,
-              "foundry": "11.307",
-              "system": "5.3.2"
-            }
-          }
-        },
         "traits": {
-          "value": []
-        },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
+          "value": [],
+          "otherTags": []
         },
         "damageRolls": {
           "guBc4Gbp3GwRwmYE": {
@@ -459,6 +314,20 @@
         },
         "attackEffects": {
           "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         }
       },
       "effects": [],
@@ -491,31 +360,13 @@
           "gm": "",
           "value": ""
         },
-        "source": {
-          "value": ""
-        },
         "rules": [],
         "slug": null,
-        "schema": {
-          "version": 0.854,
-          "lastMigration": {
-            "version": {
-              "schema": null,
-              "foundry": "11.307",
-              "system": "5.3.2"
-            }
-          }
-        },
         "traits": {
           "value": [
             "agile"
-          ]
-        },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
+          ],
+          "otherTags": []
         },
         "damageRolls": {
           "G0L9l9uNesivoN2n": {
@@ -529,6 +380,20 @@
         },
         "attackEffects": {
           "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         }
       },
       "effects": [],
@@ -564,8 +429,13 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.854,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -585,19 +455,6 @@
           "value": 1
         },
         "deathNote": false,
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": {
-            "version": {
-              "schema": null,
-              "foundry": "11.307",
-              "system": "5.3.2"
-            }
-          }
-        },
         "requirements": {
           "value": ""
         },
@@ -633,11 +490,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.5.1",
+    "systemVersion": "6.2.0",
     "coreVersion": "12.330",
     "createdTime": 1692416694023,
-    "modifiedTime": 1694988749323,
-    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "modifiedTime": 1723171405112,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
   },

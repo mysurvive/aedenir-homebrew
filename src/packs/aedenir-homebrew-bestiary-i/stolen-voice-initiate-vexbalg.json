@@ -118,12 +118,6 @@
       },
       "allSaves": {
         "value": ""
-      },
-      "initiative": {
-        "statistic": "perception"
-      },
-      "perception": {
-        "value": 5
       }
     },
     "initiative": {
@@ -131,7 +125,9 @@
     },
     "details": {
       "languages": {
-        "value": [],
+        "value": [
+          "common"
+        ],
         "details": ""
       },
       "level": {
@@ -146,19 +142,16 @@
         "license": "OGL",
         "remaster": false
       },
-      "alignment": {
-        "value": "N"
-      },
-      "source": {
-        "value": "",
-        "author": ""
-      },
       "creatureType": ""
     },
     "resources": {},
     "_migration": {
-      "version": null,
-      "previous": null
+      "version": 0.932,
+      "previous": {
+        "schema": 0.863,
+        "foundry": "12.330",
+        "system": "6.2.0"
+      }
     },
     "abilities": {
       "str": {
@@ -182,7 +175,7 @@
     },
     "perception": {
       "details": "",
-      "mod": 0,
+      "mod": 5,
       "senses": [],
       "vision": true
     },
@@ -200,30 +193,32 @@
         "saveDetail": ""
       }
     },
-    "skills": {},
+    "skills": {
+      "acrobatics": {
+        "base": 4
+      },
+      "stealth": {
+        "base": 6
+      },
+      "deception": {
+        "base": 4
+      },
+      "survival": {
+        "base": 1
+      },
+      "thievery": {
+        "base": 6
+      }
+    },
     "traits": {
       "value": [
         "humanoid",
-        "hb_vexbalg"
+        "vexbalg"
       ],
       "rarity": "common",
       "size": {
         "value": "med"
-      },
-      "senses": {
-        "value": ""
-      },
-      "languages": {
-        "value": [
-          "common",
-          "hb_tripup"
-        ],
-        "custom": ""
       }
-    },
-    "schema": {
-      "version": 0.863,
-      "lastMigration": null
     }
   },
   "img": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Portraits/vexbalg.png",
@@ -236,27 +231,15 @@
           "gm": "",
           "value": ""
         },
-        "source": {
-          "value": ""
-        },
         "rules": [],
         "slug": null,
-        "schema": {
-          "version": null,
-          "lastMigration": null
-        },
         "traits": {
           "value": [
             "agile",
             "thrown-10",
             "versatile-s"
-          ]
-        },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
+          ],
+          "otherTags": []
         },
         "damageRolls": {
           "0": {
@@ -270,6 +253,20 @@
         },
         "attackEffects": {
           "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         }
       },
       "_id": "LcCHZfCZ6PapOcFU",
@@ -305,8 +302,13 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": []
@@ -401,13 +403,6 @@
         "autoHeightenLevel": {
           "value": null
         },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": null,
-          "lastMigration": null
-        },
         "showUnpreparedSpells": {
           "value": true
         },
@@ -436,124 +431,6 @@
       "_key": "!actors.items!cKYdyWW2SrXhqO37.YXQAyDOGKZpgPLu7"
     },
     {
-      "name": "Acrobatics",
-      "type": "lore",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 4
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": null,
-          "lastMigration": null
-        }
-      },
-      "_id": "O8Qiv1fQrG5C6dSb",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "NX3qHeMsqsVjwJ0v": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.5.1",
-        "coreVersion": "12.330",
-        "createdTime": 1694925700420,
-        "modifiedTime": 1694925700420,
-        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!cKYdyWW2SrXhqO37.O8Qiv1fQrG5C6dSb"
-    },
-    {
-      "name": "Stealth",
-      "type": "lore",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 6
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": null,
-          "lastMigration": null
-        }
-      },
-      "_id": "kD5Hc4A3aUqmLezp",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "NX3qHeMsqsVjwJ0v": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.5.1",
-        "coreVersion": "12.330",
-        "createdTime": 1694925700549,
-        "modifiedTime": 1694926096896,
-        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!cKYdyWW2SrXhqO37.kD5Hc4A3aUqmLezp"
-    },
-    {
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "name": "Dagger",
@@ -562,33 +439,15 @@
           "gm": "",
           "value": ""
         },
-        "source": {
-          "value": ""
-        },
         "rules": [],
         "slug": null,
-        "schema": {
-          "version": 0.863,
-          "lastMigration": {
-            "version": {
-              "schema": null,
-              "foundry": "11.308",
-              "system": "5.5.1"
-            }
-          }
-        },
         "traits": {
           "value": [
             "agile",
             "thrown-10",
             "versatile-s"
-          ]
-        },
-        "weaponType": {
-          "value": "ranged"
-        },
-        "attack": {
-          "value": ""
+          ],
+          "otherTags": []
         },
         "damageRolls": {
           "vUN9DBh1DKBonqko": {
@@ -602,6 +461,20 @@
         },
         "attackEffects": {
           "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         }
       },
       "effects": [],
@@ -636,8 +509,13 @@
         "rules": [],
         "slug": "dagger",
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.863,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -650,7 +528,7 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "",
+          "title": "Pathfinder Core Rulebook",
           "authors": "",
           "license": "OGL",
           "remaster": false
@@ -727,9 +605,7 @@
           "striking": 0,
           "property": []
         },
-        "specific": {
-          "value": false
-        },
+        "specific": null,
         "subitems": [],
         "property1": {
           "value": "",
@@ -740,44 +616,6 @@
           "critDie": "",
           "critDamage": "",
           "critDamageType": ""
-        },
-        "source": {
-          "value": "Pathfinder Core Rulebook"
-        },
-        "schema": {
-          "version": 0.863,
-          "lastMigration": null
-        },
-        "weight": {
-          "value": "L"
-        },
-        "equippedBulk": {
-          "value": ""
-        },
-        "stackGroup": null,
-        "negateBulk": {
-          "value": "0"
-        },
-        "MAP": {
-          "value": ""
-        },
-        "potencyRune": {
-          "value": null
-        },
-        "strikingRune": {
-          "value": null
-        },
-        "propertyRune1": {
-          "value": null
-        },
-        "propertyRune2": {
-          "value": null
-        },
-        "propertyRune3": {
-          "value": null
-        },
-        "propertyRune4": {
-          "value": null
         }
       },
       "type": "weapon",
@@ -807,183 +645,6 @@
       "_key": "!actors.items!cKYdyWW2SrXhqO37.E3FBq7XoEkk6n3g1"
     },
     {
-      "name": "Deception",
-      "type": "lore",
-      "effects": [],
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 4
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.863,
-          "lastMigration": null
-        }
-      },
-      "_id": "GBcBlD7g4V7U5iF3",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "NX3qHeMsqsVjwJ0v": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.5.1",
-        "coreVersion": "12.330",
-        "createdTime": 1694926025287,
-        "modifiedTime": 1694926096896,
-        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!cKYdyWW2SrXhqO37.GBcBlD7g4V7U5iF3"
-    },
-    {
-      "name": "Survival",
-      "type": "lore",
-      "effects": [],
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 1
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.863,
-          "lastMigration": null
-        }
-      },
-      "_id": "X55mvBYVEFyNgVDH",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "NX3qHeMsqsVjwJ0v": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.5.1",
-        "coreVersion": "12.330",
-        "createdTime": 1694926080347,
-        "modifiedTime": 1694926096896,
-        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!cKYdyWW2SrXhqO37.X55mvBYVEFyNgVDH"
-    },
-    {
-      "name": "Thievery",
-      "type": "lore",
-      "effects": [],
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 6
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.863,
-          "lastMigration": null
-        }
-      },
-      "_id": "jc4s5GQZxqrOWjAD",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "NX3qHeMsqsVjwJ0v": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.5.1",
-        "coreVersion": "12.330",
-        "createdTime": 1694926084155,
-        "modifiedTime": 1694926096896,
-        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!cKYdyWW2SrXhqO37.jc4s5GQZxqrOWjAD"
-    },
-    {
       "type": "action",
       "img": "systems/pf2e/icons/default-icons/action.svg",
       "name": "Shift Shape",
@@ -995,17 +656,21 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.863,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
           "value": [
             "concentrate",
-            "hb_vexbalg",
             "occult",
             "polymorph",
-            "transmutation"
+            "vexbalg"
           ]
         },
         "publication": {
@@ -1022,19 +687,6 @@
           "value": 3
         },
         "deathNote": false,
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.863,
-          "lastMigration": {
-            "version": {
-              "schema": null,
-              "foundry": "11.308",
-              "system": "5.5.1"
-            }
-          }
-        },
         "requirements": {
           "value": ""
         },
@@ -1073,11 +725,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.5.1",
+    "systemVersion": "6.2.0",
     "coreVersion": "12.330",
     "createdTime": 1694925643992,
-    "modifiedTime": 1694987983867,
-    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "modifiedTime": 1723171405112,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
   },

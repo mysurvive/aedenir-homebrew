@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Prerequisite</strong>&nbsp;Oropin Weapon Familiarity</p>\n<p>You have learned the subtleties that can come even from the biggest of weapons. Whenever you critically hit with a Greatsword, Greataxe, Longbow, Shortbow, Spear, or Oropin Weapon, you apply the weapon's critical specialization effect.</p>"
+      "value": "<p><strong>Prerequisite</strong> Oropin Weapon Familiarity</p>\n<p>You have learned the subtleties that can come even from the biggest of weapons. Whenever you critically hit with a Greatsword, Greataxe, Longbow, Shortbow, Spear, or Oropin Weapon, you apply the weapon's critical specialization effect.</p>"
     },
     "rules": [
       {
@@ -18,7 +18,7 @@
               "weapon:base:longbow",
               "weapon:base:shortbow",
               "weapon:base:spear",
-              "weapon:trait:hb_oropin"
+              "weapon:trait:oropin"
             ]
           }
         ]
@@ -26,13 +26,18 @@
     ],
     "slug": null,
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.796,
+        "foundry": "12.330",
+        "system": "6.2.0"
+      }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "hb_oropin"
+        "oropin"
       ],
       "rarity": "common",
       "custom": ""
@@ -59,20 +64,6 @@
       "value": []
     },
     "location": null,
-    "source": {
-      "value": ""
-    },
-    "schema": {
-      "version": 0.796,
-      "lastMigration": {
-        "datetime": "2022-10-31T18:41:39.500-04:00",
-        "version": {
-          "schema": null,
-          "foundry": "10.288",
-          "system": "4.3.2"
-        }
-      }
-    },
     "featType": {
       "value": "ancestry"
     },
@@ -84,11 +75,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.7.2",
+    "systemVersion": "6.2.0",
     "coreVersion": "12.330",
     "createdTime": 1667256099504,
-    "modifiedTime": 1697592879249,
-    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "modifiedTime": 1723171397601,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
   },

@@ -6,13 +6,18 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<div class=\"aed-journal\">\n<div class=\"names\">The Lifegiver</div>\n<div class=\"note\">\n<p><em>It was Dyndra who took her mother's loss the hardest, for she surrounded herself with emotion and that emotion begot emotion</em></p>\n<p><em>The emotion of the trees, the brush, the grass</em></p>\n<p><em>The emotion of the wolf, the hare, and the eerdot</em></p>\n<p><em>She surrounded herself with emotion and that emotion consumed her</em></p>\n<p><em>And when she could not overcome that emotion, she left like wind through the reeds.</em></p>\n<p><em>-The scripture of Dyndra</em></p>\n</div>\n<div class=\"body\">As with all of the gods of The High Pantheon, Dyndra is a true goddess born from the <a class=\"entity-mention\" title href=\"https://kanka.io/en-US/campaign/122755/characters/758372\" data-entity-tags data-toggle=\"tooltip-ajax\" data-id=\"2963920\" data-url=\"https://kanka.io/en-US/campaign/122755/entities/2963920/tooltip\" data-original-title>Myn</a>, The Divine Mother. Dyndra was born to rule over all of nature. She created the ancestors of all flora and fauna of Aedenir and lived among it. Her followers claim her temperament was as wild as the lands upon which she bore the lifeblood of the world, being overcome with fits of rage which quickly evolved into glee, sorrow, and kindness. She cared deeply and desperately for all things living on Aedenir and it was said that to one truly devout and respectful of nature, she could turn the plants and animals of the world onto their enemies - even the enemy's own hounds couldn't resist the call of Dyndra.</div>\n<div class=\"additional\">\n<div class=\"note\">\n<h3>Edicts</h3>\n<ul>\n<li>Encourage and protect the growth of the natural world</li>\n<li>Revel in nature</li>\n<li>Death before being enslaved</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Anathema</h3>\n<ul>\n<li>Living in large cities</li>\n<li>Wanton destruction of nature</li>\n<li>Slavery</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Areas of Concern</h3>\n<ul>\n<li>Primal Magic</li>\n<li>Nature</li>\n<li>Flora</li>\n<li>Fauna</li>\n<li>Freedom</li>\n</ul>\n</div>\n</div>\n<br /><a href=\"https://kanka.io/en-US/campaign/122755/characters/758374\">LINK</a></div>"
+      "value": "<div class=\"aed-journal\">\n<div class=\"names\">The Lifegiver</div>\n<div class=\"note\">\n<p><em>It was Dyndra who took her mother's loss the hardest, for she surrounded herself with emotion and that emotion begot emotion</em></p>\n<p><em>The emotion of the trees, the brush, the grass</em></p>\n<p><em>The emotion of the wolf, the hare, and the eerdot</em></p>\n<p><em>She surrounded herself with emotion and that emotion consumed her</em></p>\n<p><em>And when she could not overcome that emotion, she left like wind through the reeds.</em></p>\n<p><em>-The scripture of Dyndra</em></p>\n</div>\n<div class=\"body\">As with all of the gods of The High Pantheon, Dyndra is a true goddess born from the <a class=\"entity-mention\" href=\"https://kanka.io/en-US/campaign/122755/characters/758372\" data-entity-tags data-toggle=\"tooltip-ajax\" data-id=\"2963920\" data-url=\"https://kanka.io/en-US/campaign/122755/entities/2963920/tooltip\" data-original-title>Myn</a>, The Divine Mother. Dyndra was born to rule over all of nature. She created the ancestors of all flora and fauna of Aedenir and lived among it. Her followers claim her temperament was as wild as the lands upon which she bore the lifeblood of the world, being overcome with fits of rage which quickly evolved into glee, sorrow, and kindness. She cared deeply and desperately for all things living on Aedenir and it was said that to one truly devout and respectful of nature, she could turn the plants and animals of the world onto their enemies - even the enemy's own hounds couldn't resist the call of Dyndra.</div>\n<div class=\"additional\">\n<div class=\"note\">\n<h3>Edicts</h3>\n<ul>\n<li>Encourage and protect the growth of the natural world</li>\n<li>Revel in nature</li>\n<li>Death before being enslaved</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Anathema</h3>\n<ul>\n<li>Living in large cities</li>\n<li>Wanton destruction of nature</li>\n<li>Slavery</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Areas of Concern</h3>\n<ul>\n<li>Primal Magic</li>\n<li>Nature</li>\n<li>Flora</li>\n<li>Fauna</li>\n<li>Freedom</li>\n</ul>\n</div>\n</div>\n<br /><a href=\"https://kanka.io/en-US/campaign/122755/characters/758374\">LINK</a></div>"
     },
     "rules": [],
     "slug": null,
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "12.330",
+        "system": "6.2.0"
+      }
     },
     "traits": {
       "otherTags": []
@@ -44,32 +49,17 @@
       "harm",
       "heal"
     ],
-    "attribute": [],
-    "skill": "nat",
+    "attribute": [
+      "dex",
+      "wis"
+    ],
+    "skill": [
+      "nature"
+    ],
     "weapons": [
       "longbow"
     ],
-    "spells": {},
-    "source": {
-      "value": ""
-    },
-    "schema": {
-      "version": 0.845,
-      "lastMigration": null
-    },
-    "alignment": {
-      "own": "CN",
-      "follower": [
-        "N",
-        "CG",
-        "CN",
-        "CE"
-      ]
-    },
-    "ability": [
-      "dex",
-      "wis"
-    ]
+    "spells": {}
   },
   "_id": "xS2Ar7tJ4p1xncAu",
   "img": "systems/pf2e/icons/default-icons/deity.svg",
@@ -80,11 +70,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.3.2",
+    "systemVersion": "6.2.0",
     "coreVersion": "12.330",
     "createdTime": 1687893194959,
-    "modifiedTime": 1692415204593,
-    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "modifiedTime": 1723171380843,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
   },

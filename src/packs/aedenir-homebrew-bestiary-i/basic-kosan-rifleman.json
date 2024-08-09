@@ -112,8 +112,13 @@
         "rules": [],
         "slug": "light-mace",
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.854,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -125,7 +130,7 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "",
+          "title": "Pathfinder Core Rulebook",
           "authors": "",
           "license": "OGL",
           "remaster": false
@@ -201,9 +206,7 @@
           "striking": 0,
           "property": []
         },
-        "specific": {
-          "value": false
-        },
+        "specific": null,
         "subitems": [],
         "property1": {
           "value": "",
@@ -214,50 +217,6 @@
           "critDie": "",
           "critDamage": "",
           "critDamageType": ""
-        },
-        "source": {
-          "value": "Pathfinder Core Rulebook"
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        },
-        "weight": {
-          "value": "L"
-        },
-        "equippedBulk": {
-          "value": ""
-        },
-        "stackGroup": null,
-        "negateBulk": {
-          "value": "0"
-        },
-        "preciousMaterial": {
-          "value": null
-        },
-        "preciousMaterialGrade": {
-          "value": null
-        },
-        "MAP": {
-          "value": ""
-        },
-        "potencyRune": {
-          "value": 0
-        },
-        "strikingRune": {
-          "value": ""
-        },
-        "propertyRune1": {
-          "value": null
-        },
-        "propertyRune2": {
-          "value": null
-        },
-        "propertyRune3": {
-          "value": null
-        },
-        "propertyRune4": {
-          "value": null
         }
       },
       "type": "weapon",
@@ -296,8 +255,13 @@
         "rules": [],
         "slug": "chain-shirt",
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.854,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -308,7 +272,7 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "",
+          "title": "Pathfinder Core Rulebook",
           "authors": "",
           "license": "OGL",
           "remaster": false
@@ -319,7 +283,7 @@
         "quantity": 1,
         "baseItem": "chain-shirt",
         "bulk": {
-          "value": 0.1
+          "value": 1
         },
         "hp": {
           "value": 0,
@@ -362,58 +326,13 @@
         "strength": 1,
         "dexCap": 3,
         "checkPenalty": -1,
-        "speedPenalty": null,
+        "speedPenalty": 0,
         "runes": {
           "potency": 0,
           "resilient": 0,
           "property": []
         },
-        "subitems": [],
-        "source": {
-          "value": "Pathfinder Core Rulebook"
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        },
-        "weight": {
-          "value": "2"
-        },
-        "equippedBulk": {
-          "value": "1"
-        },
-        "stackGroup": null,
-        "negateBulk": {
-          "value": "0"
-        },
-        "preciousMaterial": {
-          "value": null
-        },
-        "preciousMaterialGrade": {
-          "value": null
-        },
-        "usage": {
-          "value": "wornarmor"
-        },
-        "potencyRune": {
-          "value": 0
-        },
-        "resiliencyRune": {
-          "value": ""
-        },
-        "propertyRune1": {
-          "value": ""
-        },
-        "propertyRune2": {
-          "value": ""
-        },
-        "propertyRune3": {
-          "value": ""
-        },
-        "propertyRune4": {
-          "value": ""
-        },
-        "potency": {}
+        "subitems": []
       },
       "type": "armor",
       "effects": [],
@@ -448,28 +367,15 @@
           "gm": "",
           "value": ""
         },
-        "source": {
-          "value": ""
-        },
         "rules": [],
         "slug": null,
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        },
         "traits": {
           "value": [
             "agile",
             "finesse",
             "shove"
           ],
-          "rarity": "common"
-        },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
+          "otherTags": []
         },
         "damageRolls": {
           "ddzvtrncijz5udjx41ez": {
@@ -482,8 +388,21 @@
           "value": 5
         },
         "attackEffects": {
-          "value": [],
-          "custom": ""
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         }
       },
       "type": "melee",
@@ -505,122 +424,6 @@
       "_key": "!actors.items!m5bVNXFl3wq9MY8F.C5O7yPqYGSLmmeA2"
     },
     {
-      "_id": "Wu6e1QcJ2JfwWdB4",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Athletics",
-      "sort": 1500000,
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 3
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        }
-      },
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "12.330",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!m5bVNXFl3wq9MY8F.Wu6e1QcJ2JfwWdB4"
-    },
-    {
-      "_id": "l3tnYhF3sTc833B0",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Stealth",
-      "sort": 1600000,
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 5
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        }
-      },
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "12.330",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!m5bVNXFl3wq9MY8F.l3tnYhF3sTc833B0"
-    },
-    {
       "img": "systems/pf2e/icons/equipment/weapons/flintlock-musket.webp",
       "name": "Flintlock Musket",
       "system": {
@@ -631,8 +434,13 @@
         "rules": [],
         "slug": "flintlock-musket",
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.854,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -643,7 +451,7 @@
           "rarity": "uncommon"
         },
         "publication": {
-          "title": "",
+          "title": "Pathfinder Guns & Gears",
           "authors": "",
           "license": "OGL",
           "remaster": false
@@ -654,7 +462,7 @@
         "quantity": 1,
         "baseItem": "flintlock-musket",
         "bulk": {
-          "value": 0.1
+          "value": 1
         },
         "hp": {
           "value": 0,
@@ -719,9 +527,7 @@
           "striking": 0,
           "property": []
         },
-        "specific": {
-          "value": false
-        },
+        "specific": null,
         "subitems": [],
         "property1": {
           "value": "",
@@ -732,50 +538,6 @@
           "critDie": "",
           "critDamage": "",
           "critDamageType": ""
-        },
-        "source": {
-          "value": "Pathfinder Guns & Gears"
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        },
-        "weight": {
-          "value": "1"
-        },
-        "equippedBulk": {
-          "value": ""
-        },
-        "stackGroup": null,
-        "negateBulk": {
-          "value": "0"
-        },
-        "preciousMaterial": {
-          "value": null
-        },
-        "preciousMaterialGrade": {
-          "value": null
-        },
-        "MAP": {
-          "value": ""
-        },
-        "potencyRune": {
-          "value": null
-        },
-        "strikingRune": {
-          "value": ""
-        },
-        "propertyRune1": {
-          "value": null
-        },
-        "propertyRune2": {
-          "value": null
-        },
-        "propertyRune3": {
-          "value": null
-        },
-        "propertyRune4": {
-          "value": null
         }
       },
       "type": "weapon",
@@ -812,34 +574,16 @@
           "gm": "",
           "value": ""
         },
-        "source": {
-          "value": ""
-        },
         "rules": [],
         "slug": null,
-        "schema": {
-          "version": 0.854,
-          "lastMigration": {
-            "version": {
-              "schema": null,
-              "foundry": "11.307",
-              "system": "5.3.2"
-            }
-          }
-        },
         "traits": {
           "value": [
             "concussive",
             "fatal-d10",
             "range-increment-70",
             "reload-1"
-          ]
-        },
-        "weaponType": {
-          "value": "ranged"
-        },
-        "attack": {
-          "value": ""
+          ],
+          "otherTags": []
         },
         "damageRolls": {
           "B44DI9ruPqvK175e": {
@@ -853,6 +597,20 @@
         },
         "attackEffects": {
           "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         }
       },
       "flags": {
@@ -902,12 +660,6 @@
       },
       "allSaves": {
         "value": ""
-      },
-      "initiative": {
-        "statistic": "perception"
-      },
-      "perception": {
-        "value": 4
       }
     },
     "initiative": {
@@ -915,7 +667,9 @@
     },
     "details": {
       "languages": {
-        "value": [],
+        "value": [
+          "common"
+        ],
         "details": ""
       },
       "level": {
@@ -930,13 +684,6 @@
         "license": "OGL",
         "remaster": false
       },
-      "alignment": {
-        "value": "N"
-      },
-      "source": {
-        "value": "",
-        "author": ""
-      },
       "creatureType": "Humanoid"
     },
     "resources": {
@@ -946,8 +693,12 @@
       }
     },
     "_migration": {
-      "version": null,
-      "previous": null
+      "version": 0.932,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.330",
+        "system": "6.2.0"
+      }
     },
     "abilities": {
       "str": {
@@ -971,7 +722,7 @@
     },
     "perception": {
       "details": "",
-      "mod": 0,
+      "mod": 4,
       "senses": [],
       "vision": true
     },
@@ -989,7 +740,14 @@
         "saveDetail": ""
       }
     },
-    "skills": {},
+    "skills": {
+      "athletics": {
+        "base": 3
+      },
+      "stealth": {
+        "base": 5
+      }
+    },
     "traits": {
       "value": [
         "human",
@@ -998,22 +756,7 @@
       "rarity": "common",
       "size": {
         "value": "med"
-      },
-      "senses": {
-        "value": ""
-      },
-      "languages": {
-        "value": [
-          "common",
-          "hb_sultic"
-        ],
-        "custom": "",
-        "selected": []
       }
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": null
     }
   },
   "type": "npc",
@@ -1027,11 +770,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.5.1",
+    "systemVersion": "6.2.0",
     "coreVersion": "12.330",
     "createdTime": 1692473553303,
-    "modifiedTime": 1694987800990,
-    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "modifiedTime": 1723171405112,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
   },

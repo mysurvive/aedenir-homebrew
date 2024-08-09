@@ -5,18 +5,23 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You can unleash the full potential of your heritage, allowing you to become a dragon, if only for a moment. You can cast 6th-level dragon form as an innate spell once per day. The spell's tradition matches one tied to your draconic progenitor. If your draconic progenitor doesn't have an associated tradition, it is an arcane innate spell. You must choose a battle form that matches your draconic progenitor. If your draconic progenitor is not listed in the spell, choose the battle form that most closely matches your draconic progenitor. You can use your base form&rsquo;s AC if it&rsquo;s higher than what the battle form grants. Your GM might allow you to create a new battle form using the statistics of the existing battle forms as a starting point. At 20th level, you cast 8th-level dragon form instead.</p>\n<hr>\n<p><em>Note: You will have to add the spell and spellcasting entry manually on your sheet.</em></p>"
+      "value": "<p>You can unleash the full potential of your heritage, allowing you to become a dragon, if only for a moment. You can cast 6th-level dragon form as an innate spell once per day. The spell's tradition matches one tied to your draconic progenitor. If your draconic progenitor doesn't have an associated tradition, it is an arcane innate spell. You must choose a battle form that matches your draconic progenitor. If your draconic progenitor is not listed in the spell, choose the battle form that most closely matches your draconic progenitor. You can use your base form’s AC if it’s higher than what the battle form grants. Your GM might allow you to create a new battle form using the statistics of the existing battle forms as a starting point. At 20th level, you cast 8th-level dragon form instead.</p>\n<hr />\n<p><em>Note: You will have to add the spell and spellcasting entry manually on your sheet.</em></p>"
     },
     "rules": [],
     "slug": null,
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.796,
+        "foundry": "12.330",
+        "system": "6.2.0"
+      }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "hb_drakkgebor"
+        "drakkgebor"
       ],
       "rarity": "common",
       "custom": ""
@@ -43,20 +48,6 @@
       "value": []
     },
     "location": null,
-    "source": {
-      "value": ""
-    },
-    "schema": {
-      "version": 0.796,
-      "lastMigration": {
-        "datetime": "2022-10-31T10:10:45.434-04:00",
-        "version": {
-          "schema": null,
-          "foundry": "10.288",
-          "system": "4.3.2"
-        }
-      }
-    },
     "featType": {
       "value": "ancestry"
     },
@@ -68,11 +59,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.7.2",
+    "systemVersion": "6.2.0",
     "coreVersion": "12.330",
     "createdTime": 1667225445438,
-    "modifiedTime": 1697593919886,
-    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "modifiedTime": 1723171397601,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
   },

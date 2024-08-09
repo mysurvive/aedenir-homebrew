@@ -117,12 +117,6 @@
       },
       "allSaves": {
         "value": ""
-      },
-      "initiative": {
-        "statistic": "perception"
-      },
-      "perception": {
-        "value": 6
       }
     },
     "initiative": {
@@ -130,7 +124,9 @@
     },
     "details": {
       "languages": {
-        "value": [],
+        "value": [
+          "common"
+        ],
         "details": ""
       },
       "level": {
@@ -145,19 +141,16 @@
         "license": "OGL",
         "remaster": false
       },
-      "alignment": {
-        "value": "N"
-      },
-      "source": {
-        "value": "",
-        "author": ""
-      },
       "creatureType": ""
     },
     "resources": {},
     "_migration": {
-      "version": null,
-      "previous": null
+      "version": 0.932,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.330",
+        "system": "6.2.0"
+      }
     },
     "abilities": {
       "str": {
@@ -181,7 +174,7 @@
     },
     "perception": {
       "details": "",
-      "mod": 0,
+      "mod": 6,
       "senses": [],
       "vision": true
     },
@@ -199,213 +192,32 @@
         "saveDetail": ""
       }
     },
-    "skills": {},
+    "skills": {
+      "acrobatics": {
+        "base": 5
+      },
+      "deception": {
+        "base": 5
+      },
+      "intimidation": {
+        "base": 6
+      }
+    },
     "traits": {
       "value": [
         "dragon",
-        "hb_drakkgebor",
+        "drakkgebor",
         "human",
         "humanoid"
       ],
       "rarity": "common",
       "size": {
         "value": "med"
-      },
-      "senses": {
-        "value": ""
-      },
-      "languages": {
-        "value": [
-          "common",
-          "hb_sultic"
-        ],
-        "custom": ""
       }
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": null
     }
   },
   "img": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Tokens/Bestiary/token-Drakkgebor_Levy.webp",
   "items": [
-    {
-      "name": "Acrobatics",
-      "type": "lore",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 5
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": null,
-          "lastMigration": null
-        }
-      },
-      "_id": "51fJCNNfuFb6mDeY",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "fQ2bdOYk7CfBvPdF": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
-        "createdTime": 1692485570519,
-        "modifiedTime": 1692485570519,
-        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!LGh5ocyn4GMbLJcs.51fJCNNfuFb6mDeY"
-    },
-    {
-      "name": "Deception",
-      "type": "lore",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 5
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": null,
-          "lastMigration": null
-        }
-      },
-      "_id": "MLs1ZNovBZMndxHq",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "fQ2bdOYk7CfBvPdF": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
-        "createdTime": 1692485570554,
-        "modifiedTime": 1692485570554,
-        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!LGh5ocyn4GMbLJcs.MLs1ZNovBZMndxHq"
-    },
-    {
-      "name": "Intimidation",
-      "type": "lore",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 6
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": null,
-          "lastMigration": null
-        }
-      },
-      "_id": "PQ6O6eBOvxkhe13u",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "fQ2bdOYk7CfBvPdF": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
-        "createdTime": 1692485570588,
-        "modifiedTime": 1692485570588,
-        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!LGh5ocyn4GMbLJcs.PQ6O6eBOvxkhe13u"
-    },
     {
       "img": "systems/pf2e/icons/equipment/weapons/longsword.webp",
       "name": "Longsword",
@@ -417,8 +229,13 @@
         "rules": [],
         "slug": "longsword",
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.854,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -428,7 +245,7 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "",
+          "title": "Pathfinder Core Rulebook",
           "authors": "",
           "license": "OGL",
           "remaster": false
@@ -439,7 +256,7 @@
         "quantity": 1,
         "baseItem": "longsword",
         "bulk": {
-          "value": 0.1
+          "value": 1
         },
         "hp": {
           "value": 0,
@@ -504,9 +321,7 @@
           "striking": 0,
           "property": []
         },
-        "specific": {
-          "value": false
-        },
+        "specific": null,
         "subitems": [],
         "property1": {
           "value": "",
@@ -517,50 +332,6 @@
           "critDie": "",
           "critDamage": "",
           "critDamageType": ""
-        },
-        "source": {
-          "value": "Pathfinder Core Rulebook"
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        },
-        "weight": {
-          "value": "1"
-        },
-        "equippedBulk": {
-          "value": ""
-        },
-        "stackGroup": null,
-        "negateBulk": {
-          "value": "0"
-        },
-        "preciousMaterial": {
-          "value": null
-        },
-        "preciousMaterialGrade": {
-          "value": null
-        },
-        "MAP": {
-          "value": ""
-        },
-        "potencyRune": {
-          "value": null
-        },
-        "strikingRune": {
-          "value": ""
-        },
-        "propertyRune1": {
-          "value": ""
-        },
-        "propertyRune2": {
-          "value": ""
-        },
-        "propertyRune3": {
-          "value": ""
-        },
-        "propertyRune4": {
-          "value": ""
         }
       },
       "type": "weapon",
@@ -597,31 +368,13 @@
           "gm": "",
           "value": ""
         },
-        "source": {
-          "value": ""
-        },
         "rules": [],
         "slug": null,
-        "schema": {
-          "version": 0.854,
-          "lastMigration": {
-            "version": {
-              "schema": null,
-              "foundry": "11.307",
-              "system": "5.3.2"
-            }
-          }
-        },
         "traits": {
           "value": [
             "versatile-p"
-          ]
-        },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
+          ],
+          "otherTags": []
         },
         "damageRolls": {
           "G0MwoOKBBg3kAE41": {
@@ -635,6 +388,20 @@
         },
         "attackEffects": {
           "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         }
       },
       "flags": {
@@ -674,8 +441,13 @@
         "rules": [],
         "slug": "chain-shirt",
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.854,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -686,7 +458,7 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "",
+          "title": "Pathfinder Core Rulebook",
           "authors": "",
           "license": "OGL",
           "remaster": false
@@ -697,7 +469,7 @@
         "quantity": 1,
         "baseItem": "chain-shirt",
         "bulk": {
-          "value": 0.1
+          "value": 1
         },
         "hp": {
           "value": 0,
@@ -738,58 +510,13 @@
         "strength": 1,
         "dexCap": 3,
         "checkPenalty": -1,
-        "speedPenalty": null,
+        "speedPenalty": 0,
         "runes": {
           "potency": 0,
           "resilient": 0,
           "property": []
         },
-        "subitems": [],
-        "source": {
-          "value": "Pathfinder Core Rulebook"
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        },
-        "weight": {
-          "value": "2"
-        },
-        "equippedBulk": {
-          "value": "1"
-        },
-        "stackGroup": null,
-        "negateBulk": {
-          "value": "0"
-        },
-        "preciousMaterial": {
-          "value": null
-        },
-        "preciousMaterialGrade": {
-          "value": null
-        },
-        "usage": {
-          "value": "wornarmor"
-        },
-        "potencyRune": {
-          "value": 0
-        },
-        "resiliencyRune": {
-          "value": ""
-        },
-        "propertyRune1": {
-          "value": ""
-        },
-        "propertyRune2": {
-          "value": ""
-        },
-        "propertyRune3": {
-          "value": ""
-        },
-        "propertyRune4": {
-          "value": ""
-        },
-        "potency": {}
+        "subitems": []
       },
       "type": "armor",
       "flags": {
@@ -829,8 +556,13 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.854,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -850,19 +582,6 @@
           "value": 2
         },
         "deathNote": false,
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": {
-            "version": {
-              "schema": null,
-              "foundry": "11.307",
-              "system": "5.3.2"
-            }
-          }
-        },
         "requirements": {
           "value": ""
         },
@@ -898,11 +617,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.5.1",
+    "systemVersion": "6.2.0",
     "coreVersion": "12.330",
     "createdTime": 1692485448004,
-    "modifiedTime": 1694987800990,
-    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "modifiedTime": 1723171405112,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
   },

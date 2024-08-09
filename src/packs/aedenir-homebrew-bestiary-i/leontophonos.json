@@ -118,12 +118,6 @@
       },
       "allSaves": {
         "value": ""
-      },
-      "initiative": {
-        "statistic": "perception"
-      },
-      "perception": {
-        "value": 6
       }
     },
     "initiative": {
@@ -146,19 +140,16 @@
         "license": "OGL",
         "remaster": false
       },
-      "alignment": {
-        "value": "N"
-      },
-      "source": {
-        "value": "",
-        "author": ""
-      },
       "creatureType": ""
     },
     "resources": {},
     "_migration": {
-      "version": null,
-      "previous": null
+      "version": 0.932,
+      "previous": {
+        "schema": 0.863,
+        "foundry": "12.330",
+        "system": "6.2.0"
+      }
     },
     "abilities": {
       "str": {
@@ -182,7 +173,7 @@
     },
     "perception": {
       "details": "",
-      "mod": 0,
+      "mod": 6,
       "senses": [],
       "vision": true
     },
@@ -200,7 +191,20 @@
         "saveDetail": ""
       }
     },
-    "skills": {},
+    "skills": {
+      "acrobatics": {
+        "base": 5
+      },
+      "intimidation": {
+        "base": 5
+      },
+      "stealth": {
+        "base": 6
+      },
+      "survival": {
+        "base": 6
+      }
+    },
     "traits": {
       "value": [
         "animal"
@@ -208,18 +212,7 @@
       "rarity": "common",
       "size": {
         "value": "sm"
-      },
-      "senses": {
-        "value": ""
-      },
-      "languages": {
-        "value": [],
-        "custom": ""
       }
-    },
-    "schema": {
-      "version": 0.863,
-      "lastMigration": null
     }
   },
   "img": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Portraits/Leontophone.png",
@@ -232,36 +225,32 @@
           "gm": "",
           "value": ""
         },
-        "source": {
-          "value": ""
-        },
         "rules": [],
         "slug": null,
-        "schema": {
-          "version": null,
-          "lastMigration": null
-        },
         "traits": {
-          "value": []
+          "value": [],
+          "otherTags": []
         },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
-        },
-        "damageRolls": {
-          "0": {
-            "damage": "1d4+2",
-            "damageType": "chaotic",
-            "category": null
-          }
-        },
+        "damageRolls": {},
         "bonus": {
           "value": 8
         },
         "attackEffects": {
           "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         }
       },
       "_id": "hFyyJqCs9SwDJ1aE",
@@ -297,8 +286,13 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": []
@@ -393,13 +387,6 @@
         "autoHeightenLevel": {
           "value": null
         },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": null,
-          "lastMigration": null
-        },
         "showUnpreparedSpells": {
           "value": true
         },
@@ -428,242 +415,6 @@
       "_key": "!actors.items!hDrrg2Dzcc1PPqIc.DcTy3ImAUGB1BOVo"
     },
     {
-      "name": "Acrobatics",
-      "type": "lore",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 5
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": null,
-          "lastMigration": null
-        }
-      },
-      "_id": "IK0AJS91QG0dOCti",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "NX3qHeMsqsVjwJ0v": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.5.1",
-        "coreVersion": "12.330",
-        "createdTime": 1694965208130,
-        "modifiedTime": 1694965208130,
-        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!hDrrg2Dzcc1PPqIc.IK0AJS91QG0dOCti"
-    },
-    {
-      "name": "Intimidation",
-      "type": "lore",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 5
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": null,
-          "lastMigration": null
-        }
-      },
-      "_id": "UgYLIWJQuLRTqC0U",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "NX3qHeMsqsVjwJ0v": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.5.1",
-        "coreVersion": "12.330",
-        "createdTime": 1694965208183,
-        "modifiedTime": 1694965208183,
-        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!hDrrg2Dzcc1PPqIc.UgYLIWJQuLRTqC0U"
-    },
-    {
-      "name": "Stealth",
-      "type": "lore",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 6
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": null,
-          "lastMigration": null
-        }
-      },
-      "_id": "5fEwyeJI8PUYvHHu",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "NX3qHeMsqsVjwJ0v": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.5.1",
-        "coreVersion": "12.330",
-        "createdTime": 1694965208236,
-        "modifiedTime": 1694965208236,
-        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!hDrrg2Dzcc1PPqIc.5fEwyeJI8PUYvHHu"
-    },
-    {
-      "name": "Survival",
-      "type": "lore",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 6
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": null,
-          "lastMigration": null
-        }
-      },
-      "_id": "NBdcXZD2zBRuQ8dO",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "NX3qHeMsqsVjwJ0v": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.5.1",
-        "coreVersion": "12.330",
-        "createdTime": 1694965208288,
-        "modifiedTime": 1694965208288,
-        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!hDrrg2Dzcc1PPqIc.NBdcXZD2zBRuQ8dO"
-    },
-    {
       "type": "action",
       "img": "systems/pf2e/icons/default-icons/action.svg",
       "name": "Lion Killer",
@@ -675,8 +426,13 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.863,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -696,19 +452,6 @@
           "value": null
         },
         "deathNote": false,
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.863,
-          "lastMigration": {
-            "version": {
-              "schema": null,
-              "foundry": "11.308",
-              "system": "5.5.1"
-            }
-          }
-        },
         "requirements": {
           "value": ""
         },
@@ -764,8 +507,13 @@
         ],
         "slug": "nimble-dodge",
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.863,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -773,7 +521,7 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "",
+          "title": "Pathfinder Core Rulebook",
           "authors": "",
           "license": "OGL",
           "remaster": false
@@ -786,13 +534,6 @@
           "value": null
         },
         "deathNote": false,
-        "source": {
-          "value": "Pathfinder Core Rulebook"
-        },
-        "schema": {
-          "version": 0.863,
-          "lastMigration": null
-        },
         "requirements": {
           "value": ""
         },
@@ -832,11 +573,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.5.1",
+    "systemVersion": "6.2.0",
     "coreVersion": "12.330",
     "createdTime": 1694965103039,
-    "modifiedTime": 1694988741950,
-    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "modifiedTime": 1723171405112,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
   },

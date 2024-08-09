@@ -10,8 +10,13 @@
     "rules": [],
     "slug": null,
     "_migration": {
-      "version": 0.878,
-      "lastMigration": null
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.878,
+        "foundry": "12.330",
+        "system": "6.2.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -47,12 +52,12 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "pf2e",
-    "systemVersion": "5.7.3",
     "coreVersion": "12.330",
-    "createdTime": 1697997299368,
-    "modifiedTime": 1697998806177,
-    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "systemId": "pf2e",
+    "systemVersion": "6.2.0",
+    "createdTime": null,
+    "modifiedTime": 1723171372294,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
   },

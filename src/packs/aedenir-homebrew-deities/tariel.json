@@ -11,8 +11,13 @@
     "rules": [],
     "slug": null,
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "12.330",
+        "system": "6.2.0"
+      }
     },
     "traits": {
       "otherTags": []
@@ -27,8 +32,7 @@
     "sanctification": {
       "modal": "can",
       "what": [
-        "holy",
-        "unholy"
+        "holy"
       ]
     },
     "domains": {
@@ -43,32 +47,17 @@
     "font": [
       "heal"
     ],
-    "attribute": [],
-    "skill": "med",
+    "attribute": [
+      "con",
+      "wis"
+    ],
+    "skill": [
+      "medicine"
+    ],
     "weapons": [
       "shortsword"
     ],
-    "spells": {},
-    "source": {
-      "value": ""
-    },
-    "schema": {
-      "version": 0.845,
-      "lastMigration": null
-    },
-    "alignment": {
-      "own": "NG",
-      "follower": [
-        "N",
-        "NG",
-        "CG",
-        "LG"
-      ]
-    },
-    "ability": [
-      "con",
-      "wis"
-    ]
+    "spells": {}
   },
   "_id": "FpHsNhVgtoYNG4mo",
   "img": "systems/pf2e/icons/default-icons/deity.svg",
@@ -79,11 +68,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.0.2",
+    "systemVersion": "6.2.0",
     "coreVersion": "12.330",
     "createdTime": 1687894770348,
-    "modifiedTime": 1687929872158,
-    "lastModifiedBy": "xpVv7XfgbBbBSa8z",
+    "modifiedTime": 1723171380843,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
   },

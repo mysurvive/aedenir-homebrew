@@ -112,9 +112,13 @@
         "rules": [],
         "slug": "greatclub",
         "_migration": {
-          "version": 0.894,
+          "version": 0.932,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.894,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -136,7 +140,7 @@
         "quantity": 1,
         "baseItem": "greatclub",
         "bulk": {
-          "value": 0.1
+          "value": 2
         },
         "hp": {
           "value": 0,
@@ -201,9 +205,7 @@
           "striking": 0,
           "property": []
         },
-        "specific": {
-          "value": false
-        },
+        "specific": null,
         "subitems": [],
         "property1": {
           "value": "",
@@ -214,34 +216,6 @@
           "critDie": "",
           "critDamage": "",
           "critDamageType": ""
-        },
-        "weight": {
-          "value": "2"
-        },
-        "equippedBulk": {
-          "value": ""
-        },
-        "stackGroup": null,
-        "negateBulk": {
-          "value": "0"
-        },
-        "potencyRune": {
-          "value": 0
-        },
-        "strikingRune": {
-          "value": ""
-        },
-        "propertyRune1": {
-          "value": null
-        },
-        "propertyRune2": {
-          "value": null
-        },
-        "propertyRune3": {
-          "value": null
-        },
-        "propertyRune4": {
-          "value": null
         }
       },
       "type": "weapon",
@@ -280,9 +254,13 @@
         "rules": [],
         "slug": "javelin",
         "_migration": {
-          "version": 0.894,
+          "version": 0.932,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.894,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -368,9 +346,7 @@
           "striking": 0,
           "property": []
         },
-        "specific": {
-          "value": false
-        },
+        "specific": null,
         "subitems": [],
         "property1": {
           "value": "",
@@ -381,34 +357,6 @@
           "critDie": "",
           "critDamage": "",
           "critDamageType": ""
-        },
-        "weight": {
-          "value": "L"
-        },
-        "equippedBulk": {
-          "value": ""
-        },
-        "stackGroup": null,
-        "negateBulk": {
-          "value": "0"
-        },
-        "potencyRune": {
-          "value": 0
-        },
-        "strikingRune": {
-          "value": ""
-        },
-        "propertyRune1": {
-          "value": null
-        },
-        "propertyRune2": {
-          "value": null
-        },
-        "propertyRune3": {
-          "value": null
-        },
-        "propertyRune4": {
-          "value": null
         }
       },
       "type": "weapon",
@@ -447,9 +395,13 @@
         "rules": [],
         "slug": "hide-armor",
         "_migration": {
-          "version": 0.894,
+          "version": 0.932,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.894,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -468,7 +420,7 @@
         "quantity": 1,
         "baseItem": "hide-armor",
         "bulk": {
-          "value": 0.1
+          "value": 2
         },
         "hp": {
           "value": 0,
@@ -516,39 +468,7 @@
           "resilient": 0,
           "property": []
         },
-        "subitems": [],
-        "weight": {
-          "value": "3"
-        },
-        "equippedBulk": {
-          "value": "2"
-        },
-        "stackGroup": null,
-        "negateBulk": {
-          "value": "0"
-        },
-        "usage": {
-          "value": "wornarmor"
-        },
-        "potencyRune": {
-          "value": 0
-        },
-        "resiliencyRune": {
-          "value": ""
-        },
-        "propertyRune1": {
-          "value": ""
-        },
-        "propertyRune2": {
-          "value": ""
-        },
-        "propertyRune3": {
-          "value": ""
-        },
-        "propertyRune4": {
-          "value": ""
-        },
-        "potency": {}
+        "subitems": []
       },
       "type": "armor",
       "effects": [],
@@ -586,17 +506,19 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.894,
-          "lastMigration": null,
-          "previous": null
+          "version": 0.932,
+          "previous": {
+            "schema": 0.894,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
           "value": [
             "backswing",
             "shove"
-          ],
-          "rarity": "common"
+          ]
         },
         "publication": {
           "title": "",
@@ -604,25 +526,18 @@
           "license": "OGL",
           "remaster": false
         },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
-        },
         "damageRolls": {
           "k5jdpbucaaka3vp0dlqr": {
             "damage": "1d10+6",
-            "damageType": "bludgeoning"
+            "damageType": "bludgeoning",
+            "category": null
           }
         },
         "bonus": {
-          "value": 12,
-          "total": 12
+          "value": 12
         },
         "attackEffects": {
-          "value": [],
-          "custom": ""
+          "value": []
         }
       },
       "type": "melee",
@@ -656,17 +571,19 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.894,
-          "lastMigration": null,
-          "previous": null
+          "version": 0.932,
+          "previous": {
+            "schema": 0.894,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
           "value": [
             "agile",
             "nonlethal"
-          ],
-          "rarity": "common"
+          ]
         },
         "publication": {
           "title": "",
@@ -674,25 +591,18 @@
           "license": "OGL",
           "remaster": false
         },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
-        },
         "damageRolls": {
           "x4ffu1qy92957vtb97fc": {
             "damage": "1d6+6",
-            "damageType": "bludgeoning"
+            "damageType": "bludgeoning",
+            "category": null
           }
         },
         "bonus": {
-          "value": 12,
-          "total": 12
+          "value": 12
         },
         "attackEffects": {
-          "value": [],
-          "custom": ""
+          "value": []
         }
       },
       "type": "melee",
@@ -732,16 +642,18 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.894,
-          "lastMigration": null,
-          "previous": null
+          "version": 0.932,
+          "previous": {
+            "schema": 0.894,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
           "value": [
             "thrown-30"
-          ],
-          "rarity": "common"
+          ]
         },
         "publication": {
           "title": "",
@@ -749,25 +661,18 @@
           "license": "OGL",
           "remaster": false
         },
-        "weaponType": {
-          "value": "ranged"
-        },
-        "attack": {
-          "value": ""
-        },
         "damageRolls": {
           "05ck5hs4urc51h9r4j4q": {
             "damage": "1d8+6",
-            "damageType": "piercing"
+            "damageType": "piercing",
+            "category": null
           }
         },
         "bonus": {
-          "value": 10,
-          "total": 10
+          "value": 10
         },
         "attackEffects": {
-          "value": [],
-          "custom": ""
+          "value": []
         }
       },
       "type": "melee",
@@ -806,9 +711,13 @@
         "rules": [],
         "slug": "darkvision",
         "_migration": {
-          "version": 0.894,
+          "version": 0.932,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.894,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -875,9 +784,13 @@
         "rules": [],
         "slug": "attack-of-opportunity",
         "_migration": {
-          "version": 0.894,
+          "version": 0.932,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.894,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -944,9 +857,13 @@
         "rules": [],
         "slug": "ferocity",
         "_migration": {
-          "version": 0.894,
+          "version": 0.932,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.894,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1008,9 +925,13 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.894,
+          "version": 0.932,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.894,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1064,162 +985,6 @@
         "duplicateSource": null
       },
       "_key": "!actors.items!QFDkLTdW1z6u2Oit.yeHohyJSYfiTwghO"
-    },
-    {
-      "_id": "iwKkHwOzGwT2nsL7",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Athletics",
-      "sort": 1100000,
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": 0.894,
-          "lastMigration": null,
-          "previous": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 10
-        },
-        "proficient": {
-          "value": 0
-        }
-      },
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.9.3",
-        "coreVersion": "12.330",
-        "createdTime": null,
-        "modifiedTime": 1700422847906,
-        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!QFDkLTdW1z6u2Oit.iwKkHwOzGwT2nsL7"
-    },
-    {
-      "_id": "4wA8DVx91XtmgOXo",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Intimidation",
-      "sort": 1200000,
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": 0.894,
-          "lastMigration": null,
-          "previous": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 8
-        },
-        "proficient": {
-          "value": 0
-        }
-      },
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.9.3",
-        "coreVersion": "12.330",
-        "createdTime": null,
-        "modifiedTime": 1700422847906,
-        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!QFDkLTdW1z6u2Oit.4wA8DVx91XtmgOXo"
-    },
-    {
-      "_id": "STsQ8sVSbJNufn6M",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Survival",
-      "sort": 1300000,
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": 0.894,
-          "lastMigration": null,
-          "previous": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 7
-        },
-        "proficient": {
-          "value": 0
-        }
-      },
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.9.3",
-        "coreVersion": "12.330",
-        "createdTime": null,
-        "modifiedTime": 1700422847906,
-        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!QFDkLTdW1z6u2Oit.STsQ8sVSbJNufn6M"
     }
   ],
   "name": "Bastaal Warband Leader",
@@ -1243,12 +1008,6 @@
       "allSaves": {
         "value": ""
       },
-      "initiative": {
-        "statistic": "perception"
-      },
-      "perception": {
-        "value": 12
-      },
       "resistances": [],
       "vulnerabilities": []
     },
@@ -1257,7 +1016,10 @@
     },
     "details": {
       "languages": {
-        "value": [],
+        "value": [
+          "common",
+          "orcish"
+        ],
         "details": ""
       },
       "level": {
@@ -1275,8 +1037,12 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.894,
-      "previous": null
+      "version": 0.932,
+      "previous": {
+        "schema": 0.894,
+        "foundry": "12.330",
+        "system": "6.2.0"
+      }
     },
     "abilities": {
       "str": {
@@ -1312,8 +1078,12 @@
     },
     "perception": {
       "details": "",
-      "mod": 0,
-      "senses": [],
+      "mod": 12,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
       "vision": true
     },
     "saves": {
@@ -1330,7 +1100,17 @@
         "saveDetail": ""
       }
     },
-    "skills": {},
+    "skills": {
+      "athletics": {
+        "base": 10
+      },
+      "intimidation": {
+        "base": 8
+      },
+      "survival": {
+        "base": 7
+      }
+    },
     "traits": {
       "value": [
         "chaotic",
@@ -1341,17 +1121,6 @@
       "rarity": "common",
       "size": {
         "value": "med"
-      },
-      "senses": {
-        "value": "darkvision"
-      },
-      "languages": {
-        "value": [
-          "common",
-          "orcish"
-        ],
-        "custom": "",
-        "selected": []
       }
     }
   },
@@ -1366,11 +1135,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.3",
+    "systemVersion": "6.2.0",
     "coreVersion": "12.330",
     "createdTime": 1700422454162,
-    "modifiedTime": 1700423050672,
-    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "modifiedTime": 1723171405112,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
   },

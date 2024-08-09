@@ -11,8 +11,13 @@
     "rules": [],
     "slug": null,
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "12.330",
+        "system": "6.2.0"
+      }
     },
     "traits": {
       "otherTags": []
@@ -44,33 +49,17 @@
       "harm",
       "heal"
     ],
-    "attribute": [],
-    "skill": "nat",
+    "attribute": [
+      "con",
+      "str"
+    ],
+    "skill": [
+      "nature"
+    ],
     "weapons": [
       "staff"
     ],
-    "spells": {},
-    "source": {
-      "value": ""
-    },
-    "schema": {
-      "version": 0.845,
-      "lastMigration": null
-    },
-    "alignment": {
-      "own": "CN",
-      "follower": [
-        "N",
-        "CG",
-        "CN",
-        "NE",
-        "CE"
-      ]
-    },
-    "ability": [
-      "con",
-      "str"
-    ]
+    "spells": {}
   },
   "_id": "yeqOMl4QnkPUc9uW",
   "img": "systems/pf2e/icons/default-icons/deity.svg",
@@ -81,11 +70,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.3.2",
+    "systemVersion": "6.2.0",
     "coreVersion": "12.330",
     "createdTime": 1687893834081,
-    "modifiedTime": 1692416207429,
-    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "modifiedTime": 1723171380843,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
   },

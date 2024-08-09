@@ -112,8 +112,13 @@
         "rules": [],
         "slug": "javelin",
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.854,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -123,7 +128,7 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "",
+          "title": "Pathfinder Core Rulebook",
           "authors": "",
           "license": "OGL",
           "remaster": false
@@ -199,9 +204,7 @@
           "striking": 0,
           "property": []
         },
-        "specific": {
-          "value": false
-        },
+        "specific": null,
         "subitems": [],
         "property1": {
           "value": "",
@@ -212,50 +215,6 @@
           "critDie": "",
           "critDamage": "",
           "critDamageType": ""
-        },
-        "source": {
-          "value": "Pathfinder Core Rulebook"
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        },
-        "weight": {
-          "value": "L"
-        },
-        "equippedBulk": {
-          "value": ""
-        },
-        "stackGroup": null,
-        "negateBulk": {
-          "value": "0"
-        },
-        "preciousMaterial": {
-          "value": null
-        },
-        "preciousMaterialGrade": {
-          "value": null
-        },
-        "MAP": {
-          "value": ""
-        },
-        "potencyRune": {
-          "value": 0
-        },
-        "strikingRune": {
-          "value": ""
-        },
-        "propertyRune1": {
-          "value": null
-        },
-        "propertyRune2": {
-          "value": null
-        },
-        "propertyRune3": {
-          "value": null
-        },
-        "propertyRune4": {
-          "value": null
         }
       },
       "type": "weapon",
@@ -294,8 +253,13 @@
         "rules": [],
         "slug": "orc-necksplitter",
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.854,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -307,7 +271,7 @@
           "rarity": "uncommon"
         },
         "publication": {
-          "title": "",
+          "title": "Pathfinder Core Rulebook",
           "authors": "",
           "license": "OGL",
           "remaster": false
@@ -318,7 +282,7 @@
         "quantity": 1,
         "baseItem": "orc-necksplitter",
         "bulk": {
-          "value": 0.1
+          "value": 1
         },
         "hp": {
           "value": 0,
@@ -383,9 +347,7 @@
           "striking": 0,
           "property": []
         },
-        "specific": {
-          "value": false
-        },
+        "specific": null,
         "subitems": [],
         "property1": {
           "value": "",
@@ -400,50 +362,6 @@
           "strikeConditionValue": null,
           "criticalConditionType": "",
           "criticalConditionValue": null
-        },
-        "source": {
-          "value": "Pathfinder Core Rulebook"
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        },
-        "weight": {
-          "value": "1"
-        },
-        "equippedBulk": {
-          "value": ""
-        },
-        "stackGroup": null,
-        "negateBulk": {
-          "value": "0"
-        },
-        "preciousMaterial": {
-          "value": null
-        },
-        "preciousMaterialGrade": {
-          "value": null
-        },
-        "MAP": {
-          "value": ""
-        },
-        "potencyRune": {
-          "value": null
-        },
-        "strikingRune": {
-          "value": null
-        },
-        "propertyRune1": {
-          "value": null
-        },
-        "propertyRune2": {
-          "value": null
-        },
-        "propertyRune3": {
-          "value": null
-        },
-        "propertyRune4": {
-          "value": null
         }
       },
       "type": "weapon",
@@ -482,8 +400,13 @@
         "rules": [],
         "slug": "shortsword",
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.854,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -495,7 +418,7 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "",
+          "title": "Pathfinder Core Rulebook",
           "authors": "",
           "license": "OGL",
           "remaster": false
@@ -571,9 +494,7 @@
           "striking": 0,
           "property": []
         },
-        "specific": {
-          "value": false
-        },
+        "specific": null,
         "subitems": [],
         "property1": {
           "value": "",
@@ -584,50 +505,6 @@
           "critDie": "",
           "critDamage": "",
           "critDamageType": ""
-        },
-        "source": {
-          "value": "Pathfinder Core Rulebook"
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        },
-        "weight": {
-          "value": "L"
-        },
-        "equippedBulk": {
-          "value": ""
-        },
-        "stackGroup": null,
-        "negateBulk": {
-          "value": "0"
-        },
-        "preciousMaterial": {
-          "value": null
-        },
-        "preciousMaterialGrade": {
-          "value": null
-        },
-        "MAP": {
-          "value": ""
-        },
-        "potencyRune": {
-          "value": 0
-        },
-        "strikingRune": {
-          "value": ""
-        },
-        "propertyRune1": {
-          "value": null
-        },
-        "propertyRune2": {
-          "value": null
-        },
-        "propertyRune3": {
-          "value": null
-        },
-        "propertyRune4": {
-          "value": null
         }
       },
       "type": "weapon",
@@ -666,8 +543,13 @@
         "rules": [],
         "slug": "breastplate",
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.854,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -675,7 +557,7 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "",
+          "title": "Pathfinder Core Rulebook",
           "authors": "",
           "license": "OGL",
           "remaster": false
@@ -686,7 +568,7 @@
         "quantity": 1,
         "baseItem": "breastplate",
         "bulk": {
-          "value": 0.1
+          "value": 2
         },
         "hp": {
           "value": 0,
@@ -734,52 +616,7 @@
           "resilient": 0,
           "property": []
         },
-        "subitems": [],
-        "source": {
-          "value": "Pathfinder Core Rulebook"
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        },
-        "weight": {
-          "value": "3"
-        },
-        "equippedBulk": {
-          "value": "2"
-        },
-        "stackGroup": null,
-        "negateBulk": {
-          "value": "0"
-        },
-        "preciousMaterial": {
-          "value": null
-        },
-        "preciousMaterialGrade": {
-          "value": null
-        },
-        "usage": {
-          "value": "wornarmor"
-        },
-        "potencyRune": {
-          "value": 0
-        },
-        "resiliencyRune": {
-          "value": ""
-        },
-        "propertyRune1": {
-          "value": ""
-        },
-        "propertyRune2": {
-          "value": ""
-        },
-        "propertyRune3": {
-          "value": ""
-        },
-        "propertyRune4": {
-          "value": ""
-        },
-        "potency": {}
+        "subitems": []
       },
       "type": "armor",
       "effects": [],
@@ -814,27 +651,14 @@
           "gm": "",
           "value": ""
         },
-        "source": {
-          "value": ""
-        },
         "rules": [],
         "slug": null,
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        },
         "traits": {
           "value": [
             "forceful",
             "sweep"
           ],
-          "rarity": "common"
-        },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
+          "otherTags": []
         },
         "damageRolls": {
           "o7yhao8xl5ss6pmpwzqc": {
@@ -847,8 +671,21 @@
           "value": 7
         },
         "attackEffects": {
-          "value": [],
-          "custom": ""
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         }
       },
       "type": "melee",
@@ -884,40 +721,41 @@
           "gm": "",
           "value": ""
         },
-        "source": {
-          "value": ""
-        },
         "rules": [],
         "slug": null,
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        },
         "traits": {
           "value": [
             "agile",
             "versatile-p"
           ],
-          "rarity": "common"
-        },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
+          "otherTags": []
         },
         "damageRolls": {
           "n5or6bnz6ji2100zfqeg": {
             "damage": "1d6+4",
-            "damageType": "slashing"
+            "damageType": "slashing",
+            "category": null
           }
         },
         "bonus": {
           "value": 7
         },
         "attackEffects": {
-          "value": [],
-          "custom": ""
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         }
       },
       "type": "melee",
@@ -948,40 +786,41 @@
           "gm": "",
           "value": ""
         },
-        "source": {
-          "value": ""
-        },
         "rules": [],
         "slug": null,
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        },
         "traits": {
           "value": [
             "agile",
             "nonlethal"
           ],
-          "rarity": "common"
-        },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
+          "otherTags": []
         },
         "damageRolls": {
           "6wrnr4kd26m7r93ebur3": {
             "damage": "1d4+4",
-            "damageType": "bludgeoning"
+            "damageType": "bludgeoning",
+            "category": null
           }
         },
         "bonus": {
           "value": 7
         },
         "attackEffects": {
-          "value": [],
-          "custom": ""
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         }
       },
       "type": "melee",
@@ -1018,39 +857,40 @@
           "gm": "",
           "value": ""
         },
-        "source": {
-          "value": ""
-        },
         "rules": [],
         "slug": null,
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        },
         "traits": {
           "value": [
             "thrown-30"
           ],
-          "rarity": "common"
-        },
-        "weaponType": {
-          "value": "ranged"
-        },
-        "attack": {
-          "value": ""
+          "otherTags": []
         },
         "damageRolls": {
           "e5cfagztn6o2yetnr3z8": {
             "damage": "1d6+4",
-            "damageType": "piercing"
+            "damageType": "piercing",
+            "category": null
           }
         },
         "bonus": {
           "value": 5
         },
         "attackEffects": {
-          "value": [],
-          "custom": ""
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         }
       },
       "type": "melee",
@@ -1089,8 +929,13 @@
         "rules": [],
         "slug": "darkvision",
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.854,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1098,7 +943,7 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "",
+          "title": "Pathfinder Bestiary",
           "authors": "",
           "license": "OGL",
           "remaster": false
@@ -1111,13 +956,6 @@
           "value": null
         },
         "deathNote": false,
-        "source": {
-          "value": "Pathfinder Bestiary"
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        },
         "requirements": {
           "value": ""
         },
@@ -1164,8 +1002,13 @@
         "rules": [],
         "slug": "attack-of-opportunity",
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.854,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1173,7 +1016,7 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "",
+          "title": "Pathfinder Bestiary",
           "authors": "",
           "license": "OGL",
           "remaster": false
@@ -1186,13 +1029,6 @@
           "value": null
         },
         "deathNote": false,
-        "source": {
-          "value": "Pathfinder Bestiary"
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        },
         "requirements": {
           "value": ""
         },
@@ -1239,8 +1075,13 @@
         "rules": [],
         "slug": "ferocity",
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.854,
+            "foundry": "12.330",
+            "system": "6.2.0"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1248,7 +1089,7 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "",
+          "title": "Pathfinder Bestiary",
           "authors": "",
           "license": "OGL",
           "remaster": false
@@ -1261,13 +1102,6 @@
           "value": null
         },
         "deathNote": true,
-        "source": {
-          "value": "Pathfinder Bestiary"
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        },
         "requirements": {
           "value": ""
         },
@@ -1295,180 +1129,6 @@
         "duplicateSource": null
       },
       "_key": "!actors.items!xb45uoGUPTIwgQNe.AtTvfif8mNvTl8HD"
-    },
-    {
-      "_id": "hK7TBaoiDNR4b9ks",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Athletics",
-      "sort": 1200000,
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 7
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        }
-      },
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "12.330",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!xb45uoGUPTIwgQNe.hK7TBaoiDNR4b9ks"
-    },
-    {
-      "_id": "B1v0gjcu4olg9mF1",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Intimidation",
-      "sort": 1300000,
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 4
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        }
-      },
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "12.330",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!xb45uoGUPTIwgQNe.B1v0gjcu4olg9mF1"
-    },
-    {
-      "_id": "2yg1jowhvyvtettq",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Survival",
-      "sort": 1400000,
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 4
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.854,
-          "lastMigration": null
-        }
-      },
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "12.330",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "_key": "!actors.items!xb45uoGUPTIwgQNe.2yg1jowhvyvtettq"
     }
   ],
   "name": "Bastaal Warrior",
@@ -1491,12 +1151,6 @@
       },
       "allSaves": {
         "value": ""
-      },
-      "initiative": {
-        "statistic": "perception"
-      },
-      "perception": {
-        "value": 6
       }
     },
     "initiative": {
@@ -1504,7 +1158,9 @@
     },
     "details": {
       "languages": {
-        "value": [],
+        "value": [
+          "orcish"
+        ],
         "details": ""
       },
       "level": {
@@ -1514,24 +1170,21 @@
       "publicNotes": "<p>The typical orc warrior is a violent combatant familiar to many adventurers. Orc warriors fight for their clan, for riches, and- perhaps most of all-for personal glory.</p>\n<hr />\n<p>Orcs are violent, monstrous humanoids that live by the rule that might makes right. They amass in brutal warbands both large and small, decimating and robbing those unlucky enough to cross their path. Countless small settlements, outposts, and forts have fallen at the hands of orc raiders, whose fecundity and sheer destructiveness leave an indelible mark on the lands they conquer. Survivors of orc invasions are as likely to be fed to the orcs' war beasts as they are to be taken as slaves. Unspeakable atrocities await any outsiders brought back to orc encampments, and to many, death is a far more preferable outcome compared to capture by orcs.</p>\n<p>Physically, orcs tower over most humanoids and look practically custom-made for violence with their rough flesh, sturdy bone, and iron-hard muscle. For all their tough looks, however, orcs are far from invincible. They lack the discipline to conduct large-scale campaigns, for one thing, and they typically lose their heads in the heat of battle. Even their skin scars easily-though this is a source of pride to the orc people, since scars signify strength and experience in battle. To orcs, the crisscross of old wounds are a much a badge of pride and honor as any beheaded foe or claimed trophy.</p>\n<p>Orcs are a people of violent passions in all that they do, not just war. Bonds of blood are especially strong among orcs, and lineage is important. The strongest orc bands are typically made up of brothers and sisters in more than arms; orcs fight harder when they are protecting their own kinsfolk, and orc warriors will fight tirelessly to avenge fallen family members. This emphasis on bloodlines is not an altruistic one, however, and is in fact a double-edged sword. Orcs whose families have been killed find themselves at the bottom of the clan's totem pole, and even a famous chieftain can become powerless overnight if their brethren aren't there to back them up.</p>\n<p>The chaotic and fractious nature of orc culture results in a great variety of beliefs, superstitions, and legacies among different clans. This cultural divergence causes substantial infighting among orc bands, in many cases preventing the rise of larger orc nations. It can also frustrate many attempts at diplomacy, as the taboos of one band may be commonplace and thoroughly accepted practices among others. Navigating a specific band's culture can often mean the difference between life and death to those who deal with orcs off the field of war. Although orcs, as a rule, rarely deal with outsiders, they recognize the benefits of trade and willingly swap resources with other violent peoples like hobgoblins, drow, and many humans.</p>",
       "privateNotes": "",
       "publication": {
-        "title": "",
+        "title": "Pathfinder Bestiary",
         "authors": "",
         "license": "OGL",
         "remaster": false
-      },
-      "alignment": {
-        "value": "CE"
-      },
-      "source": {
-        "value": "Pathfinder Bestiary",
-        "author": ""
       },
       "creatureType": "Humanoid"
     },
     "resources": {},
     "_migration": {
-      "version": null,
-      "previous": null
+      "version": 0.932,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.330",
+        "system": "6.2.0"
+      }
     },
     "abilities": {
       "str": {
@@ -1555,8 +1208,12 @@
     },
     "perception": {
       "details": "",
-      "mod": 0,
-      "senses": [],
+      "mod": 6,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
       "vision": true
     },
     "saves": {
@@ -1573,30 +1230,28 @@
         "saveDetail": ""
       }
     },
-    "skills": {},
+    "skills": {
+      "athletics": {
+        "base": 7
+      },
+      "intimidation": {
+        "base": 4
+      },
+      "survival": {
+        "base": 4
+      }
+    },
     "traits": {
       "value": [
+        "chaotic",
+        "evil",
         "humanoid",
         "orc"
       ],
       "rarity": "common",
       "size": {
         "value": "med"
-      },
-      "senses": {
-        "value": "darkvision"
-      },
-      "languages": {
-        "value": [
-          "orcish"
-        ],
-        "custom": "",
-        "selected": []
       }
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": null
     }
   },
   "type": "npc",
@@ -1610,11 +1265,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.5.1",
+    "systemVersion": "6.2.0",
     "coreVersion": "12.330",
     "createdTime": 1692473215561,
-    "modifiedTime": 1694987800990,
-    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "modifiedTime": 1723171405112,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
   },

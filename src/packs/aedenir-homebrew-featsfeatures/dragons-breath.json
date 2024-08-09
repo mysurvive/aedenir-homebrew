@@ -26,15 +26,19 @@
     ],
     "slug": "dragons-breath",
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.796,
+        "foundry": "12.330",
+        "system": "6.2.0"
+      }
     },
     "traits": {
       "otherTags": [],
       "value": [
         "arcane",
-        "hb_drakkgebor",
-        "evocation"
+        "drakkgebor"
       ],
       "rarity": "common",
       "custom": ""
@@ -61,20 +65,6 @@
       "value": []
     },
     "location": null,
-    "source": {
-      "value": ""
-    },
-    "schema": {
-      "version": 0.796,
-      "lastMigration": {
-        "datetime": "2022-10-30T21:35:40.310-04:00",
-        "version": {
-          "schema": null,
-          "foundry": "10.288",
-          "system": "4.3.2"
-        }
-      }
-    },
     "featType": {
       "value": "ancestryfeature"
     },
@@ -86,11 +76,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.7.2",
+    "systemVersion": "6.2.0",
     "coreVersion": "12.330",
     "createdTime": 1667180140314,
-    "modifiedTime": 1697591324916,
-    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "modifiedTime": 1723171397601,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
   },

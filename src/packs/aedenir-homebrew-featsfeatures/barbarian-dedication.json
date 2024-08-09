@@ -35,9 +35,13 @@
     ],
     "slug": "barbarian-dedication",
     "_migration": {
-      "version": 0.878,
+      "version": 0.932,
       "lastMigration": null,
-      "previous": null
+      "previous": {
+        "schema": 0.878,
+        "foundry": "12.330",
+        "system": "6.2.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -89,11 +93,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.7.2",
+    "systemVersion": "6.2.0",
     "coreVersion": "12.330",
     "createdTime": 1697570864850,
-    "modifiedTime": 1697579568276,
-    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "modifiedTime": 1723171397601,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
   },

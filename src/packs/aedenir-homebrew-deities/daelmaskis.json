@@ -11,8 +11,13 @@
     "rules": [],
     "slug": null,
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.330",
+        "system": "6.2.0"
+      }
     },
     "traits": {
       "otherTags": []
@@ -24,13 +29,7 @@
       "remaster": false
     },
     "category": "deity",
-    "sanctification": {
-      "modal": "can",
-      "what": [
-        "holy",
-        "unholy"
-      ]
-    },
+    "sanctification": null,
     "domains": {
       "primary": [],
       "alternate": []
@@ -40,23 +39,9 @@
       "heal"
     ],
     "attribute": [],
-    "skill": null,
+    "skill": [],
     "weapons": [],
-    "spells": {},
-    "source": {
-      "value": ""
-    },
-    "schema": {
-      "version": 0.854,
-      "lastMigration": null
-    },
-    "alignment": {
-      "own": "N",
-      "follower": [
-        "N"
-      ]
-    },
-    "ability": []
+    "spells": {}
   },
   "_id": "XlS0DoCMsnZwIjND",
   "img": "systems/pf2e/icons/default-icons/deity.svg",
@@ -67,11 +52,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.3.2",
+    "systemVersion": "6.2.0",
     "coreVersion": "12.330",
     "createdTime": 1692415700185,
-    "modifiedTime": 1692415947085,
-    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "modifiedTime": 1723171380843,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
   },

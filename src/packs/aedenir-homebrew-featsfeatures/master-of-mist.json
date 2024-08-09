@@ -5,18 +5,23 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Prerequisite</strong>&nbsp;Cloud Oropin</p>\n<p>Your ability to call the clouds is on par with true cloud giants. You can cast Obscuring Mist as a 2nd level innate primal spell at will.</p>\n<hr>\n<p><em>Note: You will need to add the spell and spellcasting entry manually on your sheet.</em></p>"
+      "value": "<p><strong>Prerequisite</strong> Cloud Oropin</p>\n<p>Your ability to call the clouds is on par with true cloud giants. You can cast Obscuring Mist as a 2nd level innate primal spell at will.</p>\n<hr />\n<p><em>Note: You will need to add the spell and spellcasting entry manually on your sheet.</em></p>"
     },
     "rules": [],
     "slug": null,
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.796,
+        "foundry": "12.330",
+        "system": "6.2.0"
+      }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "hb_oropin"
+        "oropin"
       ],
       "rarity": "common",
       "custom": ""
@@ -47,20 +52,6 @@
       ]
     },
     "location": null,
-    "source": {
-      "value": ""
-    },
-    "schema": {
-      "version": 0.796,
-      "lastMigration": {
-        "datetime": "2022-11-01T09:47:18.473-04:00",
-        "version": {
-          "schema": null,
-          "foundry": "10.288",
-          "system": "4.3.2"
-        }
-      }
-    },
     "featType": {
       "value": "ancestry"
     },
@@ -72,11 +63,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.7.2",
+    "systemVersion": "6.2.0",
     "coreVersion": "12.330",
     "createdTime": 1667310438477,
-    "modifiedTime": 1697592388929,
-    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "modifiedTime": 1723171397601,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
   },

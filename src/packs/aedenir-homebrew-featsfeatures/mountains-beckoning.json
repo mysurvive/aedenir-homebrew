@@ -19,13 +19,18 @@
     ],
     "slug": null,
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.796,
+        "foundry": "12.330",
+        "system": "6.2.0"
+      }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "hb_oropin"
+        "oropin"
       ],
       "rarity": "common",
       "custom": ""
@@ -52,20 +57,6 @@
       "value": []
     },
     "location": null,
-    "source": {
-      "value": ""
-    },
-    "schema": {
-      "version": 0.796,
-      "lastMigration": {
-        "datetime": "2022-10-31T16:35:28.819-04:00",
-        "version": {
-          "schema": null,
-          "foundry": "10.288",
-          "system": "4.3.2"
-        }
-      }
-    },
     "featType": {
       "value": "ancestry"
     },
@@ -77,11 +68,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.7.2",
+    "systemVersion": "6.2.0",
     "coreVersion": "12.330",
     "createdTime": 1667248528823,
-    "modifiedTime": 1697592720884,
-    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "modifiedTime": 1723171397601,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
   },
