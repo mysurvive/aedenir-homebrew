@@ -5,14 +5,14 @@
 
 module.exports = {
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 13,
     extraFileExtensions: [".cjs", ".mjs"],
     sourceType: "module",
   },
 
   env: {
     browser: true,
-    es6: true,
+    es2022: true,
   },
 
   globals: {
@@ -22,6 +22,9 @@ module.exports = {
     isEmpty: "readonly",
     libWrapper: "readonly",
     socketlib: "readonly",
+
+    // @typhonjs-fvtt/eslint-config-foundry.js hasn't been updated in 3 years, missing some stuff
+    fromUuidSync: "readonly",
   },
 
   extends: [
