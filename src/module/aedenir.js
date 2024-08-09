@@ -3,6 +3,7 @@ import {
   creatureTraits,
   featTraits,
   languages,
+  languageToRarity,
   weaponGroups,
   weaponTraits,
 } from "./worldSettings.js";
@@ -71,14 +72,7 @@ async function checkVersion() {
     game.settings.set(moduleId, "loadedHomebrew", false);
     game.settings.set(moduleId, "loadedSettings", false);
 
-    const CPLoaded = loadCompendiumPacks();
-    const HBLoaded = loadHomebrew();
-    const SettingsLoaded = loadSettings();
-    if (CPLoaded && HBLoaded && SettingsLoaded) {
-      game.settings.set(moduleId, "homebrewVersion", latestVersion);
-    } else {
-      throw new Error("Something went wrong loading module data");
-    }
+    Promise.all([loadCompendiumPacks(), loadHomebrew(), loadSettings()]);
   }
 }
 
@@ -94,7 +88,7 @@ async function loadCompendiumPacks() {
       settings.feat[`${moduleId}.aed-featsfeatures`].load = true;
       settings.bestiary[`${moduleId}.aed-bestiary-i`].load = true;
     } catch {
-      return false;
+      return Promise.resolve();
     }
 
     // Set the settings, both in the client settings and the current session respectively
@@ -124,8 +118,13 @@ async function loadHomebrew() {
       await game.settings.set("pf2e", "homebrew.weaponGroups", weaponGroups);
       await game.settings.set("pf2e", "homebrew.baseWeapons", baseWeapons);
       await game.settings.set("pf2e", "homebrew.weaponTraits", weaponTraits);
+      await game.settings.set(
+        "pf2e",
+        "homebrew.languageRarities",
+        languageToRarity()
+      );
     } catch {
-      console.error("Error loading creature traits.");
+      console.error("Error loading homebrew.");
       return false;
     }
 
@@ -134,7 +133,7 @@ async function loadHomebrew() {
       "%cAedenir Homebrew Traits have been successfully loaded",
       "color: green; font-weight: bold"
     );
-    return true;
+    return Promise.resolve();
   }
 }
 
@@ -158,6 +157,6 @@ async function loadSettings() {
       "%cAedenir Specific System Settings have been successfully loaded",
       "color: green; font-weight: bold"
     );
-    return true;
+    return Promise.resolve();
   }
 }
