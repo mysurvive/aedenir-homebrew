@@ -27,6 +27,12 @@ const packDb =
 
 const options = {
   log: args.logWarnings,
+  transformEntry: (e) => {
+    const defaultOwnership = e.ownership?.default ?? 0;
+    e.ownership = {
+      default: defaultOwnership,
+    };
+  },
   transformName: (e) => {
     const name =
       e.name

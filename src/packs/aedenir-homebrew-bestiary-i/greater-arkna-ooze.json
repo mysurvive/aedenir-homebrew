@@ -96,8 +96,7 @@
   "name": "Greater Arkna Ooze",
   "type": "npc",
   "ownership": {
-    "default": 0,
-    "oMwyPU2ip0rGnOow": 3
+    "default": 0
   },
   "effects": [],
   "system": {

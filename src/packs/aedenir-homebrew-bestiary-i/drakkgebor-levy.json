@@ -95,8 +95,7 @@
   "name": "Drakkgebor Levy",
   "type": "npc",
   "ownership": {
-    "default": 0,
-    "fQ2bdOYk7CfBvPdF": 3
+    "default": 0
   },
   "effects": [],
   "system": {

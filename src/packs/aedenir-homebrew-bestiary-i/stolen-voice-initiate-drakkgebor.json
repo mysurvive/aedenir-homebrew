@@ -96,8 +96,7 @@
   "name": "Stolen Voice Initiate (Drakkgebor)",
   "type": "npc",
   "ownership": {
-    "default": 0,
-    "NX3qHeMsqsVjwJ0v": 3
+    "default": 0
   },
   "effects": [],
   "system": {
