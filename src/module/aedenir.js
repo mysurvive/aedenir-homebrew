@@ -72,7 +72,9 @@ async function checkVersion() {
     game.settings.set(moduleId, "loadedHomebrew", false);
     game.settings.set(moduleId, "loadedSettings", false);
 
-    Promise.all([loadCompendiumPacks(), loadHomebrew(), loadSettings()]);
+    Promise.all([loadCompendiumPacks(), loadHomebrew(), loadSettings()]).then(
+      await game.settings.set(moduleId, latestVersion)
+    );
   }
 }
 
@@ -88,7 +90,7 @@ async function loadCompendiumPacks() {
       settings.feat[`${moduleId}.aed-featsfeatures`].load = true;
       settings.bestiary[`${moduleId}.aed-bestiary-i`].load = true;
     } catch {
-      return Promise.resolve();
+      return Promise.reject();
     }
 
     // Set the settings, both in the client settings and the current session respectively
@@ -101,7 +103,7 @@ async function loadCompendiumPacks() {
       "%cAedenir Homebrew Compendiums have been added to the compendium browser",
       "color: green; font-weight: bold"
     );
-    return true;
+    return Promise.resolve();
   }
 }
 
@@ -125,7 +127,7 @@ async function loadHomebrew() {
       );
     } catch {
       console.error("Error loading homebrew.");
-      return false;
+      return Promise.reject();
     }
 
     await game.settings.set(moduleId, "loadedHomebrew", true);
@@ -149,7 +151,7 @@ async function loadSettings() {
       await game.settings.set("pf2e", "freeArchetypeVariant", true);
     } catch {
       console.error("Error loading system settings.");
-      return false;
+      return Promise.reject();
     }
 
     await game.settings.set(moduleId, "loadedSettings", true);
