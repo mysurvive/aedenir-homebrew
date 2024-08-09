@@ -1,0 +1,198 @@
+{
+  "name": "Oropin Composite Longbow",
+  "type": "weapon",
+  "img": "systems/pf2e/icons/default-icons/weapon.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "deadly-d12",
+        "hb_oropin",
+        "propulsive",
+        "volley-30"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": "hb_oropin-composite-longbow",
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "brokenThreshold": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "lg",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-plus-hands"
+    },
+    "category": "martial",
+    "group": "bow",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d8",
+      "damageType": "piercing",
+      "persistent": null,
+      "value": ""
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": 100,
+    "reload": {
+      "value": "0"
+    },
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": {
+      "value": false
+    },
+    "subitems": [],
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    },
+    "weight": {
+      "value": "4"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": "0"
+    },
+    "potencyRune": {
+      "value": null
+    },
+    "strikingRune": {
+      "value": null
+    },
+    "propertyRune1": {
+      "value": null
+    },
+    "propertyRune2": {
+      "value": null
+    },
+    "propertyRune3": {
+      "value": null
+    },
+    "propertyRune4": {
+      "value": null
+    },
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-31T16:02:15.755-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "preciousMaterial": {
+      "value": null
+    },
+    "preciousMaterialGrade": {
+      "value": null
+    },
+    "MAP": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.FLRZ0cTGCQutXLmZ"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667246535760,
+    "modifiedTime": 1697592853356,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": "Item.FLRZ0cTGCQutXLmZ",
+    "duplicateSource": null
+  },
+  "_id": "FLRZ0cTGCQutXLmZ",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!FLRZ0cTGCQutXLmZ"
+}

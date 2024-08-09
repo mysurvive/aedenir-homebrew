@@ -1,0 +1,97 @@
+{
+  "name": "Rock Lobber",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Rock lobbing becomes a feat of strength. When making a rock throw attack at a creature within your first range increment you may use strength instead of dexterity for the attack roll.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "rock-oropin-attack-roll",
+        "type": "ability",
+        "ability": "str",
+        "predicate": [
+          "target:range-increment:1"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_oropin"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-31T16:51:43.185-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667249503188,
+    "modifiedTime": 1697593310102,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "uxsu0Kc2pX34XUGD",
+  "folder": null,
+  "sort": 7300000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!uxsu0Kc2pX34XUGD"
+}

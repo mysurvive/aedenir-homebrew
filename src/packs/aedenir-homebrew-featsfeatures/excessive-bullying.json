@@ -1,0 +1,116 @@
+{
+  "name": "Excessive Bullying",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Prerequisite</strong>&nbsp;Expert in Athletics or Intimidation</p>\n<p>You know how to take advantage of a bad situation. You gain a +1 circumstance bonus to intimidation checks against creatures that are grabbed, prone, or restrained. You also gain a +1 circumstance bonus to athletic checks against frightened creatures. These circumstance bonuses increase to +2 when you become legendary in either Athletics or Intimidation.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "intimidation",
+        "value": "ternary({or:[eq(@actor.system.skills.itm.rank,4),eq(@actor.system.skills.ath.rank,4)]},2,1)",
+        "type": "circumstance",
+        "predicate": [
+          {
+            "or": [
+              "target:condition:grabbed",
+              "target:condition:prone",
+              "target:condition:restrained"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "athletics",
+        "value": "ternary({or:[eq(@actor.system.skills.itm.rank,4),eq(@actor.system.skills.ath.rank,4)]},2,1)",
+        "type": "circumstance",
+        "predicate": [
+          "target:condition:frightened"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_oropin"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "expert in athletics or intimidation"
+        }
+      ]
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-31T21:14:20.974-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667265260978,
+    "modifiedTime": 1697591798240,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "yyMl5gnMOuUQsBBu",
+  "folder": null,
+  "sort": 7900000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!yyMl5gnMOuUQsBBu"
+}

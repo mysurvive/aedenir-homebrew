@@ -1,0 +1,128 @@
+{
+  "name": "Oropin Weapon Chief",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your innumerable hours practicing with the weapons of your people have given you insights that few others know. Whenever you gain a class feature that grants you expert or greater proficiency in a given weapon or weapons, you also gain that proficiency in Greatsword, Greataxe, Longbow, Shortbow, Spear, and all Oropin Weapons.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-greatsword.rank",
+        "value": "@actor.system.martial.unarmed.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-greataxe.rank",
+        "value": "@actor.system.martial.unarmed.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-longbow.rank",
+        "value": "@actor.system.martial.unarmed.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-shortbow.rank",
+        "value": "@actor.system.martial.unarmed.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-spear.rank",
+        "value": "@actor.system.martial.unarmed.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-group-hb_oropin.rank",
+        "value": "@actor.system.martial.unarmed.rank"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_oropin"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Oropin Weapon Familiarity"
+        }
+      ]
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-31T23:16:08.915-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667272568921,
+    "modifiedTime": 1697592881609,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "85MjeCaufG62psx6",
+  "folder": null,
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!85MjeCaufG62psx6"
+}

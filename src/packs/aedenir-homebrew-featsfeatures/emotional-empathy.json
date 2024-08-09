@@ -1,0 +1,115 @@
+{
+  "name": "Emotional Empathy",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are in tune with the emotions of those around you. You gain a +2 circumstance bonus to perception checks to sense motive. If you succeed on a sense motive check (even if it reveals nothing), you gain a +1 circumstance bonus to the next Diplomacy, Deception, or Intimidation check you make to interact with the creature.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "perception",
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "action:sense-motive"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "diplomacy",
+          "deception",
+          "intimidation"
+        ],
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "after-sense-motive"
+        ],
+        "label": "+1 After Sense Motive"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_vexbalg"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-29T20:20:40.847-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.1"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1M"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667089240849,
+    "modifiedTime": 1697591728195,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "EDlUHvGrfPhbNg6f",
+  "folder": null,
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!EDlUHvGrfPhbNg6f"
+}

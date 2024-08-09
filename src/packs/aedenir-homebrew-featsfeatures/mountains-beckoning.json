@@ -1,0 +1,96 @@
+{
+  "name": "Mountain's Beckoning",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can feel the direction of your homeland just by listening. If standing on solid rock on the same plane of existence as the Oropin's homeland, you have a +4 to survival checks to sense direction, and you do not need a compass. A minimum proficiency for unusual or unfamiliar locales may still be necessary.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "survival",
+        "value": 4,
+        "predicate": [
+          "action:sense-direction"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_oropin"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-31T16:35:28.819-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667248528823,
+    "modifiedTime": 1697592720884,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "TfQ9XxwbmITIzuP6",
+  "folder": null,
+  "sort": 4200000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!TfQ9XxwbmITIzuP6"
+}

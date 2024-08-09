@@ -1,0 +1,94 @@
+{
+  "folder": "YXsq9MesxXyL7Fhi",
+  "name": "Belo",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div class=\"aed-journal\">\n<div class=\"names\">The Blood Moon</div>\n<div class=\"note\"> </div>\n<div class=\"body\">Belo is the counterpart to Luro, together being dubbed \"The Siblings.\" Belo is considered the masculine figure of the siblings, and is referred to as a male figure. He is not known as The Blood Moon without reason, he revels in bloodshed and violence, especially when it is done under the cover of night and darkness. He is the patron god of assassins and his followers partake in gruesome rituals after they kill, including bathing in the blood of their victims beneath the moon. Belo is also attributed to rising, destructive tides which on occasion have left villages and even towns in shambles.</div>\n<div class=\"additional\">\n<div class=\"note\">\n<h3>Edicts</h3>\n<ul>\n<li>Bathe in bloodshed at night</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Anathema</h3>\n<ul>\n<li>Forgiveness</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Areas of Concern</h3>\n<ul>\n<li>Rising destructive tides</li>\n<li>Assassinations</li>\n<li>Bloodletting</li>\n</ul>\n</div>\n</div>\n<br /><a href=\"https://kanka.io/en-US/campaign/122755/characters/958635\">LINK</a></div>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "moon",
+        "water",
+        "darkness",
+        "pain"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [],
+    "skill": "ste",
+    "weapons": [
+      "dagger"
+    ],
+    "spells": {},
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "alignment": {
+      "own": "NE",
+      "follower": [
+        "N",
+        "CE",
+        "CN",
+        "LE",
+        "LN",
+        "NE"
+      ]
+    },
+    "ability": [
+      "dex",
+      "wis"
+    ]
+  },
+  "_id": "AnGz6ygAHj2w64DS",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.330",
+    "createdTime": 1687892448693,
+    "modifiedTime": 1692413639014,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!AnGz6ygAHj2w64DS"
+}

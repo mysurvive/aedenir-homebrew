@@ -1,0 +1,174 @@
+{
+  "name": "Draconic Armaments",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your body has grown a draconic feature that you wield with might in combat. Choose either a claw, jaws, or tail Strike. Once chosen, you can't change your feature.</p>\n<ul>\n<li>Your claw unarmed attack deals [[/r {1d4}[slashing]]]{1d4 Slashing Damage}, has the agile, finesse, and unarmed traits.</li>\n<li>Your jaws unarmed attack deals [[/r {1d6}[piercing]]]{1d6 Piercing Damage} and has the versatile S trait.</li>\n<li>Your tail unarmed attack deals [[/r {1d6}[bludgeoning]]]{1d6 Bludgeoning Damage} and has the backswing trait.</li>\n</ul>\n<p><strong>Special</strong>&nbsp;You can take this feat multiple times. Each time you do, select a new attack from the options above.</p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.BattleForm.Attack.Claw",
+            "value": "claw"
+          },
+          {
+            "label": "PF2E.BattleForm.Attack.Jaws",
+            "value": "jaws"
+          },
+          {
+            "label": "PF2E.BattleForm.Attack.Tail",
+            "value": "tail"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "Choose a Draconic Armament",
+        "rollOption": "draconic-armaments"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/claw.webp",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Claw",
+        "predicate": [
+          "draconic-armaments:claw"
+        ],
+        "traits": [
+          "agile",
+          "finesse",
+          "unarmed"
+        ],
+        "slug": "draconic-armaments-claw"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Jaws",
+        "predicate": [
+          "draconic-armaments:jaws"
+        ],
+        "traits": [
+          "versatile-s",
+          "unarmed"
+        ],
+        "slug": "draconic-armaments-jaws"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/tail.webp",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Tail",
+        "predicate": [
+          "draconic-armaments:tail"
+        ],
+        "traits": [
+          "backswing",
+          "unarmed"
+        ],
+        "slug": "draconic-armaments-tail"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_drakkgebor"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": null,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-31T01:24:41.887-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667193881891,
+    "modifiedTime": 1697581249379,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "vFwWFYscRMw4f0xw",
+  "folder": null,
+  "sort": 7500000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!vFwWFYscRMw4f0xw"
+}

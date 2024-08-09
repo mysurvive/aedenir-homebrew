@@ -1,0 +1,68 @@
+{
+  "name": "Persona Vexblag",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have developed multiple personas that have developed as entirely separate lives - and are connected to the network of changeling personas across Aedenir. You gain the Different Worlds feat. In addition, when you approach a new community you may already be aware of local Vexbalg personas that you can use. At the GM's discretion, make a @Check[dc:15|type:flat|traits:action:impersonate,secret]. If you succeed, you may interact with this settlement as if you had a second identity from the Different Worlds feat, but without the benefit of the lore skill. You could have already established a persona as a priest who will receive sustenance at the local temple, a folk hero who will be sheltered by the common people, or a veteran soldier who can always get a bed at the local garrison. Once this check has been made against a settlement, you may not make it again for another month.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": {
+      "name": "Vexbalg",
+      "slug": "vexbalg",
+      "uuid": "Compendium.aedenir-homebrew.aed-ancestries.Item.eX4um0tcofPPfgqY"
+    },
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-29T10:13:15.839-04:00",
+        "version": {
+          "schema": 0.796,
+          "foundry": "10.288",
+          "system": "4.3.1"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.2.3",
+    "coreVersion": "12.330",
+    "createdTime": 1667051275185,
+    "modifiedTime": 1690758424367,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "u2A08qz7iDSaOUsw",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!u2A08qz7iDSaOUsw"
+}

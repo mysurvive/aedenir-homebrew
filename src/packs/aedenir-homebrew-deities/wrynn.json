@@ -1,0 +1,98 @@
+{
+  "folder": "8LEB7SGJJ9ODIidk",
+  "name": "Wrynn",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div class=\"aed-journal\">\n<div class=\"names\">The Final Guide</div>\n<div class=\"note\"> </div>\n<div class=\"body\">Wrynn is a mysterious entity that guides souls to where they belong. While <a class=\"entity-mention\" title href=\"https://kanka.io/en-US/campaign/122755/characters/946636\" data-entity-tags data-toggle=\"tooltip-ajax\" data-id=\"3635954\" data-url=\"https://kanka.io/en-US/campaign/122755/entities/3635954/tooltip\" data-original-title>Shealdaire</a> judges creatures in life with strict adherence, Wrynn judges the culmination of the entirety of one's life, taking into account intent. From there, it is said that she walks the soul personally to their final (or sometimes, temporary) resting place. Wrynn abhors leaving a job unfinished, and thus rejects the undead - seen as an abomination and an affront on her work.</div>\n<div class=\"additional\">\n<div class=\"note\">\n<h3>Edicts</h3>\n<ul>\n<li>Bring rest to the restless</li>\n<li>Guide others to their destination</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Anathema</h3>\n<ul>\n<li>Allowing undead to walk</li>\n<li>Allowing undue death</li>\n<li>Denying passage to the afterlife</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Areas of Concern</h3>\n<ul>\n<li>Death</li>\n<li>Guiding the soul to its final destination</li>\n</ul>\n</div>\n</div>\n<br /><a href=\"https://kanka.io/en-US/campaign/122755/characters/957289\">LINK</a></div>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "death",
+        "change",
+        "secrecy",
+        "soul"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [],
+    "skill": "occ",
+    "weapons": [
+      "sickle"
+    ],
+    "spells": {},
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "alignment": {
+      "own": "N",
+      "follower": [
+        "N",
+        "CE",
+        "CG",
+        "CN",
+        "LE",
+        "LG",
+        "LN",
+        "NE",
+        "NG"
+      ]
+    },
+    "ability": [
+      "wis",
+      "con"
+    ]
+  },
+  "_id": "s3ePQqKOWSLTyMMs",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.330",
+    "createdTime": 1687895063122,
+    "modifiedTime": 1692414804602,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!s3ePQqKOWSLTyMMs"
+}

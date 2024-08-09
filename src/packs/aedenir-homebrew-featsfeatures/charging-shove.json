@@ -1,0 +1,98 @@
+{
+  "name": "Charging Shove",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You know that only by being aggressive can one win a game of rockball. You stride at half movement speed or make a long jump attempt and make a @UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove} attempt. If you moved more than 10 feet with your stride, you get a +2 circumstance bonus to the shove attempt.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "athletics",
+        "value": 2,
+        "predicate": [
+          "action:shove",
+          "movement:10"
+        ],
+        "type": "circumstance"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_oropin"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-31T15:13:29.476-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667243609482,
+    "modifiedTime": 1697580916333,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "IWjZBaDEgI8A75pn",
+  "folder": null,
+  "sort": 1900000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!IWjZBaDEgI8A75pn"
+}

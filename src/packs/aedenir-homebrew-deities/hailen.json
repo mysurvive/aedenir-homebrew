@@ -1,0 +1,94 @@
+{
+  "folder": "HOP9W4ceWz8xkpvd",
+  "name": "Hailen",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div class=\"aed-journal\">\n<div class=\"names\">The Swampwalker</div>\n<div class=\"note\"> </div>\n<div class=\"body\">Hailen is a god who revels in the process of decay and the continuation of the cycle of life and death. Hailen is most often associated with swamps where there is a constant state of decay and rebirth. He abhors quelling grief, rather calling for his followers to accept grief in all forms and not hide when they do have grief. As such, many followers go out of their way to aid in the grieving process of others, often taking on their burdens and grieving with them. Despite the revulsion of decay to many, Hailen is considered a caring and sympathetic god.</div>\n<div class=\"additional\">\n<div class=\"note\">\n<h3>Edicts</h3>\n<ul>\n<li>Return the bodies of the deceased to the earth</li>\n<li>Do not deny grief, rejoice in the cycle</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Anathema</h3>\n<ul>\n<li>Allow the deceased to rest in tombs</li>\n<li>Pushing down the emotion of grief</li>\n<li>Denying decay</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Areas of Concern</h3>\n<ul>\n<li>Feelings of grief and sorrow</li>\n<li>The change from living to death to earth</li>\n<li>Fungus</li>\n</ul>\n</div>\n</div>\n<br /><a href=\"https://kanka.io/en-US/campaign/122755/characters/958201\">LINK</a></div>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "nature",
+        "decay",
+        "change",
+        "sorrow"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [],
+    "skill": "nat",
+    "weapons": [
+      "staff"
+    ],
+    "spells": {},
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "alignment": {
+      "own": "CN",
+      "follower": [
+        "N",
+        "CG",
+        "CN",
+        "NE",
+        "CE"
+      ]
+    },
+    "ability": [
+      "con",
+      "str"
+    ]
+  },
+  "_id": "yeqOMl4QnkPUc9uW",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.330",
+    "createdTime": 1687893834081,
+    "modifiedTime": 1692416207429,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!yeqOMl4QnkPUc9uW"
+}

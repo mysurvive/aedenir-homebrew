@@ -1,0 +1,1259 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Rank 10 Remembrancer (Soldier)",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Tokens/Bestiary/Remembrancers/*",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null
+    },
+    "detectionModes": [],
+    "randomImg": true,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "name": "Rank 5 Remembrancer (Soldier)",
+  "type": "npc",
+  "ownership": {
+    "default": 0,
+    "NX3qHeMsqsVjwJ0v": 3
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 75,
+        "temp": 0,
+        "max": 75,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 22,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "initiative": {
+        "statistic": "perception"
+      },
+      "perception": {
+        "value": 12
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 5
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "N"
+      },
+      "source": {
+        "value": "",
+        "author": ""
+      },
+      "creatureType": ""
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 5
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 4
+      },
+      "int": {
+        "mod": 4
+      },
+      "wis": {
+        "mod": 4
+      },
+      "cha": {
+        "mod": 4
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 15,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 12,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 12,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "senses": {
+        "value": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "schema": {
+      "version": 0.863,
+      "lastMigration": {
+        "version": {
+          "schema": 0.858,
+          "foundry": "11.308",
+          "system": "5.5.1"
+        }
+      }
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "name": "Spellcasting",
+      "type": "spellcastingEntry",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "spelldc": {
+          "value": null,
+          "dc": null
+        },
+        "tradition": {
+          "value": "arcane"
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.863,
+          "lastMigration": {
+            "version": {
+              "schema": 0.858,
+              "foundry": "11.308",
+              "system": "5.5.1"
+            }
+          }
+        },
+        "showUnpreparedSpells": {
+          "value": true
+        },
+        "displayLevels": {}
+      },
+      "_id": "UAuCQrNN15ZMPeUe",
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "NX3qHeMsqsVjwJ0v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1693173739659,
+        "modifiedTime": 1693173739659,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!NOr7bLowlaicfLaO.UAuCQrNN15ZMPeUe"
+    },
+    {
+      "name": "Athletics",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 22
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.863,
+          "lastMigration": {
+            "version": {
+              "schema": 0.858,
+              "foundry": "11.308",
+              "system": "5.5.1"
+            }
+          }
+        }
+      },
+      "_id": "XxNYGPMmSE6B1Yk5",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "NX3qHeMsqsVjwJ0v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1693173739697,
+        "modifiedTime": 1693173739697,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!NOr7bLowlaicfLaO.XxNYGPMmSE6B1Yk5"
+    },
+    {
+      "name": "Diplomacy",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 19
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.863,
+          "lastMigration": {
+            "version": {
+              "schema": 0.858,
+              "foundry": "11.308",
+              "system": "5.5.1"
+            }
+          }
+        }
+      },
+      "_id": "HlCt7JBSSg1yXP4E",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "NX3qHeMsqsVjwJ0v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1693173739750,
+        "modifiedTime": 1693173739750,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!NOr7bLowlaicfLaO.HlCt7JBSSg1yXP4E"
+    },
+    {
+      "name": "Society",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 17
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.863,
+          "lastMigration": {
+            "version": {
+              "schema": 0.858,
+              "foundry": "11.308",
+              "system": "5.5.1"
+            }
+          }
+        }
+      },
+      "_id": "M5W4NY9QEuauy6p3",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "NX3qHeMsqsVjwJ0v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1693173739799,
+        "modifiedTime": 1693173739799,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!NOr7bLowlaicfLaO.M5W4NY9QEuauy6p3"
+    },
+    {
+      "name": "Stealth",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 17
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.863,
+          "lastMigration": {
+            "version": {
+              "schema": 0.858,
+              "foundry": "11.308",
+              "system": "5.5.1"
+            }
+          }
+        }
+      },
+      "_id": "zGjiYDHQTwa71SxF",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "NX3qHeMsqsVjwJ0v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1693173739839,
+        "modifiedTime": 1693173739839,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!NOr7bLowlaicfLaO.zGjiYDHQTwa71SxF"
+    },
+    {
+      "name": "Survival",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 19
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.863,
+          "lastMigration": {
+            "version": {
+              "schema": 0.858,
+              "foundry": "11.308",
+              "system": "5.5.1"
+            }
+          }
+        }
+      },
+      "_id": "Hn5YxMMdZyXjo5lP",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "NX3qHeMsqsVjwJ0v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1693173739877,
+        "modifiedTime": 1693173739877,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!NOr7bLowlaicfLaO.Hn5YxMMdZyXjo5lP"
+    },
+    {
+      "name": "Strike",
+      "type": "melee",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.863,
+          "lastMigration": {
+            "version": {
+              "schema": 0.858,
+              "foundry": "11.308",
+              "system": "5.5.1"
+            }
+          }
+        },
+        "traits": {
+          "value": []
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": [
+          {
+            "damage": "2d8+7"
+          }
+        ],
+        "bonus": {
+          "value": 15
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "xQ6EF6O9nMfu8JHQ",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "NX3qHeMsqsVjwJ0v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1693173834237,
+        "modifiedTime": 1693173834237,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!NOr7bLowlaicfLaO.xQ6EF6O9nMfu8JHQ"
+    },
+    {
+      "name": "Spellcasting",
+      "type": "spellcastingEntry",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "spelldc": {
+          "value": null,
+          "dc": null
+        },
+        "tradition": {
+          "value": "arcane"
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.863,
+          "lastMigration": {
+            "version": {
+              "schema": 0.858,
+              "foundry": "11.308",
+              "system": "5.5.1"
+            }
+          }
+        },
+        "showUnpreparedSpells": {
+          "value": true
+        },
+        "displayLevels": {}
+      },
+      "_id": "RM5mxsH1WLaI5aNv",
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "NX3qHeMsqsVjwJ0v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1693173834286,
+        "modifiedTime": 1693173834286,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!NOr7bLowlaicfLaO.RM5mxsH1WLaI5aNv"
+    },
+    {
+      "name": "Athletics",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 13
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.863,
+          "lastMigration": {
+            "version": {
+              "schema": 0.858,
+              "foundry": "11.308",
+              "system": "5.5.1"
+            }
+          }
+        }
+      },
+      "_id": "Ecfyw31lRFrzcDHs",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "NX3qHeMsqsVjwJ0v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1693173834350,
+        "modifiedTime": 1693173834350,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!NOr7bLowlaicfLaO.Ecfyw31lRFrzcDHs"
+    },
+    {
+      "name": "Diplomacy",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 12
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.863,
+          "lastMigration": {
+            "version": {
+              "schema": 0.858,
+              "foundry": "11.308",
+              "system": "5.5.1"
+            }
+          }
+        }
+      },
+      "_id": "EuA8ouiZrJJaOdWo",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "NX3qHeMsqsVjwJ0v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1693173834410,
+        "modifiedTime": 1693173834410,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!NOr7bLowlaicfLaO.EuA8ouiZrJJaOdWo"
+    },
+    {
+      "name": "Intimidation",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 12
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.863,
+          "lastMigration": {
+            "version": {
+              "schema": 0.858,
+              "foundry": "11.308",
+              "system": "5.5.1"
+            }
+          }
+        }
+      },
+      "_id": "LyqZXkyCwaCBaP0D",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "NX3qHeMsqsVjwJ0v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1693173834451,
+        "modifiedTime": 1693173834451,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!NOr7bLowlaicfLaO.LyqZXkyCwaCBaP0D"
+    },
+    {
+      "name": "Society",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 10
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.863,
+          "lastMigration": {
+            "version": {
+              "schema": 0.858,
+              "foundry": "11.308",
+              "system": "5.5.1"
+            }
+          }
+        }
+      },
+      "_id": "XvlTAeCXa9w8LXH4",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "NX3qHeMsqsVjwJ0v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1693173834493,
+        "modifiedTime": 1693173834493,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!NOr7bLowlaicfLaO.XvlTAeCXa9w8LXH4"
+    },
+    {
+      "name": "Survival",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 10
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.863,
+          "lastMigration": {
+            "version": {
+              "schema": 0.858,
+              "foundry": "11.308",
+              "system": "5.5.1"
+            }
+          }
+        }
+      },
+      "_id": "cYfgDnRBqnSAIhNV",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "NX3qHeMsqsVjwJ0v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1693173834537,
+        "modifiedTime": 1693173834537,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!NOr7bLowlaicfLaO.cYfgDnRBqnSAIhNV"
+    }
+  ],
+  "folder": "ojrwaNrOSQDGyAAp",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.5.1",
+    "coreVersion": "12.330",
+    "createdTime": 1693173688690,
+    "modifiedTime": 1694987865470,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "NOr7bLowlaicfLaO",
+  "sort": 400000,
+  "_key": "!actors!NOr7bLowlaicfLaO"
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Oropin Weapon Marauder",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Prerequisite</strong>&nbsp;Oropin Weapon Familiarity</p>\n<p>You have learned the subtleties that can come even from the biggest of weapons. Whenever you critically hit with a Greatsword, Greataxe, Longbow, Shortbow, Spear, or Oropin Weapon, you apply the weapon's critical specialization effect.</p>"
+    },
+    "rules": [
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "or": [
+              "weapon:base:greatsword",
+              "weapon:base:greataxe",
+              "weapon:base:longbow",
+              "weapon:base:shortbow",
+              "weapon:base:spear",
+              "weapon:trait:hb_oropin"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_oropin"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-31T18:41:39.500-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667256099504,
+    "modifiedTime": 1697592879249,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "KKxRjt6VZOfXDlWQ",
+  "folder": null,
+  "sort": 2300000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!KKxRjt6VZOfXDlWQ"
+}

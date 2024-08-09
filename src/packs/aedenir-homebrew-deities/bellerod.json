@@ -1,0 +1,93 @@
+{
+  "folder": "HOP9W4ceWz8xkpvd",
+  "name": "Bellerod",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div class=\"aed-journal\">\n<div class=\"names\">The Meandering Tune</div>\n<div class=\"note\"> </div>\n<div class=\"body\">Bellerod is a deity who advocates for the indulgence in the pleasures of life - drinking, merriment, and the arts, all the while supporting the notion of expanding horizons through travel and experiences. This makes Bellerod a great patron god for wandering minstrels and bards. While Bellerod's tenets champion travel, he does make exceptions for those who provide succor to travelers in his name. As such, it is not common for roadside inns to show devotion to The Meandering Tune, especially since a weary bard can provide some much needed entertainment in these establishments.</div>\n<div class=\"additional\">\n<div class=\"note\">\n<h3>Edicts</h3>\n<ul>\n<li>Travel the roads spreading the heroes' tales</li>\n<li>Drink 'till there's nothing left</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Anathema</h3>\n<ul>\n<li>Settling down for too long</li>\n<li>Living a life devoid of art</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Areas of Concern</h3>\n<ul>\n<li>Art</li>\n<li>Music</li>\n<li>Food</li>\n<li>Alcohol</li>\n</ul>\n</div>\n</div>\n<br /><a href=\"https://kanka.io/en-US/campaign/122755/characters/958089\">LINK</a></div>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "creation",
+        "indulgence",
+        "travel",
+        "repose"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [],
+    "skill": "prf",
+    "weapons": [
+      "battle-lute"
+    ],
+    "spells": {},
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "alignment": {
+      "own": "CG",
+      "follower": [
+        "N",
+        "LG",
+        "NG",
+        "CG",
+        "CN"
+      ]
+    },
+    "ability": [
+      "dex",
+      "cha"
+    ]
+  },
+  "_id": "hjTBgNVjjDno8OVo",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.330",
+    "createdTime": 1687892196949,
+    "modifiedTime": 1692416109192,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hjTBgNVjjDno8OVo"
+}

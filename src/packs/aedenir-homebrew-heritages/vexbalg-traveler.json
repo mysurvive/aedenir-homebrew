@@ -1,0 +1,80 @@
+{
+  "name": "Vexbalg Traveler",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You're an urban nomad, wandering from city to city. You become trained in the Society Skill (or another skill if you were already trained in Society) and gain the Streetwise skill feat. You have experience fitting into the local culture and blending with the common folk, so you're easily able to get a feel for the pulse of the local settlement. You may use the streetwise skill in any settlement in which you have spent at least a day.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.soc.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e.feats-srd.X2jGFfLU5qI5XVot"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": {
+      "name": "Vexbalg",
+      "slug": "vexbalg",
+      "uuid": "Compendium.aedenir-homebrew.aed-ancestries.Item.eX4um0tcofPPfgqY"
+    },
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-29T10:13:15.839-04:00",
+        "version": {
+          "schema": 0.796,
+          "foundry": "10.288",
+          "system": "4.3.1"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667021928523,
+    "modifiedTime": 1697592238519,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "wh6PUodr75zHY4Xz",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!wh6PUodr75zHY4Xz"
+}

@@ -1,0 +1,122 @@
+{
+  "name": "Draconic Reflexes",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your instincts help you take advantage of a foe's opening. You gain the @UUID[Compendium.pf2e.actionspf2e.KAVf7AmRnbCAHrkT]{Attack of Opportunity} reaction, except you can only make fist Strikes or Strikes with unarmed attacks you gained from an ancestry feat when using the reaction. If you already had the Attack of Opportunity reaction, you gain a +4 circumstance bonus to damage when you make an unarmed attack Strike as part of the reaction.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e.actionspf2e.KAVf7AmRnbCAHrkT",
+        "predicate": [
+          {
+            "not": "feat:attack-of-opportunity"
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "draconic-armaments-claw-damage",
+          "draconic-armaments-jaws-damage",
+          "draconic-armaments-tail-damage"
+        ],
+        "value": 4,
+        "type": "circumstance",
+        "predicate": [
+          {
+            "and": [
+              "feat:attack-of-opportunity",
+              "draconic-reflexes:attack-of-opportunity"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "draconic-reflexes:attack-of-opportunity",
+        "toggleable": true
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_drakkgebor"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-31T09:34:54.581-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667223294584,
+    "modifiedTime": 1697581511589,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "V0b8nbGXSqwyyUGI",
+  "folder": null,
+  "sort": 4500000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!V0b8nbGXSqwyyUGI"
+}

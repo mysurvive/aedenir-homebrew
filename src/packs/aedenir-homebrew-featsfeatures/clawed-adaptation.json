@@ -1,0 +1,154 @@
+{
+  "name": "Clawed Adaptation",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When you shift shape you can add claws, fangs, spines, horns, or a different natural weapon of your choice to your form. Your unarmed strikes deal 1d4 piercing or slashing damage, as appropriate to the natural weapon you chose. These attacks are in the brawling weapon group and gain the agile, finesse, and unarmed traits.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "clawed-adaptation-slashing",
+        "toggleable": true,
+        "label": "Slashing Adaptation"
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "clawed-adaptation-piercing",
+        "toggleable": true,
+        "label": "Piercing Adaptation"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/claw.webp",
+        "key": "Strike",
+        "label": "Slashing Adaptation",
+        "predicate": [
+          {
+            "and": [
+              "clawed-adaptation-slashing",
+              "shift-shape"
+            ]
+          }
+        ],
+        "traits": [
+          "agile",
+          "finesse",
+          "unarmed"
+        ]
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/horn.webp",
+        "key": "Strike",
+        "label": "Piercing Adaptation",
+        "predicate": [
+          {
+            "and": [
+              "clawed-adaptation-piercing",
+              "shift-shape"
+            ]
+          }
+        ],
+        "traits": [
+          "agile",
+          "finesse",
+          "unarmed"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-29T10:25:23.157-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.1"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "coreVersion": "12.330",
+    "createdTime": 1667053523160,
+    "modifiedTime": 1722202892244,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "LUFIt6l7QA8p1r4P",
+  "folder": null,
+  "sort": 2500000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!LUFIt6l7QA8p1r4P"
+}

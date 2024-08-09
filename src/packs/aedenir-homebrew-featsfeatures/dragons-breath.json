@@ -1,0 +1,105 @@
+{
+  "name": "Dragon's Breath",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can unleash a powerful blast of energy as a draconic breath weapon. Choose either a @Template[type:line|distance:30] or a @Template[type:cone|distance:15]. Your breath weapon manifests in the chosen shape and once chosen, you can't change the breath's shape. Your breath weapon deals @Damage[ceil(@actor.level/2)d4[@actor.flags.pf2e.drakkgebor.draconicProgenitor.damageType]]{1d4 leveled damage} based on the damage type of your @UUID[Compendium.aedenir-homebrew.aed-featsfeatures.Item.BuCMLaYYCfM0L600]. Each creature in the area must attempt a basic saving throw against the higher of your class DC or spell DC. You can’t use this ability again for [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d4. The damage of your breath attack is determined by your @UUID[Compendium.aedenir-homebrew.aed-featsfeatures.Item.BuCMLaYYCfM0L600]{Draconic Progenitor}. If your draconic progenitor has a breath weapon, your breath weapon deals the same type of damage as your progenitor's. If your draconic progenitor doesn't have a breath weapon, but does have a trait related to an energy type (acid, cold, electricity, fire, or sonic), your breath weapon's damage is that type. If your draconic progenitor doesn't have a breath weapon or associated energy type, your breath is a blast of powerful air that buffets foes and deals bludgeoning damage. Your breath weapon requires a @Check[type:reflex|basic:true|dc:resolve(@actor.attributes.classOrSpellDC.value)]{basic Reflex saving throw}, unless it deals poison damage. In that case, it requires a @Check[type:fortitude|basic:true|dc:resolve(@actor.attributes.classOrSpellDC.value)]{basic Fortitude saving throw} instead.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": true,
+        "choices": [
+          {
+            "label": "30 ft. Line",
+            "value": "line"
+          },
+          {
+            "label": "15 ft. Cone",
+            "value": "cone"
+          }
+        ],
+        "prompt": "Choose a line or cone for your breath weapon.",
+        "key": "ChoiceSet"
+      }
+    ],
+    "slug": "dragons-breath",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "arcane",
+        "hb_drakkgebor",
+        "evocation"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-30T21:35:40.310-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestryfeature"
+    },
+    "actionCategory": {
+      "value": "offensive"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667180140314,
+    "modifiedTime": 1697591324916,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "TFh5oeKdMA6MhXVd",
+  "folder": null,
+  "sort": 3900000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!TFh5oeKdMA6MhXVd"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Drakkgebor",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Drakkgebor trace their lineage back to mighty dragons. This draconic connection allows a Drakkgebor to tap into the great power and potential of dragons, for good or for ill.</p>\n<p>Drakkgebor, more so than individuals that draw upon a draconic influence such as barbarians and sorcerers, are the scions of dragons. They are direct descendants of dragons, some only a few generations removed, and this connection allows a Drakkgebor to draw on some of the might of their dragon forebearers.</p>\n<p>A Drakkgebor can come about it in a number of ways. The most common way is for a dragon to have a child with a living creature. Many dragons are capable of transformation and changing their shape and it’s during these transformations that meetings with other ancestries can lead to the birth of a Drakkgebor. While such pairings shouldn’t produce offspring of any kind, many scholars believe that the innately magical nature of dragons allows for a partial compatibility and thus, Drakkgebor.</p>\n<p>If a Drakkgebor has a child with another member of their same ancestry, it can result in another Drakkgebor. Though Drakkgebor offspring are never entirely a surprise in such pairings, a Drakkgebor child seems to result less often than a typical child of the ancestry. In cases where two Drakkgebor join to have a child, a Drakkgebor is all but guaranteed, with the only uncertain factor being which dragon will be the one to influence the child.</p>\n<p>Finally, in extremely exceptional cases, a deity could grant a specific individual the form of a Drakkgebor. This is usually the case for champions and clerics of draconic deities, but any servant of a deity might receive this gift. Legends speak of ancient heroes who received the touch of the dragon as a gift to aid in fights against evil.</p>\n<p>If you want a character that has direct ties to dragons and can manifest the powerful abilities of a dragon, you should play a Drakkgebor.</p>\n<h3>YOU MIGHT...</h3>\n<ul>\n<li>Have a hard time relating to those outside of your commune and therefore keep a tight group of friends.</li>\n<li>Have an innate desire to add to your collection, whether that be buttons, knowledge, gold, or some other thing that strikes you as interesting.</li>\n<li>Take a particularly strong pride in something about you, whether that be your strength, appearance, or craftsmanship, particularly if it is unique.</li>\n<li>Be quick to anger when someone makes an apparent slight against the things you take pride in.</li>\n</ul>\n<h3>OTHERS PROBABLY...</h3>\n<ul>\n<li>Fear you, believing you might have a connection to an extreme blessing or curse.</li>\n<li>Expect you to have knowledge far beyond what you have.</li>\n<li>Believe you have direct ties to dragons and could cause them to attack at your behest.</li>\n</ul>\n<h3>PHYSICAL DESCRIPTION...</h3>\n<p>Drakkgebor resemble their base ancestry, growing to the typical heights common among the ancestry. Most Drakkgebor are naturally muscular, leading to many brawny builds among Drakkgebor. Regardless of a Drakkgebor's base ancestry, they always sport some kind of draconic features such as claws, fangs, patches of scales, horns, a tail, or peculiar eye shapes and colors. A Drakkgebor can take efforts to hide such features, but some dragonkin have such a large number of draconic features that hiding them is difficult. In some cases, a Drakkgebor has a full, draconic appearance, appearing like bipedal reptiles with an array of other draconic features. Such Drakkgebor resemble <a class=\"entity-mention\" title href=\"https://kanka.io/en-US/campaign/122755/races/276814\" data-entity-tags data-toggle=\"tooltip-ajax\" data-id=\"2963700\" data-url=\"https://kanka.io/en-US/campaign/122755/entities/2963700/tooltip\" data-original-title>Skeerandar</a> to outsiders, leading to some confusion upon first impressions.</p>\n<p>A Drakkgebor's features draw upon their dragon progenitor. Not all dragons have horns and the like and Drakkgebor tied to such dragons likewise lack such features. Drakkgebor scales match the coloration, shape, and pattern of a dragon progenitor, and other Drakkgebor features continue the trend of matching the progenitor’s features. People versed in the physical features of dragons can use this knowledge to determine a Drakkgebor's draconic progenitor.</p>\n<h3>SOCIETY...</h3>\n<p>Drakkgebor communities are generally extremely small and out of the way while being close enough to larger population centers to facilitate an innate attraction towards the marvels of city life. Most Drakkgebor cannot explain why they feel the need to be near people, but simultanneously feel compelled to remain hidden, but some speculate that this is an innate disposition passed down from the progenitor of the bloodline theirself.</p>\n<p>Being a uniquity of an extremely powerful race, Drakkgebor are often viewed as a powerful curse or blessing to some while others might see them as valuable test subjects, with them being safer to handle than their much larger ancestors.</p>\n<h3>ALIGNMENT AND RELIGION...</h3>\n<p>Drakkgebor are not bound by the alignment of their progenitors, though draconic magic in their blood often nudges them toward the alignment of their ancestor. This is often a fleeting feeling or sensation and is easily overcome. For example, a Drakkgebor from a bloodline of a thief dragon may see a pile of gold and have the fleeting though of taking it all for herself, but shrug off the intrusive thought and carry on with her day. The progeny of a protective dragon may feel the compulsion to help others, risking a noble death, but this does not necessarily sway them to make suicidal decisions and their instincts will likely permit them to save their own scales. The actual alignment of a Drakkgebor often is a result of the collective thoughts, beliefs, and aspirations of the rest of the community. The way the Drakkgebor was brought up often has more influence over their actions than their ancestry.</p>\n<p>Drakkgebor do not often have a set religion, but may revere their progenitors or worship a deity that is either in line with their ancestry or rounds out where they feel they are most lacking.</p>\n<p><br /><br /></p>\n<p>The blood of mighty dragons flows through veins, granting you a small portion of their ferocity and power. Your draconic lineage stems from a specific type of dragon. Choose a type of dragon ranging from chromatic dragons, metallic dragons, drakes, or any other creature with the dragon type. This type of dragon is your @UUID[Compendium.aedenir-homebrew.aed-featsfeatures.Item.BuCMLaYYCfM0L600]{Draconic Progenitor}. You gain the dragon and Drakkgebor traits, in addition to the traits from your ancestry. You gain the @UUID[Compendium.aedenir-homebrew.aed-featsfeatures.Item.TFh5oeKdMA6MhXVd]{Dragon's Breath} ability. You can choose from Drakkgebor feats and feats from your ancestry whenever you gain an ancestry feat. Additionally, you gain access to the @UUID[Compendium.pf2e.feats-srd.oo34CloLefFRi72w]{Dragon Disciple Dedication} feat. Your GM might determine that you gain access to other draconic archetypes, feats, spells, or options as well.</p>"
+    },
+    "rules": [
+      {
+        "add": [
+          "dragon",
+          "hb_drakkgebor"
+        ],
+        "key": "ActorTraits"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.aedenir-homebrew.aed-featsfeatures.Item.BuCMLaYYCfM0L600",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_dragon",
+        "hb_drakkgebor"
+      ],
+      "rarity": "rare",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-30T21:31:32.360-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667179892363,
+    "modifiedTime": 1697586038042,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "X9LMozGps4GXTPvu",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!X9LMozGps4GXTPvu"
+}

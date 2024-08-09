@@ -1,0 +1,1381 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "name": "Orc Warchief",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Tokens/Bestiary/token-bastaal_chieftan.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "img": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Tokens/Bestiary/token-bastaal_chieftan.webp",
+  "items": [
+    {
+      "_id": "8hjy6XItNn9dEEmW",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.Item.kdGqnqbrwPzQfTsm"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/weapons/greatclub.webp",
+      "name": "Greatclub",
+      "sort": 100000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>While many greatclubs are intricately carved, others are little more than a sturdy tree branch. These massive clubs are too heavy to wield with only one hand.</p>"
+        },
+        "rules": [],
+        "slug": "greatclub",
+        "_migration": {
+          "version": 0.894,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "backswing",
+            "shove"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "greatclub",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "held",
+          "invested": null,
+          "handsHeld": 2
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "category": "martial",
+        "group": "club",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d10",
+          "damageType": "bludgeoning",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "reload": {
+          "value": ""
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": {
+          "value": false
+        },
+        "subitems": [],
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "weight": {
+          "value": "2"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "potencyRune": {
+          "value": 0
+        },
+        "strikingRune": {
+          "value": ""
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        }
+      },
+      "type": "weapon",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "12.330",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.kdGqnqbrwPzQfTsm",
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!QFDkLTdW1z6u2Oit.8hjy6XItNn9dEEmW"
+    },
+    {
+      "_id": "fb7mcSRE1gwzryEh",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.Item.JNt7GmLCCVz5BiEI"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/weapons/javelin.webp",
+      "name": "Javelin",
+      "sort": 200000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This thin spear is well balanced for throwing but is not designed for melee use.</p>"
+        },
+        "rules": [],
+        "slug": "javelin",
+        "_migration": {
+          "version": 0.894,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "thrown"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 6,
+        "baseItem": "javelin",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "held",
+          "invested": null,
+          "handsHeld": 1
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "simple",
+        "group": "dart",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": 30,
+        "reload": {
+          "value": "-"
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": {
+          "value": false
+        },
+        "subitems": [],
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "potencyRune": {
+          "value": 0
+        },
+        "strikingRune": {
+          "value": ""
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        }
+      },
+      "type": "weapon",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "12.330",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.JNt7GmLCCVz5BiEI",
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!QFDkLTdW1z6u2Oit.fb7mcSRE1gwzryEh"
+    },
+    {
+      "_id": "bGBQPzP9BsMMxgmc",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.Item.AnwzlOs0njF9Jqnr"
+        }
+      },
+      "img": "icons/equipment/chest/vest-leather-tattered-white.webp",
+      "name": "Hide Armor",
+      "sort": 300000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A mix of furs, sturdy hide, and sometimes molded boiled leather, this armor provides protection due to its layers of leather, though its bulkiness slows the wearer down and decreases mobility.</p>"
+        },
+        "rules": [],
+        "slug": "hide-armor",
+        "_migration": {
+          "version": 0.894,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "hide-armor",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "inSlot": true
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "medium",
+        "group": "leather",
+        "acBonus": 3,
+        "strength": 2,
+        "dexCap": 2,
+        "checkPenalty": -2,
+        "speedPenalty": -5,
+        "runes": {
+          "potency": 0,
+          "resilient": 0,
+          "property": []
+        },
+        "subitems": [],
+        "weight": {
+          "value": "3"
+        },
+        "equippedBulk": {
+          "value": "2"
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "usage": {
+          "value": "wornarmor"
+        },
+        "potencyRune": {
+          "value": 0
+        },
+        "resiliencyRune": {
+          "value": ""
+        },
+        "propertyRune1": {
+          "value": ""
+        },
+        "propertyRune2": {
+          "value": ""
+        },
+        "propertyRune3": {
+          "value": ""
+        },
+        "propertyRune4": {
+          "value": ""
+        },
+        "potency": {}
+      },
+      "type": "armor",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "12.330",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.AnwzlOs0njF9Jqnr",
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!QFDkLTdW1z6u2Oit.bGBQPzP9BsMMxgmc"
+    },
+    {
+      "_id": "fI8bsqTQlNTlSpdF",
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "8hjy6XItNn9dEEmW"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Greatclub",
+      "sort": 400000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.894,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "backswing",
+            "shove"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "k5jdpbucaaka3vp0dlqr": {
+            "damage": "1d10+6",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 12,
+          "total": 12
+        },
+        "attackEffects": {
+          "value": [],
+          "custom": ""
+        }
+      },
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.9.3",
+        "coreVersion": "12.330",
+        "createdTime": null,
+        "modifiedTime": 1700422847906,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!QFDkLTdW1z6u2Oit.fI8bsqTQlNTlSpdF"
+    },
+    {
+      "_id": "dvuK2slsg05eHdpZ",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Fist",
+      "sort": 500000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.894,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "nonlethal"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "x4ffu1qy92957vtb97fc": {
+            "damage": "1d6+6",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 12,
+          "total": 12
+        },
+        "attackEffects": {
+          "value": [],
+          "custom": ""
+        }
+      },
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.9.3",
+        "coreVersion": "12.330",
+        "createdTime": null,
+        "modifiedTime": 1700422847906,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!QFDkLTdW1z6u2Oit.dvuK2slsg05eHdpZ"
+    },
+    {
+      "_id": "v9Xt73Wj9wclc3ef",
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "fb7mcSRE1gwzryEh"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Javelin",
+      "sort": 600000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.894,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "thrown-30"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "weaponType": {
+          "value": "ranged"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "05ck5hs4urc51h9r4j4q": {
+            "damage": "1d8+6",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 10,
+          "total": 10
+        },
+        "attackEffects": {
+          "value": [],
+          "custom": ""
+        }
+      },
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.9.3",
+        "coreVersion": "12.330",
+        "createdTime": null,
+        "modifiedTime": 1700422847906,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!QFDkLTdW1z6u2Oit.v9Xt73Wj9wclc3ef"
+    },
+    {
+      "_id": "EC797WDulwqw96ch",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "sort": 700000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+        },
+        "rules": [],
+        "slug": "darkvision",
+        "_migration": {
+          "version": 0.894,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Bestiary",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "12.330",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6",
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!QFDkLTdW1z6u2Oit.EC797WDulwqw96ch"
+    },
+    {
+      "_id": "00veaqCowh9RkTrj",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Attack of Opportunity",
+      "sort": 800000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+        },
+        "rules": [],
+        "slug": "attack-of-opportunity",
+        "_migration": {
+          "version": 0.894,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Bestiary",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "12.330",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O",
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!QFDkLTdW1z6u2Oit.00veaqCowh9RkTrj"
+    },
+    {
+      "_id": "xDUpwWQaZevQOkYQ",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.N1kstYbHScxgUQtN"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Ferocity",
+      "sort": 900000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Ferocity]</p>"
+        },
+        "rules": [],
+        "slug": "ferocity",
+        "_migration": {
+          "version": 0.894,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Bestiary",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": true,
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "12.330",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.N1kstYbHScxgUQtN",
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!QFDkLTdW1z6u2Oit.xDUpwWQaZevQOkYQ"
+    },
+    {
+      "_id": "yeHohyJSYfiTwghO",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Battle Cry",
+      "sort": 1000000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Bellowing mightily, the warchief gives themself and all Bastaal allies within @Template[type:emanation|distance:60]{60 feet} a +1 status bonus to attack and damage rolls until the start of the orc warchief's next turn.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Yqq4AkZ9lrm4CcID]{Effect: Battle Cry}</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.894,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "auditory",
+            "concentrate",
+            "emotion",
+            "mental"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false,
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.9.3",
+        "coreVersion": "12.330",
+        "createdTime": null,
+        "modifiedTime": 1700422912677,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!QFDkLTdW1z6u2Oit.yeHohyJSYfiTwghO"
+    },
+    {
+      "_id": "iwKkHwOzGwT2nsL7",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Athletics",
+      "sort": 1100000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.894,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 10
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.9.3",
+        "coreVersion": "12.330",
+        "createdTime": null,
+        "modifiedTime": 1700422847906,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!QFDkLTdW1z6u2Oit.iwKkHwOzGwT2nsL7"
+    },
+    {
+      "_id": "4wA8DVx91XtmgOXo",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Intimidation",
+      "sort": 1200000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.894,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 8
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.9.3",
+        "coreVersion": "12.330",
+        "createdTime": null,
+        "modifiedTime": 1700422847906,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!QFDkLTdW1z6u2Oit.4wA8DVx91XtmgOXo"
+    },
+    {
+      "_id": "STsQ8sVSbJNufn6M",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Survival",
+      "sort": 1300000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.894,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 7
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.9.3",
+        "coreVersion": "12.330",
+        "createdTime": null,
+        "modifiedTime": 1700422847906,
+        "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!QFDkLTdW1z6u2Oit.STsQ8sVSbJNufn6M"
+    }
+  ],
+  "name": "Bastaal Warband Leader",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 48,
+        "temp": 0,
+        "max": 48,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "initiative": {
+        "statistic": "perception"
+      },
+      "perception": {
+        "value": 12
+      },
+      "resistances": [],
+      "vulnerabilities": []
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 3
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder Bestiary",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.894,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 4,
+        "value": 18,
+        "min": 3
+      },
+      "dex": {
+        "mod": 2,
+        "value": 14,
+        "min": 3
+      },
+      "con": {
+        "mod": 1,
+        "value": 12,
+        "min": 3
+      },
+      "int": {
+        "mod": -1,
+        "value": 8,
+        "min": 3
+      },
+      "wis": {
+        "mod": 1,
+        "value": 12,
+        "min": 3
+      },
+      "cha": {
+        "mod": 2,
+        "value": 14,
+        "min": 3
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 7,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 8,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [
+        "chaotic",
+        "evil",
+        "humanoid",
+        "orc"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "senses": {
+        "value": "darkvision"
+      },
+      "languages": {
+        "value": [
+          "common",
+          "orcish"
+        ],
+        "custom": "",
+        "selected": []
+      }
+    }
+  },
+  "type": "npc",
+  "flags": {
+    "core": {}
+  },
+  "effects": [],
+  "folder": "ojrwaNrOSQDGyAAp",
+  "ownership": {
+    "default": 0,
+    "NX3qHeMsqsVjwJ0v": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.3",
+    "coreVersion": "12.330",
+    "createdTime": 1700422454162,
+    "modifiedTime": 1700423050672,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "QFDkLTdW1z6u2Oit",
+  "sort": 0,
+  "_key": "!actors!QFDkLTdW1z6u2Oit"
+}

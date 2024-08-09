@@ -1,0 +1,93 @@
+{
+  "folder": "8LEB7SGJJ9ODIidk",
+  "name": "Fargah",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div class=\"aed-journal\">\n<div class=\"names\">The Tempest</div>\n<div class=\"note\"> </div>\n<div class=\"body\">Fargah is a fickle god, changing his temperament as quickly as the weather at sea. It is frequently written that in one moment he may help navigating a ship through shallow waters, and in the next moment due to an unrealized slight against the god, he on a whim will capsize their ship without a second though. His tenets dictate that his followers must live a seafaring life, even in the seas roil and the tides rise and thalassic monsters crawl up the gunwales. It is believed by many that each encounter with Fargah or one of his children is a brush with fate - a lesson to learn, a guiding path for one keen enough to pick up on the meaning which is often esoteric. He is known as the father of a variety of creatures originating from the sea - sirens, giant squids, grimtides, saltwurms, akhlut, and many others.</div>\n<div class=\"additional\">\n<div class=\"note\">\n<h3>Edicts</h3>\n<ul>\n<li>Travel the seas</li>\n<li>Crash around your enemies like a tempest</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Anathema</h3>\n<ul>\n<li>Live a life devoid of seafaring</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Areas of Concern</h3>\n<ul>\n<li>Storms (particularly at sea)</li>\n<li>Oceans/Seas</li>\n<li>Fate</li>\n</ul>\n</div>\n</div>\n<br /><a href=\"https://kanka.io/en-US/campaign/122755/characters/957202\">LINK</a></div>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "water",
+        "lightning",
+        "destruction",
+        "fate"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [],
+    "skill": "sur",
+    "weapons": [
+      "maul"
+    ],
+    "spells": {},
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "alignment": {
+      "own": "CN",
+      "follower": [
+        "N",
+        "CG",
+        "CN",
+        "CE"
+      ]
+    },
+    "ability": [
+      "con",
+      "str"
+    ]
+  },
+  "_id": "b662bK3WwFf93wta",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.330",
+    "createdTime": 1687893740046,
+    "modifiedTime": 1692414383850,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!b662bK3WwFf93wta"
+}

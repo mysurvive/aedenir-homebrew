@@ -1,0 +1,95 @@
+{
+  "folder": "8LEB7SGJJ9ODIidk",
+  "name": "Ekkla",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div class=\"aed-journal\">\n<div class=\"names\">The Primal Rage</div>\n<div class=\"note\"> </div>\n<div class=\"body\">In contrast to <a class=\"entity-mention\" title href=\"https://kanka.io/en-US/campaign/122755/characters/946636\" data-entity-tags data-toggle=\"tooltip-ajax\" data-id=\"3635954\" data-url=\"https://kanka.io/en-US/campaign/122755/entities/3635954/tooltip\" data-original-title>Shealdaire</a>, Ekkla is the god of the unbridled rage of nature. Ekkla abhors city living and the encroachment of civilization into nature. According to his tenets, Ekkla calls for his followers to protect nature with the furor of the great beasts of the wilds. With the advent of the comforts of modern living, worship of Ekkla has dwindled over the centuries, but his followers are no less fierce in their devotion. </div>\n<div class=\"additional\">\n<div class=\"note\">\n<h3>Edicts</h3>\n<ul>\n<li>Do not weep for the beasts and forests, avenge them</li>\n<li>Tear the limbs from those that would encroach on the wilds, use them to create the forest anew</li>\n<li>Let your anger lash out like a panther</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Anathema</h3>\n<ul>\n<li>Allowing the wilds to become defiled</li>\n<li>City living</li>\n<li>Destruction of the wilds</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Areas of Concern</h3>\n<ul>\n<li>The wilds</li>\n<li>Fauna</li>\n<li>Flora</li>\n<li>Rage</li>\n</ul>\n</div>\n</div>\n<br /><a href=\"https://kanka.io/en-US/campaign/122755/characters/957006\">LINK</a></div>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "nature",
+        "might",
+        "ambition",
+        "zeal"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [],
+    "skill": "nat",
+    "weapons": [
+      "greatclub"
+    ],
+    "spells": {},
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "alignment": {
+      "own": "CN",
+      "follower": [
+        "N",
+        "CE",
+        "CG",
+        "CN",
+        "NE",
+        "NG"
+      ]
+    },
+    "ability": [
+      "con",
+      "str"
+    ]
+  },
+  "_id": "SQgW5benr762TV9h",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.330",
+    "createdTime": 1687893368623,
+    "modifiedTime": 1692414301209,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!SQgW5benr762TV9h"
+}

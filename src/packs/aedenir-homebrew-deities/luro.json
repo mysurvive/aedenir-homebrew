@@ -1,0 +1,94 @@
+{
+  "folder": "YXsq9MesxXyL7Fhi",
+  "name": "Luro",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div class=\"aed-journal\">\n<div class=\"names\">The Pale Moon</div>\n<div class=\"note\"> </div>\n<div class=\"body\">Luro is the goddess associated with the smaller, further, pale moon of the two moons that grace Aedenir. In her purview is the bond of protection between lovers, the restorative powers of sleep, and seeking passion in the form of love. Luro, as such, is considered the benevolent sibling of the siblings (the name for the two moons of Aedenir). Denying the bond of love (assuming both parties are consenting) is antithetical to Luro. Anything that would interrupt rest and sleep are considered Anathema to her as well. Forced marches and over-exertion of work are taboo amongst her followers.</div>\n<div class=\"additional\">\n<div class=\"note\">\n<h3>Edicts</h3>\n<ul>\n<li>Rest when you are weary</li>\n<li>Seek out passion in the form of love</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Anathema</h3>\n<ul>\n<li>Denying love</li>\n<li>Forcing others to carry on without reprieve</li>\n<li>Cruelty</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Areas of Concern</h3>\n<ul>\n<li>The protective bond of love</li>\n<li>The restorative powers of sleep</li>\n</ul>\n</div>\n</div>\n<br /><a href=\"https://kanka.io/en-US/campaign/122755/characters/958624\">LINK</a></div>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "moon",
+        "repose",
+        "passion",
+        "protection"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [],
+    "skill": "dip",
+    "weapons": [
+      "staff"
+    ],
+    "spells": {},
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "alignment": {
+      "own": "NG",
+      "follower": [
+        "N",
+        "CG",
+        "CN",
+        "LG",
+        "LN",
+        "NG"
+      ]
+    },
+    "ability": [
+      "wis",
+      "cha"
+    ]
+  },
+  "_id": "VzZOF8PUhj5P10LX",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.330",
+    "createdTime": 1687893934659,
+    "modifiedTime": 1692414138465,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!VzZOF8PUhj5P10LX"
+}

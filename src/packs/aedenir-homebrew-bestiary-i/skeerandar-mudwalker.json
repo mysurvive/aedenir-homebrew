@@ -1,0 +1,849 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Skeerandar Mudwalker",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Tokens/Bestiary/token-Skeerandar_Mudwalker.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null
+    },
+    "detectionModes": [],
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "name": "Skeerandar Mudwalker",
+  "type": "npc",
+  "ownership": {
+    "default": 0,
+    "fQ2bdOYk7CfBvPdF": 3
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 7,
+        "temp": 0,
+        "max": 7,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 14,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "initiative": {
+        "statistic": "perception"
+      },
+      "perception": {
+        "value": 5
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": -1
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "N"
+      },
+      "source": {
+        "value": "",
+        "author": ""
+      },
+      "creatureType": ""
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": -1
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 2,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 5,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [
+        "humanoid",
+        "lizardfolk"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "senses": {
+        "value": ""
+      },
+      "languages": {
+        "value": [
+          "common",
+          "hb_skree"
+        ],
+        "custom": ""
+      }
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": null
+    }
+  },
+  "img": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Tokens/Bestiary/token-Skeerandar_Mudwalker.webp",
+  "items": [
+    {
+      "name": "Claws",
+      "type": "melee",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse"
+          ]
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d4+3",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 8
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "h3yYkaYQo5yGksr9",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "fQ2bdOYk7CfBvPdF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1692461154058,
+        "modifiedTime": 1692461833093,
+        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!MmxW27lhVhsrhhHn.h3yYkaYQo5yGksr9"
+    },
+    {
+      "name": "Spellcasting",
+      "type": "spellcastingEntry",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "spelldc": {
+          "value": null,
+          "dc": null
+        },
+        "tradition": {
+          "value": "arcane"
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": null,
+          "lastMigration": null
+        },
+        "showUnpreparedSpells": {
+          "value": true
+        },
+        "displayLevels": {}
+      },
+      "_id": "GJYkTv8jQZgcZ3k9",
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "fQ2bdOYk7CfBvPdF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1692461154100,
+        "modifiedTime": 1692461154100,
+        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!MmxW27lhVhsrhhHn.GJYkTv8jQZgcZ3k9"
+    },
+    {
+      "name": "Spellcasting",
+      "type": "spellcastingEntry",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "spelldc": {
+          "value": null,
+          "dc": null
+        },
+        "tradition": {
+          "value": "arcane"
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": null,
+          "lastMigration": null
+        },
+        "showUnpreparedSpells": {
+          "value": true
+        },
+        "displayLevels": {}
+      },
+      "_id": "LOB1FN8wVIkvnXSg",
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "fQ2bdOYk7CfBvPdF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1692461415308,
+        "modifiedTime": 1692461415308,
+        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!MmxW27lhVhsrhhHn.LOB1FN8wVIkvnXSg"
+    },
+    {
+      "name": "Acrobatics",
+      "type": "lore",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 5
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.854,
+          "lastMigration": null
+        }
+      },
+      "_id": "JwEdZTRBeMxvFgKn",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "fQ2bdOYk7CfBvPdF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1692461482033,
+        "modifiedTime": 1692461602024,
+        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!MmxW27lhVhsrhhHn.JwEdZTRBeMxvFgKn"
+    },
+    {
+      "name": "Stealth",
+      "type": "lore",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 3
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.854,
+          "lastMigration": null
+        },
+        "variants": {
+          "0": {
+            "label": "+6 in mud",
+            "options": "in-mud"
+          }
+        }
+      },
+      "_id": "zdUlMzFaSkVytcMe",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "fQ2bdOYk7CfBvPdF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1692461497477,
+        "modifiedTime": 1692461698147,
+        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!MmxW27lhVhsrhhHn.zdUlMzFaSkVytcMe"
+    },
+    {
+      "name": "Intimidation",
+      "type": "lore",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 1
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.854,
+          "lastMigration": null
+        }
+      },
+      "_id": "hZLJ9w1QCDUPgyrc",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "fQ2bdOYk7CfBvPdF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1692461505058,
+        "modifiedTime": 1692461602024,
+        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!MmxW27lhVhsrhhHn.hZLJ9w1QCDUPgyrc"
+    },
+    {
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Spit Detritus",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.854,
+          "lastMigration": {
+            "version": {
+              "schema": null,
+              "foundry": "11.307",
+              "system": "5.3.2"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "range-15"
+          ]
+        },
+        "weaponType": {
+          "value": "ranged"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "NdwjYcztAW1IVh42": {
+            "damage": "1d4+2",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 6
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "effects": [],
+      "_id": "1tbPirkJfaX07nbn",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "fQ2bdOYk7CfBvPdF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1692461752033,
+        "modifiedTime": 1692461920301,
+        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!MmxW27lhVhsrhhHn.1tbPirkJfaX07nbn"
+    }
+  ],
+  "folder": "ojrwaNrOSQDGyAAp",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.5.1",
+    "coreVersion": "12.330",
+    "createdTime": 1692460457716,
+    "modifiedTime": 1694987800990,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "MmxW27lhVhsrhhHn",
+  "sort": 100000,
+  "_key": "!actors!MmxW27lhVhsrhhHn"
+}

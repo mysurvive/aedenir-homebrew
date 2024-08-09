@@ -1,0 +1,90 @@
+{
+  "folder": "8LEB7SGJJ9ODIidk",
+  "name": "Shealdaire",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div class=\"aed-journal\">\n<div class=\"names\">The Judge</div>\n<div class=\"note\"> </div>\n<div class=\"body\">Shealdaire is the patron goddess of cities and civilization. Her tenets dictate that civilization can only thrive through law and order, and abiding by the law is the surest way to ensure the continuation of civilization. In the eyes of Shealdaire and her followers, according to the holy scripts, there is no gray area in the law: either you abide by it or you do not and you will either be punished for your transgressions or you will not. Shealdaire does not concern herself with motive or whether a deed is good or bad, only that it upholds the order that has been written into law. Her clergy often embroil themselves in law and political studies in order to more closely follow her tenets. It is worth noting that while Shealdaire is remarked as being unmoving when it comes to matters of the law, some of her followers do take circumstances into account, typically when dealing with the <em>spirit</em> of the law rather than the <em>word</em> of the law. However, there are as many or more who follow the law to the letter.</div>\n<div class=\"additional\">\n<div class=\"note\">\n<h3>Edicts</h3>\n<ul>\n<li>Hold firm to the law</li>\n<li>Prosecute those who have committed crimes</li>\n<li>Retaliate with fervor to protect society</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Anathema</h3>\n<ul>\n<li>Not following the law as written</li>\n<li>Not furthering the growth of civilization</li>\n<li>Allowing crimes to go unpunished</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Areas of Concern</h3>\n<ul>\n<li>Law</li>\n<li>Order</li>\n<li>Judgment</li>\n<li>Retribution</li>\n</ul>\n</div>\n</div>\n<br /><a href=\"https://kanka.io/en-US/campaign/122755/characters/946636\">LINK</a></div>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "ambition",
+        "protection",
+        "cities",
+        "zeal"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [],
+    "skill": "soc",
+    "weapons": [
+      "warhammer"
+    ],
+    "spells": {},
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "alignment": {
+      "own": "LN",
+      "follower": [
+        "N"
+      ]
+    },
+    "ability": [
+      "cha",
+      "wis"
+    ]
+  },
+  "_id": "nNxKwWnrCGtGxtbz",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.330",
+    "createdTime": 1687894656638,
+    "modifiedTime": 1692414592124,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!nNxKwWnrCGtGxtbz"
+}

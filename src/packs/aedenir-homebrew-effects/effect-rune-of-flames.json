@@ -1,0 +1,99 @@
+{
+  "name": "Effect: Rune of Flames",
+  "type": "effect",
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Rune of Flames</strong>&nbsp;Your next successful weapon or unarmed strike before the end of the turn deals an additional 3d6 fire damage on hit.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "damage",
+        "diceNumber": 3,
+        "dieSize": "d6",
+        "damageType": "fire",
+        "predicate": [
+          {
+            "or": [
+              "weapon:melee",
+              "unarmed"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 13
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-11-01T09:20:05.964-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "target": null,
+    "unidentified": false
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667308805968,
+    "modifiedTime": 1697592295365,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "VbeWNh48ZskernD5",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!VbeWNh48ZskernD5"
+}

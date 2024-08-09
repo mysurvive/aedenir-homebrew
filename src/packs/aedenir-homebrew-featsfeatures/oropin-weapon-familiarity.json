@@ -1,0 +1,132 @@
+{
+  "name": "Oropin Weapon Familiarity",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have taken the time and practice to learn the excessively sized weapons of the Oropin. You are trained with the @UUID[Compendium.aedenir-homebrew.aed-equipment.Item.p75oKA8XvsVeMq7d]{Oropin Greathammer}, the @UUID[Compendium.aedenir-homebrew.aed-equipment.Item.rOalChC7GhnvR2Td]{Oropin Greatsword}, the  @UUID[Compendium.aedenir-homebrew.aed-equipment.Item.FLRZ0cTGCQutXLmZ]{Oropin Composite Longbow}, and the @UUID[Compendium.aedenir-homebrew.aed-equipment.Item.Exoam2jrv0MTtCWr]{Oropin Composite Shortbow}.</p>\n<p>In addition, you have access to all uncommon Oropin weapons. For you, martial Oropin weapons are simple weapons, and advanced Oropin weapons are martial weapons.</p>"
+    },
+    "rules": [
+      {
+        "key": "MartialProficiency",
+        "label": "Advanced Oropin Weapons",
+        "definition": [
+          "weapon:trait:hb_oropin",
+          "weapon:category:advanced"
+        ],
+        "sameAs": "martial",
+        "slug": "advanced-oropin-weapons"
+      },
+      {
+        "key": "MartialProficiency",
+        "label": "Martial Oropin Weapons",
+        "definition": [
+          "weapon:trait:hb_oropin",
+          "weapon:category:martial"
+        ],
+        "sameAs": "simple",
+        "slug": "martial-oropin-weapons"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-hb_oropin-greathammer.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-hb_oropin-greatsword.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-hb_oropin-composite-longbow.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-hb_oropin-composite-shortbow.rank",
+        "value": 1
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_oropin"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-31T16:11:54.017-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667247114021,
+    "modifiedTime": 1697592856704,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "Tp3PEiYSBVutv2Qi",
+  "folder": null,
+  "sort": 4300000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!Tp3PEiYSBVutv2Qi"
+}

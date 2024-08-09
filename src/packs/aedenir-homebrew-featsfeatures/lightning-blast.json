@@ -1,0 +1,93 @@
+{
+  "name": "Lightning Blast",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Prerequisite</strong>&nbsp;Storm Oropin</p>\n<p>You channel a bolt of lighting to burst from yourself. All creatures within a @Template[type:emanation|distance:10] take [[/r {4d12}[electricity]]]{4d12 electricity damage} and must make a @Check[type:reflex|basic:true|dc:resolve(@actor.attributes.classOrSpellDC.value)]. The DC is the higher of your class DC and your spell DC. On a failed save the target is also @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 round. You can&rsquo;t use Lightning Blast again for [[/r 1d4 #Lightning Blast Recharge]] rounds. This damage increases by 1d12 at level 17.</p>\n<p>&nbsp;</p>\n<p>[[/r ceil(@actor.level/4)d12[electricity]]]{Roll for Damage}</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "electricity",
+        "evocation",
+        "hb_oropin"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Storm Oropin Heritage"
+        }
+      ]
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-11-01T09:31:37.267-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667309497271,
+    "modifiedTime": 1697592357710,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "exND9rV31L5fGdmI",
+  "folder": null,
+  "sort": 5500000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!exND9rV31L5fGdmI"
+}

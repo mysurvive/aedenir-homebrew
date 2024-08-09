@@ -1,0 +1,92 @@
+{
+  "folder": "EpPjB8ynaBqif7fC",
+  "name": "Dryg",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div class=\"aed-journal\">\n<div class=\"names\">The Mediator</div>\n<div class=\"note\">\n<p><em>He is the judgment, and I am the blade</em></p>\n<p><em>He is the gavel, and I am the bailiff</em></p>\n<p><em>He is the shield, and I am the pike</em></p>\n<p><em>He is the shepherd, and I am the lamb</em></p>\n<p><em>My cause is noble and pure, for my cause is Dryg's cause</em></p>\n<p><em>I ride forth with gavel and shield in hand to bring swift justice upon those who would wrong me, my kin, and my kith</em></p>\n<p><em>As is the Mediator's will.</em></p>\n<p><em>- </em>A war devotional to Dryg</p>\n</div>\n<div class=\"body\">Dryg is one of the four children of <a class=\"entity-mention\" title href=\"https://kanka.io/en-US/campaign/122755/characters/758372\" data-entity-tags data-toggle=\"tooltip-ajax\" data-id=\"2963920\" data-url=\"https://kanka.io/en-US/campaign/122755/entities/2963920/tooltip\" data-original-title>Myn</a>, who was given charge of the realm of divine magic. Adherent worshippers of Dryg believe in following the law to the letter and see the word of Dryg as absolute, with no room for debate. Thankfully, these fanatics are much fewer in number than average worshippers of the god who take heed to the tenets regarding protection, order, truth, and avoiding dispute. Dryg is often revered as a cornerstone to modern society, being the deity who after a fashion, is the reason cities and people exist and flourish. Many praises and thanks are given to Dryg for a variety of things such as mercantilism, roads, manufacturing, trade routes, military operations - anything that brings comfort and order to a modern city.</div>\n<div class=\"additional\">\n<div class=\"note\">\n<h3>Edicts</h3>\n<ul>\n<li>Solve problems before they begin</li>\n<li>Bring swift justice to those who cannot be reasoned with</li>\n<li>Protect those around you at all costs</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Anathema</h3>\n<ul>\n<li>Not attempting to protect the life of another</li>\n<li>Allowing crimes to be committed without recourse</li>\n<li>Antagonizing others into dispute</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Areas of Concern</h3>\n<ul>\n<li>Divine Magic</li>\n<li>Law</li>\n<li>Order</li>\n<li>Justice</li>\n<li>Confrontation</li>\n</ul>\n</div>\n</div>\n<br /><a href=\"https://kanka.io/en-US/campaign/122755/characters/758375\">LINK</a></div>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "cities",
+        "truth",
+        "confidence",
+        "duty"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [],
+    "skill": "dip",
+    "weapons": [
+      "shield-boss"
+    ],
+    "spells": {},
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "alignment": {
+      "own": "LG",
+      "follower": [
+        "N",
+        "LG",
+        "LN",
+        "NG"
+      ]
+    },
+    "ability": [
+      "str",
+      "cha"
+    ]
+  },
+  "_id": "557cPgWeIBhlr04W",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.330",
+    "createdTime": 1687892585832,
+    "modifiedTime": 1692415040399,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!557cPgWeIBhlr04W"
+}

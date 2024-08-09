@@ -1,0 +1,935 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Skeerandar Toothbearer",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Tokens/Bestiary/token-Skeerandar_Toothbearer.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null
+    },
+    "detectionModes": [],
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "name": "Skeerandar Toothbearer",
+  "type": "npc",
+  "ownership": {
+    "default": 0,
+    "fQ2bdOYk7CfBvPdF": 3
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 30,
+        "temp": 0,
+        "max": 30,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "initiative": {
+        "statistic": "perception"
+      },
+      "perception": {
+        "value": 6
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 2
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "N"
+      },
+      "source": {
+        "value": "",
+        "author": ""
+      },
+      "creatureType": ""
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 3
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 1
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": -1
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 7,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 6,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [
+        "humanoid",
+        "lizardfolk"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "senses": {
+        "value": ""
+      },
+      "languages": {
+        "value": [
+          "common",
+          "hb_skree"
+        ],
+        "custom": ""
+      }
+    },
+    "schema": {
+      "version": 0.854,
+      "lastMigration": null
+    }
+  },
+  "img": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Tokens/Bestiary/token-Skeerandar_Toothbearer.webp",
+  "items": [
+    {
+      "name": "Athletics",
+      "type": "lore",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 6
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.854,
+          "lastMigration": null
+        }
+      },
+      "_id": "vlqdEAc5zlWm8ERA",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "fQ2bdOYk7CfBvPdF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1692462994700,
+        "modifiedTime": 1692463086643,
+        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!rkBEimYfssmWXpEB.vlqdEAc5zlWm8ERA"
+    },
+    {
+      "name": "Intimidation",
+      "type": "lore",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 6
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.854,
+          "lastMigration": null
+        }
+      },
+      "_id": "x7oPdjZDQsqRwGBj",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "fQ2bdOYk7CfBvPdF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1692463006976,
+        "modifiedTime": 1692463086643,
+        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!rkBEimYfssmWXpEB.x7oPdjZDQsqRwGBj"
+    },
+    {
+      "name": "Swamp Lore",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 4
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.854,
+          "lastMigration": {
+            "version": {
+              "schema": null,
+              "foundry": "11.307",
+              "system": "5.3.2"
+            }
+          }
+        }
+      },
+      "effects": [],
+      "_id": "AUQyYYBEu1ngca4k",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "fQ2bdOYk7CfBvPdF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1692463013135,
+        "modifiedTime": 1692463086643,
+        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!rkBEimYfssmWXpEB.AUQyYYBEu1ngca4k"
+    },
+    {
+      "name": "Stealth",
+      "type": "lore",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 8
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.854,
+          "lastMigration": null
+        },
+        "variants": {
+          "0": {
+            "label": "+11 in mud",
+            "options": "in-mud"
+          }
+        }
+      },
+      "_id": "mfStbLvkwaPeX7Hy",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "fQ2bdOYk7CfBvPdF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1692463024445,
+        "modifiedTime": 1692463086643,
+        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!rkBEimYfssmWXpEB.mfStbLvkwaPeX7Hy"
+    },
+    {
+      "name": "Survival",
+      "type": "lore",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 6
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.854,
+          "lastMigration": null
+        }
+      },
+      "_id": "aM9ODMTPhlZBfIiu",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "fQ2bdOYk7CfBvPdF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1692463031320,
+        "modifiedTime": 1692463086643,
+        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!rkBEimYfssmWXpEB.aM9ODMTPhlZBfIiu"
+    },
+    {
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Claw",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.854,
+          "lastMigration": {
+            "version": {
+              "schema": null,
+              "foundry": "11.307",
+              "system": "5.3.2"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse"
+          ]
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "HAPbJhyr1zkPkRjM": {
+            "damage": "1d4+3",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 9
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "effects": [],
+      "_id": "jSsmn801WLyTLGBh",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "fQ2bdOYk7CfBvPdF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1692463094421,
+        "modifiedTime": 1692463178146,
+        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!rkBEimYfssmWXpEB.jSsmn801WLyTLGBh"
+    },
+    {
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Tail",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.854,
+          "lastMigration": {
+            "version": {
+              "schema": null,
+              "foundry": "11.307",
+              "system": "5.3.2"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "sweep"
+          ]
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "kpwJO0dqOJwfauvo": {
+            "damage": "1d6+3",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 9
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "effects": [],
+      "_id": "TBzQP6wK5mWljtRt",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "fQ2bdOYk7CfBvPdF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1692463196292,
+        "modifiedTime": 1692463253122,
+        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!rkBEimYfssmWXpEB.TBzQP6wK5mWljtRt"
+    },
+    {
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Screeching Ambush",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>When the Toothbearer rolls initiative using Stealth, they can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} one creature as a free action.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.854,
+          "lastMigration": {
+            "version": {
+              "schema": null,
+              "foundry": "11.307",
+              "system": "5.3.2"
+            }
+          }
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "_id": "8yBey8eCBV5S3wzp",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "fQ2bdOYk7CfBvPdF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1692463277474,
+        "modifiedTime": 1692463378941,
+        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!rkBEimYfssmWXpEB.8yBey8eCBV5S3wzp"
+    },
+    {
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Dread Striker",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} creatures are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to the Toothbearer.</p>"
+        },
+        "rules": [
+          {
+            "key": "EphemeralEffect",
+            "predicate": [
+              "target:condition:frightened"
+            ],
+            "selectors": [
+              "strike-attack-roll",
+              "spell-attack-roll",
+              "strike-damage",
+              "attack-spell-damage"
+            ],
+            "uuid": "Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg"
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": null,
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.854,
+          "lastMigration": {
+            "version": {
+              "schema": null,
+              "foundry": "11.307",
+              "system": "5.3.2"
+            }
+          }
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "_id": "73xQI9ZKeznqUvWK",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "fQ2bdOYk7CfBvPdF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1692463355868,
+        "modifiedTime": 1692463606478,
+        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!rkBEimYfssmWXpEB.73xQI9ZKeznqUvWK"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Favored Terrain",
+      "sort": 1000000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The Toothbearer ignores the effects of non-magical difficult terrain in swamps.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.854,
+          "lastMigration": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "fQ2bdOYk7CfBvPdF": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.1HWcyydfLPCRm4Om.Item.y9nL7kklEoVqLV06"
+        }
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2",
+        "coreVersion": "12.330",
+        "createdTime": 1692463627845,
+        "modifiedTime": 1692463642957,
+        "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
+        "compendiumSource": "Actor.1HWcyydfLPCRm4Om.Item.y9nL7kklEoVqLV06",
+        "duplicateSource": null
+      },
+      "_id": "eN3DlNmCJ89bTNgk",
+      "_key": "!actors.items!rkBEimYfssmWXpEB.eN3DlNmCJ89bTNgk"
+    }
+  ],
+  "folder": "ojrwaNrOSQDGyAAp",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.5.1",
+    "coreVersion": "12.330",
+    "createdTime": 1692462913053,
+    "modifiedTime": 1694987800990,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "rkBEimYfssmWXpEB",
+  "sort": 700000,
+  "_key": "!actors!rkBEimYfssmWXpEB"
+}

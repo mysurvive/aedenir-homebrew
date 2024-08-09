@@ -1,0 +1,119 @@
+{
+  "name": "Draconic Grasp",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Prerequisite</strong>&nbsp;Draconic Armaments</p>\n<p>Your draconic attacks can latch on to your foes. The unarmed attacks you gain from Draconic Armaments gain the grapple trait. On a critical hit with one of these unarmed attacks, you can attempt to Grapple the target as a free action.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "draconic-armaments-claw-attack",
+        "text": "On a critical hit with this attack, you can attempt to grapple the target as a free action.",
+        "title": "Draconic Grasp.",
+        "outcome": [
+          "criticalSuccess"
+        ]
+      },
+      {
+        "key": "Note",
+        "selector": "draconic-armaments-jaw-attack",
+        "title": "Draconic Grasp.",
+        "text": "On a critical hit with this attack, you can attempt to grapple the target as a free action.",
+        "outcome": [
+          "criticalSuccess"
+        ]
+      },
+      {
+        "key": "Note",
+        "selector": "draconic-armaments-tail-attack",
+        "text": "On a critical hit with this attack, you can attempt to grapple the target as a free action.",
+        "title": "Draconic Grasp.",
+        "outcome": [
+          "criticalSuccess"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_drakkgebor"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Draconic Armaments"
+        }
+      ]
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-31T08:55:45.004-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667220945008,
+    "modifiedTime": 1697581298966,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "zA64I0JXqKcRJzqH",
+  "folder": null,
+  "sort": 8000000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!zA64I0JXqKcRJzqH"
+}

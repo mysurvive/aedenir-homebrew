@@ -1,0 +1,125 @@
+{
+  "name": "Skin Dancer",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Prerequisite</strong>&nbsp;Expert in Performance</p>\n<p>You are a master of the unique changeling art of skin dancing. You can create intricate patterns and even images on your skin, and shift them about in mesmerizing ways. You can achieve effects such as lighting coursing up your arms, or and fire dancing in a crown around your brow. You gain the Virtuosic Performer skill feat in the specialty of dance (if you already have the Virtuosic Performer in dance, you may choose an additional different speciality). When you use the Virtuosic Performer feat for dance, you gain a +1 status bonus if you augment your performance with a special use of shift shape, or +2 if you are Legendary in Performance. This use of shift shape is free as part of the performance and lasts until you shift shape again.</p>\n<p><strong>Special</strong>&nbsp;Skin dancer counts for the favorable form of the Personable Performer feat as well.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "performance",
+        "value": 1,
+        "predicate": [
+          {
+            "and": [
+              "action:perform",
+              "shift-shape"
+            ]
+          }
+        ],
+        "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "performance",
+        "value": 2,
+        "type": "status",
+        "predicate": [
+          {
+            "and": [
+              "action:perform",
+              "shift-shape"
+            ]
+          }
+        ],
+        "label": "Skin Dancer (if Legendary in Performance)"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.lFwfUvH2708rl6i3"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_vexbalg"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "expert in performance"
+        }
+      ]
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-29T21:15:34.729-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.1"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667092534733,
+    "modifiedTime": 1697593437705,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "1nFDOBlsT29kWuV2",
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!1nFDOBlsT29kWuV2"
+}

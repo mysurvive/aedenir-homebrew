@@ -1,0 +1,417 @@
+{
+  "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
+  "name": "Aedenir Dragon Instinct",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You summon the fury of a mighty dragon and manifest incredible abilities. Perhaps your culture reveres draconic majesty, or you gained your connection by drinking or bathing in dragon's blood or after watching a marauding wyrm burn your village. Select a type of dragon from Table 3-4: Dragon Instincts to be your instinct's dragon type.</p>\n<h2>Table 3-4: Dragon Instincts</h2>\n<table class=\"pf2-table\" style=\"width:100%;height:573.334px\">\n<thead>\n<tr style=\"height:28.6667px\">\n<th style=\"width:29.1351%;height:28.6667px\">Dragon</th>\n<th style=\"width:26.6313%;height:28.6667px\">Type</th>\n<th style=\"width:44.1578%;height:28.6667px\">Breath Weapon</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height:28.6667px\">\n<td style=\"width:29.1351%;height:28.6667px\">Black</td>\n<td style=\"width:26.6313%;height:28.6667px\">Chromatic</td>\n<td style=\"width:44.1578%;height:28.6667px\">Line of Acid</td>\n</tr>\n<tr style=\"height:28.6667px\">\n<td style=\"width:29.1351%;height:28.6667px\">Blue</td>\n<td style=\"width:26.6313%;height:28.6667px\">Chromatic</td>\n<td style=\"width:44.1578%;height:28.6667px\">Line of Electricity</td>\n</tr>\n<tr style=\"height:28.6667px\">\n<td style=\"width:29.1351%;height:28.6667px\">Green</td>\n<td style=\"width:26.6313%;height:28.6667px\">Chromatic</td>\n<td style=\"width:44.1578%;height:28.6667px\">Cone of Poison</td>\n</tr>\n<tr style=\"height:28.6667px\">\n<td style=\"width:29.1351%;height:28.6667px\">Red</td>\n<td style=\"width:26.6313%;height:28.6667px\">Chromatic</td>\n<td style=\"width:44.1578%;height:28.6667px\">Cone of Fire</td>\n</tr>\n<tr style=\"height:28.6667px\">\n<td style=\"width:29.1351%;height:28.6667px\">White</td>\n<td style=\"width:26.6313%;height:28.6667px\">Chromatic</td>\n<td style=\"width:44.1578%;height:28.6667px\">Cone of Cold</td>\n</tr>\n<tr style=\"height:28.6667px\">\n<td style=\"width:29.1351%;height:28.6667px\">Brass</td>\n<td style=\"width:26.6313%;height:28.6667px\">Metallic</td>\n<td style=\"width:44.1578%;height:28.6667px\">Line of Fire</td>\n</tr>\n<tr style=\"height:28.6667px\">\n<td style=\"width:29.1351%;height:28.6667px\">Bronze</td>\n<td style=\"width:26.6313%;height:28.6667px\">Metallic</td>\n<td style=\"width:44.1578%;height:28.6667px\">Line of Electricity</td>\n</tr>\n<tr style=\"height:28.6667px\">\n<td style=\"width:29.1351%;height:28.6667px\">Copper</td>\n<td style=\"width:26.6313%;height:28.6667px\">Metallic</td>\n<td style=\"width:44.1578%;height:28.6667px\">Line of Acid</td>\n</tr>\n<tr style=\"height:28.6667px\">\n<td style=\"width:29.1351%;height:28.6667px\">Gold</td>\n<td style=\"width:26.6313%;height:28.6667px\">Metallic</td>\n<td style=\"width:44.1578%;height:28.6667px\">Cone of Fire</td>\n</tr>\n<tr style=\"height:28.6667px\">\n<td style=\"width:29.1351%;height:28.6667px\">Silver</td>\n<td style=\"width:26.6313%;height:28.6667px\">Metallic</td>\n<td style=\"width:44.1578%;height:28.6667px\">Cone of Cold</td>\n</tr>\n<tr style=\"height:28.6667px\">\n<td style=\"width:29.1351%;height:28.6667px\">Umbral</td>\n<td style=\"width:26.6313%;height:28.6667px\">Primal</td>\n<td style=\"width:44.1578%;height:28.6667px\">Cone of Void</td>\n</tr>\n<tr style=\"height:28.6667px\">\n<td style=\"width:29.1351%;height:28.6667px\">Brine</td>\n<td style=\"width:26.6313%;height:28.6667px\">Primal</td>\n<td style=\"width:44.1578%;height:28.6667px\">Line of Acid</td>\n</tr>\n<tr style=\"height:28.6667px\">\n<td style=\"width:29.1351%;height:28.6667px\">Cloud</td>\n<td style=\"width:26.6313%;height:28.6667px\">Primal</td>\n<td style=\"width:44.1578%;height:28.6667px\">Cone of Electricity</td>\n</tr>\n<tr style=\"height:28.6667px\">\n<td style=\"width:29.1351%;height:28.6667px\">Magma</td>\n<td style=\"width:26.6313%;height:28.6667px\">Primal</td>\n<td style=\"width:44.1578%;height:28.6667px\">Cone of Fire</td>\n</tr>\n<tr>\n<td style=\"width:29.1351%;height:28.6667px\">Forest</td>\n<td style=\"width:26.6313%;height:28.6667px\">Imperial</td>\n<td style=\"width:44.1578%;height:28.6667px\">Cone of Piercing</td>\n</tr>\n<tr>\n<td style=\"width:29.1351%;height:28.6667px\">Sea</td>\n<td style=\"width:26.6313%;height:28.6667px\">Imperial</td>\n<td style=\"width:44.1578%;height:28.6667px\">Cone of Bludgeoning</td>\n</tr>\n<tr>\n<td style=\"width:29.1351%;height:28.6667px\">Sky</td>\n<td style=\"width:26.6313%;height:28.6667px\">Imperial</td>\n<td style=\"width:44.1578%;height:28.6667px\">Cone of Electricity</td>\n</tr>\n<tr style=\"height:28.6667px\">\n<td style=\"width:29.1351%;height:28.6667px\">Sovereign</td>\n<td style=\"width:26.6313%;height:28.6667px\">Imperial</td>\n<td style=\"width:44.1578%;height:28.6667px\">Cone of Mental</td>\n</tr>\n<tr>\n<td style=\"width:29.1351%;height:28.6667px\">Underworld</td>\n<td style=\"width:26.6313%;height:28.6667px\">Imperial</td>\n<td style=\"width:44.1578%;height:28.6667px\">Cone of Fire</td>\n</tr>\n</tbody>\n</table>\n<h2 class=\"title\">Anathema</h2>\n<p>Letting a personal insult against you slide is anathema to your instinct. Choose whether your character respects or abhors your dragon type. If you respect it, defying such a dragon is anathema, and if you abhor it, failing to defeat such a dragon you come across is anathema.</p>\n<h2 class=\"title\">Draconic Rage (Instinct Ability)</h2>\n<p>While raging, you can increase the additional damage from Rage from 2 to 4 and change its damage type to match that of your dragon's breath weapon instead of the damage type for your weapon or unarmed attack. If you do this, your Rage action gains the arcane and evocation traits, as well as the trait matching the damage type.</p>\n<h2 class=\"title\">Specialization Ability<span style=\"float:right\">Level 7</span></h2>\n<p>When you use draconic rage, you increase the additional damage from Rage from 4 to 8. If you have greater weapon specialization, instead increase the damage from Rage when using draconic rage from 8 to 16.</p>\n<h2 class=\"title\">Raging Resistance<span style=\"float:right\">Level 9</span></h2>\n<p>You resist piercing damage and the damage type of your dragon's breath weapon.</p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.SpecificRule.DragonDisciple.DragonChoice.Black",
+            "value": {
+              "breath": {
+                "size": 60,
+                "type": "line"
+              },
+              "category": "chromatic",
+              "color": "black",
+              "damageType": "acid"
+            }
+          },
+          {
+            "label": "PF2E.SpecificRule.DragonDisciple.DragonChoice.Blue",
+            "value": {
+              "breath": {
+                "size": 60,
+                "type": "line"
+              },
+              "category": "chromatic",
+              "color": "blue",
+              "damageType": "electricity"
+            }
+          },
+          {
+            "label": "PF2E.SpecificRule.DragonDisciple.DragonChoice.Brass",
+            "value": {
+              "breath": {
+                "size": 60,
+                "type": "line"
+              },
+              "category": "metallic",
+              "color": "brass",
+              "damageType": "fire"
+            }
+          },
+          {
+            "label": "PF2E.SpecificRule.DragonDisciple.DragonChoice.Bronze",
+            "value": {
+              "breath": {
+                "size": 60,
+                "type": "line"
+              },
+              "category": "metallic",
+              "color": "bronze",
+              "damageType": "electricity"
+            }
+          },
+          {
+            "label": "PF2E.SpecificRule.DragonDisciple.DragonChoice.Copper",
+            "value": {
+              "breath": {
+                "size": 60,
+                "type": "line"
+              },
+              "category": "metallic",
+              "color": "copper",
+              "damageType": "acid"
+            }
+          },
+          {
+            "label": "PF2E.SpecificRule.DragonDisciple.DragonChoice.Gold",
+            "value": {
+              "breath": {
+                "size": 30,
+                "type": "cone"
+              },
+              "category": "metallic",
+              "color": "gold",
+              "damageType": "fire"
+            }
+          },
+          {
+            "label": "PF2E.SpecificRule.DragonDisciple.DragonChoice.Green",
+            "value": {
+              "breath": {
+                "size": 30,
+                "type": "cone"
+              },
+              "category": "chromatic",
+              "color": "green",
+              "damageType": "poison"
+            }
+          },
+          {
+            "label": "PF2E.SpecificRule.DragonDisciple.DragonChoice.Silver",
+            "value": {
+              "breath": {
+                "size": 30,
+                "type": "cone"
+              },
+              "category": "metallic",
+              "color": "silver",
+              "damageType": "cold"
+            }
+          },
+          {
+            "label": "PF2E.SpecificRule.DragonDisciple.DragonChoice.Red",
+            "value": {
+              "breath": {
+                "size": 30,
+                "type": "cone"
+              },
+              "category": "chromatic",
+              "color": "red",
+              "damageType": "fire"
+            }
+          },
+          {
+            "label": "PF2E.SpecificRule.DragonDisciple.DragonChoice.White",
+            "value": {
+              "breath": {
+                "size": 30,
+                "type": "cone"
+              },
+              "category": "chromatic",
+              "color": "white",
+              "damageType": "cold"
+            }
+          },
+          {
+            "label": "Umbral Dragon",
+            "value": {
+              "breath": {
+                "size": 30,
+                "type": "cone"
+              },
+              "category": "primal",
+              "color": "umbral",
+              "damageType": "void"
+            }
+          },
+          {
+            "label": "Brine Dragon",
+            "value": {
+              "breath": {
+                "size": 60,
+                "type": "line"
+              },
+              "category": "primal",
+              "color": "brine",
+              "damageType": "acid"
+            }
+          },
+          {
+            "label": "Cloud Dragon",
+            "value": {
+              "breath": {
+                "size": 30,
+                "type": "cone"
+              },
+              "category": "primal",
+              "color": "cloud",
+              "damageType": "electricity"
+            }
+          },
+          {
+            "label": "Magma Dragon",
+            "value": {
+              "breath": {
+                "size": 30,
+                "type": "cone"
+              },
+              "category": "primal",
+              "color": "magma",
+              "damageType": "fire"
+            }
+          },
+          {
+            "label": "Forest Dragon",
+            "value": {
+              "breath": {
+                "size": 30,
+                "type": "cone"
+              },
+              "category": "imperial",
+              "color": "forest",
+              "damageType": "piercing"
+            }
+          },
+          {
+            "label": "Sea Dragon",
+            "value": {
+              "breath": {
+                "size": 30,
+                "type": "cone"
+              },
+              "category": "imperial",
+              "color": "sea",
+              "damageType": "bludgeoning"
+            }
+          },
+          {
+            "label": "Sky Dragon",
+            "value": {
+              "breath": {
+                "size": 30,
+                "type": "cone"
+              },
+              "category": "imperial",
+              "color": "sky",
+              "damageType": "electricity"
+            }
+          },
+          {
+            "label": "Sovereign Dragon",
+            "value": {
+              "breath": {
+                "size": 30,
+                "type": "cone"
+              },
+              "category": "imperial",
+              "color": "sovereign",
+              "damageType": "mental"
+            }
+          },
+          {
+            "label": "Underworld Dragon",
+            "value": {
+              "breath": {
+                "size": 30,
+                "type": "cone"
+              },
+              "category": "imperial",
+              "color": "underworld",
+              "damageType": "fire"
+            }
+          }
+        ],
+        "flag": "dragon",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.DragonDisciple.Prompt"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.barbarian.instinct.dragon.breath.size",
+        "value": "{item|flags.pf2e.rulesSelections.dragon.breath.size}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.barbarian.instinct.dragon.breath.type",
+        "value": "{item|flags.pf2e.rulesSelections.dragon.breath.type}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.barbarian.instinct.dragon.category",
+        "value": "{item|flags.pf2e.rulesSelections.dragon.category}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.barbarian.instinct.dragon.color",
+        "value": "{item|flags.pf2e.rulesSelections.dragon.color}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.barbarian.instinct.dragon.damageType",
+        "value": "{item|flags.pf2e.rulesSelections.dragon.damageType}"
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "label": "PF2E.SpecificRule.Barbarian.Dragon.ToggleLabel",
+        "option": "draconic-rage",
+        "predicate": [
+          {
+            "or": [
+              "class:barbarian",
+              "feat:instinct-ability"
+            ]
+          }
+        ],
+        "toggleable": true,
+        "value": true
+      },
+      {
+        "damageType": "{item|flags.pf2e.rulesSelections.dragon.damageType}",
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "draconic-rage"
+        ],
+        "selectors": [
+          "strike-damage"
+        ],
+        "slug": "rage",
+        "value": 4
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "draconic-rage",
+          "class:barbarian",
+          {
+            "gte": [
+              "self:level",
+              7
+            ]
+          }
+        ],
+        "selectors": [
+          "strike-damage"
+        ],
+        "slug": "rage",
+        "value": 8
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "draconic-rage",
+          "class:barbarian",
+          "feature:greater-weapon-specialization"
+        ],
+        "selectors": [
+          "strike-damage"
+        ],
+        "slug": "rage",
+        "value": 16
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "self:effect:rage",
+          "feature:raging-resistance"
+        ],
+        "type": "piercing",
+        "value": "@actor.abilities.con.mod+3"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "self:effect:rage",
+          "feature:raging-resistance"
+        ],
+        "type": "{item|flags.pf2e.rulesSelections.dragon.damageType}",
+        "value": "@actor.abilities.con.mod+3"
+      }
+    ],
+    "slug": "dragon-instinct",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [
+        "barbarian-instinct"
+      ],
+      "value": [
+        "barbarian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Core Rulebook",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {}
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "NX3qHeMsqsVjwJ0v": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1697571012455,
+    "modifiedTime": 1697593921316,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "XTJ7wWj1Tg1QuI1J",
+  "sort": 0,
+  "_key": "!items!XTJ7wWj1Tg1QuI1J"
+}

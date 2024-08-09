@@ -1,0 +1,102 @@
+{
+  "name": "Effect: Rune of Destruction",
+  "type": "effect",
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Rune of Destruction</strong> The first creature you hit with a weapon or unarmed strike before the end of your turn must succeed a fortitude save of become @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1}. The DC is the higher of your class DC or Spell DC.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "strike-damage",
+        "text": "Target must succeed on a @Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)] or become @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1}.",
+        "predicate": [
+          {
+            "or": [
+              "weapon:melee",
+              "unarmed"
+            ]
+          }
+        ],
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "title": "Rune of Destruction"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 13
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-11-01T09:09:07.341-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "target": null,
+    "unidentified": false
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667308147347,
+    "modifiedTime": 1697592294630,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "S6IzJbrKfdWVPj4z",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!S6IzJbrKfdWVPj4z"
+}

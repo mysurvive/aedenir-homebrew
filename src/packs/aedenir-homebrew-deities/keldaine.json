@@ -1,0 +1,107 @@
+{
+  "name": "Keldaine",
+  "type": "deity",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div class=\"aed-journal\">\n<div class=\"names\">The Mischievous Reflection</div>\n<div class=\"note\"> </div>\n<div class=\"body\">Keldaine is a god of mischief and change. They are the patron deity of the Vexbalg, and some would go so far as to say they are either the first Vexbalg, or perhaps the creator of the Vexbalg. Keldaine requires a life filled with mischief and trickery, whether that consist of harmless pranks or mass hysteria is largely irrelevant to The Mischievous Reflection, they find humor it all the same. Many of Keldaine's tenets support the idea of duality, that there are two spirits within a person - often referred to as the masculine and the feminine but in reality it has little to do with gender. Regardless as to how they are described, followers of Keldaine are expected to accept and nurture both of their natures so they may appropriately help with the task at hand. Small shrines to Keldaine can be found in many places throughout Aedenir, sometimes inconspicuous or in strange places, other times in full view, but they are almost always certainly laden with a slew of \"fun\" tricks.</div>\n<div class=\"additional\">\n<div class=\"note\">\n<h3>Edicts</h3>\n<ul>\n<li>Be the best version of yourself, whoever that may be today</li>\n<li>Be mischievous in your daily life</li>\n<li>Never let anyone know what to expect from you</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Anathema</h3>\n<ul>\n<li>Living a life absent of mischief</li>\n<li>Denying that you are a conduit for change</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Areas of Concern</h3>\n<ul>\n<li>Duplicity</li>\n<li>Duality</li>\n<li>Change, particularly of the body Mischief</li>\n<li>Reflections</li>\n</ul>\n</div>\n</div>\n<br /><a href=\"https://kanka.io/en-US/campaign/122755/characters/930632\">LINK</a></div>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "trickery",
+        "secrecy",
+        "change",
+        "freedom"
+      ],
+      "alternate": [
+        "ambition",
+        "confidence"
+      ]
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [],
+    "skill": "dec",
+    "weapons": [
+      "sai"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.pBevG6bSQOiyflev",
+      "3": "Compendium.pf2e.spells-srd.VosLNn2M8S7JH67D",
+      "6": "Compendium.pf2e.spells-srd.WPXzPl7YbMEIGWfi"
+    },
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-29T21:49:35.752-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "alignment": {
+      "own": "CN",
+      "follower": [
+        "N",
+        "CG",
+        "CN",
+        "CE"
+      ]
+    },
+    "ability": [
+      "cha",
+      "int"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667094575755,
+    "modifiedTime": 1692414128663,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "ZK8bvqUciHY7ZxrH",
+  "folder": "KUa2CGST15hsty9A",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!ZK8bvqUciHY7ZxrH"
+}

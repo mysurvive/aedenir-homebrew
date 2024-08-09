@@ -1,0 +1,87 @@
+{
+  "name": "Form of the Dragon",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can unleash the full potential of your heritage, allowing you to become a dragon, if only for a moment. You can cast 6th-level dragon form as an innate spell once per day. The spell's tradition matches one tied to your draconic progenitor. If your draconic progenitor doesn't have an associated tradition, it is an arcane innate spell. You must choose a battle form that matches your draconic progenitor. If your draconic progenitor is not listed in the spell, choose the battle form that most closely matches your draconic progenitor. You can use your base form&rsquo;s AC if it&rsquo;s higher than what the battle form grants. Your GM might allow you to create a new battle form using the statistics of the existing battle forms as a starting point. At 20th level, you cast 8th-level dragon form instead.</p>\n<hr>\n<p><em>Note: You will have to add the spell and spellcasting entry manually on your sheet.</em></p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_drakkgebor"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-31T10:10:45.434-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667225445438,
+    "modifiedTime": 1697593919886,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "NL1dRCyfNwlPdFGN",
+  "folder": null,
+  "sort": 2900000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!NL1dRCyfNwlPdFGN"
+}

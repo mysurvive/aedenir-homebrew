@@ -1,0 +1,120 @@
+{
+  "name": "Titan's Sight",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have inherited the great sight of the giants. You gain low-light vision, or you gain darkvision if you already had low-light vision.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "adjustName": true,
+        "choices": [
+          {
+            "label": "Low-Light Vision",
+            "value": "low-light-vision"
+          },
+          {
+            "label": "Darkvision",
+            "value": "darkvision"
+          }
+        ],
+        "flag": "titansSight",
+        "prompt": "Choose a Sense.",
+        "rollOption": "titans-sight"
+      },
+      {
+        "key": "Sense",
+        "selector": "darkvision",
+        "predicate": [
+          "titans-sight:darkvision"
+        ]
+      },
+      {
+        "key": "Sense",
+        "selector": "lowLightVision",
+        "predicate": [
+          "titans-sight:low-light-vision"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "lineage",
+        "hb_oropin"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-31T17:34:44.342-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667252084345,
+    "modifiedTime": 1697579512720,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "NcriCHcoVOuJ4mDZ",
+  "folder": null,
+  "sort": 3100000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!NcriCHcoVOuJ4mDZ"
+}

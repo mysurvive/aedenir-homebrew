@@ -1,0 +1,117 @@
+{
+  "name": "Shift Shape",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another ancestry, although your game statistics do not change. You cannot duplicate the appearance of a creature you have never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. However, your clothing and equipment are unchanged by this trait. Shift shape counts as setting up a disguise for the Impersonate use of Deception; it ignores any circumstance penalties you might take for disguising yourself as a dissimilar creature, it gives you a +4 status bonus to Deception checks to prevent others from seeing that you are a shapeshifted Vexbalg, and you add your level even if you're untrained. You can Dismiss this spell.<br /><br /><strong>Special</strong> You stay in the new form until you use shift shape to revert to your true form or until you die.</p>\n<p class=\"aed-content-note\">As per the wording of shift shape, it requires two applications of shift shape to change from one disguise to another. Once to revert to your true form, and once to shift to the new disguise.</p>\n<p class=\"aed-content-note\"> </p>\n<p class=\"aed-content-note\">Grants: Shift Shape (located in Items directory)</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "deception",
+        "value": 4,
+        "type": "status",
+        "predicate": [
+          "action:impersonate",
+          "self:effect:shift-shape"
+        ],
+        "slug": "shift-shape-impersonate"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "deception",
+        "value": "ternary(eq(@actor.system.skills.dec.rank, 0), @actor.level, 0)",
+        "predicate": [
+          "action:impersonate",
+          "self:effect:shift-shape"
+        ],
+        "slug": "shift-shape-impersonate-untrained"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "occult",
+        "polymorph",
+        "transmutation",
+        "hb_vexbalg"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-29T10:13:15.840-04:00",
+        "version": {
+          "schema": 0.796,
+          "foundry": "10.288",
+          "system": "4.3.1"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestryfeature"
+    },
+    "actionCategory": {
+      "value": ""
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667012742467,
+    "modifiedTime": 1697593342821,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "xLsFtNMEWC5EKCBx",
+  "folder": null,
+  "sort": 7800000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!xLsFtNMEWC5EKCBx"
+}

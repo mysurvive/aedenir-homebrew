@@ -1,0 +1,88 @@
+{
+  "name": "Keldaine's Protection",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong>&nbsp;Once per form of shift shape</p>\n<p>With your ability to read a situation and change your form in precise and subtle ways, people second-guess whether or not they did see through disguise - as if Keldaine protects you still.</p>\n<p>If a creature succeeds on a check to see through your impersonation, you become aware of their increasing disbelief. The GM will make you aware that a creature succeeded on their check. You may choose to use Keldaine's protection to force a reroll of the dice to take the lower of the two options. If you do so, their check gains the misfortune trait, and the outcome of this new roll is a secret to you.</p>\n<p>Similarly, if you fail an impersonation check against a creature, you are aware of your blunder. The GM will make you aware that you have failed the check, and you may choose to use Keldaine's protection to force a reroll to take the higher of the two options. If you do so, the check gains the fortune trait, and the outcome of this new roll is a secret to you.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_vexbalg",
+        "secret"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-29T21:35:13.656-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.1"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667093713661,
+    "modifiedTime": 1697592495725,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "ltxFsKetlTZgGwN8",
+  "folder": null,
+  "sort": 6100000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!ltxFsKetlTZgGwN8"
+}

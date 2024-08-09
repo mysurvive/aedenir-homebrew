@@ -1,0 +1,95 @@
+{
+  "name": "Impersonate (Vexbalg)",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Make a @Check[type:deception|traits:action:impersonate,secret,prove-not-shapechanged] check to attempt to prove you are not a shapeshifted Vexbalg.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "exploration",
+        "manipulate",
+        "secret",
+        "skill",
+        "hb_vexbalg"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "category": null,
+    "actions": {
+      "value": null
+    },
+    "deathNote": false,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-28T23:09:30.603-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.1"
+        }
+      }
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "actionCategory": {
+      "value": ""
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.yVTIoHVCQ44ugc8E"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.2.3",
+    "coreVersion": "12.330",
+    "createdTime": 1667012970606,
+    "modifiedTime": 1690758008740,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": "Item.yVTIoHVCQ44ugc8E",
+    "duplicateSource": null
+  },
+  "_id": "yVTIoHVCQ44ugc8E",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!yVTIoHVCQ44ugc8E"
+}

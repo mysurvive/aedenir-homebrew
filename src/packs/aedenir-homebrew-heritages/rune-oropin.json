@@ -1,0 +1,103 @@
+{
+  "name": "Rune Oropin",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The runes etched on your skin betray your heritage to the rune giants. You become trained in intimidation, and you gain +1 circumstance bonus to checks and DC when targeting a giant with a mental effect.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.itm.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "skill-check",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "mental",
+          "target:trait:giant"
+        ],
+        "slug": "rune-oropin-check"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "spell-dc",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "mental",
+          "target:trait:giant"
+        ],
+        "slug": "rune-oropin-dc"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_oropin"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": {
+      "name": "Oropin",
+      "slug": "oropin",
+      "uuid": "Compendium.aedenir-homebrew.aed-ancestries.Item.0T73V4bOhNT3wJQ5"
+    },
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-31T13:35:29.341-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.LEYG4I10H9YGzQah"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.2.3",
+    "coreVersion": "12.330",
+    "createdTime": 1667237729343,
+    "modifiedTime": 1690758424823,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": "Item.LEYG4I10H9YGzQah",
+    "duplicateSource": null
+  },
+  "_id": "LEYG4I10H9YGzQah",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!LEYG4I10H9YGzQah"
+}

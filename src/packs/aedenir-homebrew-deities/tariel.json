@@ -1,0 +1,92 @@
+{
+  "folder": "HOP9W4ceWz8xkpvd",
+  "name": "Tariel",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div class=\"aed-journal\">\n<div class=\"names\">ENTER_OTHER_NAMES_HERE</div>\n<div class=\"note\">ENTER_FLAVOR_TEXT_HERE</div>\n<div class=\"body\">ENTER_DESCRIPTION_HERE</div>\n<div class=\"additional\">\n<div class=\"note\">\n<h3>Edicts</h3>\n<ul>\n<li>ENTER</li>\n<li>EDICTS</li>\n<li>HERE</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Anathema</h3>\n<ul>\n<li>ENTER</li>\n<li>ANATHEMA</li>\n<li>HERE</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Areas of Concern</h3>\n<ul>\n<li>ENTER</li>\n<li>CONCERNS</li>\n<li>HERE</li>\n</ul>\n</div>\n</div>\n<br /><a href=\"LINK\">LINK</a></div>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "healing",
+        "fire",
+        "protection",
+        "truth"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [],
+    "skill": "med",
+    "weapons": [
+      "shortsword"
+    ],
+    "spells": {},
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "alignment": {
+      "own": "NG",
+      "follower": [
+        "N",
+        "NG",
+        "CG",
+        "LG"
+      ]
+    },
+    "ability": [
+      "con",
+      "wis"
+    ]
+  },
+  "_id": "FpHsNhVgtoYNG4mo",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.0.2",
+    "coreVersion": "12.330",
+    "createdTime": 1687894770348,
+    "modifiedTime": 1687929872158,
+    "lastModifiedBy": "xpVv7XfgbBbBSa8z",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FpHsNhVgtoYNG4mo"
+}

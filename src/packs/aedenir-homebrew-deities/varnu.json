@@ -1,0 +1,93 @@
+{
+  "folder": "8LEB7SGJJ9ODIidk",
+  "name": "Varnu",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div class=\"aed-journal\">\n<div class=\"names\">The Messenger</div>\n<div class=\"note\"> </div>\n<div class=\"body\">Varnu is the messenger of the gods, able to disseminate missives between them nearly instantly. Because of his duties, he is the patron god of timeliness. When the world was young, Varnu and <a class=\"entity-mention\" title href=\"https://kanka.io/en-US/campaign/122755/characters/958649\" data-entity-tags data-toggle=\"tooltip-ajax\" data-id=\"3685397\" data-url=\"https://kanka.io/en-US/campaign/122755/entities/3685397/tooltip\" data-original-title>Selaren</a> fell in love and found comfort in one another. This arrangement caused both Varnu and Selaren to fail at their duties - the rising and the setting of the sun was irregular, causing freezes followed by scorching droughts and important missives between the gods were left unsent. Because of this, the gods cursed Varnu and Selaren - they made him weak to her solar radiance and caused her excruciating pain if he drew too close. However, the distance at which they could no longer harm one another allowed them to just view one another, so as Varnu draws close, Selaren pulls away so they may still look at the one they love, but do not harm one another. Varnu is often called upon when one needs to be fleet of foot, specifically to deliver messages.</div>\n<div class=\"additional\">\n<div class=\"note\">\n<h3>Edicts</h3>\n<ul>\n<li>Arrive where you need to on time</li>\n<li>Follow routine</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Anathema</h3>\n<ul>\n<li>Tardiness</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Areas of Concern</h3>\n<ul>\n<li>Providing messages</li>\n<li>Rising and setting of the sun</li>\n<li>Timeliness</li>\n</ul>\n</div>\n</div>\n<br /><a href=\"https://kanka.io/en-US/campaign/122755/characters/957287\">LINK</a></div>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "fire",
+        "air",
+        "travel",
+        "duty"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [],
+    "skill": "ath",
+    "weapons": [
+      "spear"
+    ],
+    "spells": {},
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "alignment": {
+      "own": "LN",
+      "follower": [
+        "N",
+        "LG",
+        "LN",
+        "LE"
+      ]
+    },
+    "ability": [
+      "con",
+      "dex"
+    ]
+  },
+  "_id": "y3jlFLTkOFzhglWv",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.330",
+    "createdTime": 1687894980192,
+    "modifiedTime": 1692414700701,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!y3jlFLTkOFzhglWv"
+}

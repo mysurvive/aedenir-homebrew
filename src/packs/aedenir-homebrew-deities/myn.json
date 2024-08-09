@@ -1,0 +1,96 @@
+{
+  "folder": "EpPjB8ynaBqif7fC",
+  "name": "Myn",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div class=\"aed-journal\">\n<div class=\"names\">The Divine Mother, Creator of All</div>\n<div class=\"note\"> </div>\n<div class=\"body\">Little is known about Myn, other than she is the creator of all things. Allegedly, she left her creations before time itself had begun.</div>\n<div class=\"additional\">\n<div class=\"note\">\n<h3>Edicts</h3>\n<ul>\n<li>???</li>\n<li>???</li>\n<li>???</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Anathema</h3>\n<ul>\n<li>???</li>\n<li>???</li>\n<li>???</li>\n</ul>\n</div>\n<div class=\"note\">\n<h3>Areas of Concern</h3>\n<ul>\n<li>Time</li>\n<li>Space</li>\n<li>Creation</li>\n<li>Perfection</li>\n</ul>\n</div>\n</div>\n<br /><a href=\"https://kanka.io/en-US/campaign/122755/characters/758372\">LINK</a></div>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "creation",
+        "perfection",
+        "time",
+        "magic"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [],
+    "skill": "cra",
+    "weapons": [],
+    "spells": {},
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "alignment": {
+      "own": "N",
+      "follower": [
+        "N",
+        "CE",
+        "CG",
+        "LE",
+        "CN",
+        "LG",
+        "LN",
+        "NG",
+        "NE"
+      ]
+    },
+    "ability": [
+      "int",
+      "str"
+    ]
+  },
+  "_id": "v0l28spjvjRgsP11",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.330",
+    "createdTime": 1687894122009,
+    "modifiedTime": 1692415381681,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!v0l28spjvjRgsP11"
+}

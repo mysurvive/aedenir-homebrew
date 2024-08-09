@@ -1,0 +1,90 @@
+{
+  "name": "Stoke The Flames",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Prerequisite</strong> Fire Oropin</p>\n<p>The forge of your ancestors can be channeled into your weapon. You stoke the flames of a weapon or up to 5 rocks within reach. For 1 minute attacks with weapons or rocks enhanced this way deal an additional 1d6 fire damage on hit. At level 17 this damage increases to 2d6.</p>\n<p> </p>\n<p>@UUID[Compendium.aedenir-homebrew.aed-effects.Item.71AQ3kUT2uYzK8mL]{Effect: Stoke The Flames}</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "evocation",
+        "fire",
+        "hb_oropin",
+        "primal"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-31T23:04:19.825-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667271859828,
+    "modifiedTime": 1697593480917,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "Rrj9Znr2QSgOJnpK",
+  "folder": null,
+  "sort": 3700000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!Rrj9Znr2QSgOJnpK"
+}

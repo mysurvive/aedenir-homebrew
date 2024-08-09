@@ -1,0 +1,99 @@
+{
+  "name": "Throw Rock",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can throw a rock weighing at least one bulk. You are trained in rocks. Whenever you gain a class feature that grants you expert or greater proficiency in any weapon type, you can use that proficiency when throwing rocks. For you, rocks have the thrown trait and a range increment of 30 feet. On hit, the rock deals 1d8 bludgeoning damage. Throwing a rock often results in the destruction of the rock. This is considered a ranged weapon attack from the sling weapon group. However, rocks are not truly considered weapons and cannot normally benefit from weapon runes etched upon them.</p>"
+    },
+    "rules": [
+      {
+        "key": "MartialProficiency",
+        "label": "Rock",
+        "definition": [
+          "weapon:category:simple",
+          "weapon:group:sling",
+          "weapon:base:rock"
+        ],
+        "value": 1,
+        "slug": "weapon-rock"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_oropin"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-31T11:05:09.916-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestryfeature"
+    },
+    "actionCategory": {
+      "value": "offensive"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667228709921,
+    "modifiedTime": 1697593504280,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "GmAVjrIcdTykyPTD",
+  "folder": null,
+  "sort": 1600000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!GmAVjrIcdTykyPTD"
+}

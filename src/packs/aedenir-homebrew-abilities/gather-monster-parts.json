@@ -1,0 +1,61 @@
+{
+  "name": "Gather Monster Parts",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Prerequisites: You are holding a gathering tool and know how to gather monster parts.</em></p>\n<hr />\n<p>You spend 10 minutes gathering monster parts from your fallen foes. Make a @Check[type:survival] check or relevant lore skill check vs. the dc for the monster's level. You gather an amount of monster parts determined by the outcome of the roll per the Monster Parts Gained Per Monster Level table. </p>\n<p>If you used a relevant lore skill, you treat your outcome as one degree of success higher.</p>\n<p> </p>\n<p><strong>Critical Success:</strong> You gather an amount of monster parts as though the monster was one level higher.</p>\n<p><strong>Success:</strong> You gather an amount of monster parts listed in the Monster Parts Gained Per Monster Level table.</p>\n<p><strong>Failure: </strong>You gather half the amount of monster parts.</p>\n<p><strong>Critical Failure:</strong> Your gathering tool breaks, leaving you with a pile of ruined monster parts. You gain no monster parts and must repair or purchase a new gathering tool.</p>\n<p> </p>\n<p>@UUID[Compendium.battlezoo-bestiary-pf2e.pf2e-battlezoo-monster-parts.JournalEntry.t4kAG04buZGbp5XA]</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": null,
+    "actions": {
+      "value": 3
+    },
+    "deathNote": false,
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "_id": "oyEd0MgY8Ec3OAos",
+  "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NX3qHeMsqsVjwJ0v": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.3",
+    "coreVersion": "12.330",
+    "createdTime": 1697997299368,
+    "modifiedTime": 1697998806177,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!oyEd0MgY8Ec3OAos"
+}

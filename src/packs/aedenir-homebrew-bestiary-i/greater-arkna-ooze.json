@@ -1,0 +1,894 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Greater Arkna Ooze",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "modules/pf2e-tokens-bestiaries/tokens/aberrant/ooze/gray-ooze.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "folder": "TAkkrZviS9lqlAbJ",
+  "name": "Greater Arkna Ooze",
+  "type": "npc",
+  "ownership": {
+    "default": 0,
+    "oMwyPU2ip0rGnOow": 3
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 60,
+        "temp": 0,
+        "max": 60,
+        "details": ""
+      },
+      "speed": {
+        "value": 10,
+        "otherSpeeds": [
+          {
+            "type": "climb",
+            "value": 10
+          }
+        ],
+        "details": ""
+      },
+      "ac": {
+        "value": 14,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 4
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 5
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 4
+      },
+      "int": {
+        "mod": -5
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": -5
+      }
+    },
+    "perception": {
+      "details": "motion sense (precise 60 feet, no vision",
+      "mod": 8,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 12,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 10,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 8,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [
+        "mindless",
+        "ooze"
+      ],
+      "rarity": "rare",
+      "size": {
+        "value": "lg"
+      }
+    }
+  },
+  "_id": "B20vUHAJipFoWUfu",
+  "img": "modules/pf2e-tokens-bestiaries/portraits/aberrant/ooze/gray-ooze.webp",
+  "items": [
+    {
+      "name": "Pseudopod",
+      "type": "melee",
+      "system": {
+        "damageRolls": {
+          "strikeDamageID": {
+            "damage": "1d6+5",
+            "damageType": "bludgeoning",
+            "category": null
+          },
+          "ouAeSrBl6XjMIUop": {
+            "damage": "1d6",
+            "damageType": "acid"
+          }
+        },
+        "bonus": {
+          "value": 13
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile"
+          ]
+        },
+        "_migration": {
+          "version": null,
+          "previous": null
+        },
+        "attackEffects": {
+          "value": [
+            "grab"
+          ]
+        }
+      },
+      "_id": "hBePdW3qv1lpQZQ4",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "oMwyPU2ip0rGnOow": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": 1722207639194,
+        "modifiedTime": 1722209312650,
+        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+      },
+      "_key": "!actors.items!B20vUHAJipFoWUfu.hBePdW3qv1lpQZQ4"
+    },
+    {
+      "name": "Athletics",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 11
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "_id": "7akrWrgKISLuQvT2",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "oMwyPU2ip0rGnOow": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": 1722207639235,
+        "modifiedTime": 1722208766116,
+        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+      },
+      "_key": "!actors.items!B20vUHAJipFoWUfu.7akrWrgKISLuQvT2"
+    },
+    {
+      "name": "Stealth",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "stealth",
+            "value": 2,
+            "predicate": [
+              "terrain:urban"
+            ],
+            "label": "In urban environment"
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 10
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "_id": "5aqQEnpihcF6TwXC",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "oMwyPU2ip0rGnOow": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": 1722207639274,
+        "modifiedTime": 1722207805215,
+        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+      },
+      "_key": "!actors.items!B20vUHAJipFoWUfu.5aqQEnpihcF6TwXC"
+    },
+    {
+      "type": "action",
+      "name": "Puddled Ambush",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature enters a space occupied by a greater arkna ooze</p><p><strong>Requirements</strong> Initiative has not yet been rolled</p><hr /><p><strong>Effect</strong> The greater arkna ooze automatically notices the creature, then makes a pseudopod Strike against one creature adjacent to itself before rolling initiative.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "4Z8nI3ERYxc0bU6e",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "oMwyPU2ip0rGnOow": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": 1722208898777,
+        "modifiedTime": 1722208975065,
+        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+      },
+      "_key": "!actors.items!B20vUHAJipFoWUfu.4Z8nI3ERYxc0bU6e"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Constrict",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Damage[(0)[bludgeoning]], @Check[type:fortitude|dc:|basic:true]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+        },
+        "rules": [],
+        "slug": "constrict",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": 1722208986625,
+        "modifiedTime": 1722208986625,
+        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "oMwyPU2ip0rGnOow": 3
+      },
+      "_id": "Dzph9bN1Cc6jt6vs",
+      "_key": "!actors.items!B20vUHAJipFoWUfu.Dzph9bN1Cc6jt6vs"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Grab",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        },
+        "rules": [],
+        "slug": "grab",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": 1722208991841,
+        "modifiedTime": 1722208991841,
+        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "oMwyPU2ip0rGnOow": 3
+      },
+      "_id": "QsBwjnHdBQ7pbv4Y",
+      "_key": "!actors.items!B20vUHAJipFoWUfu.QsBwjnHdBQ7pbv4Y"
+    },
+    {
+      "type": "action",
+      "name": "Motion Sense",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A greater arkna ooze can sense nearby creatures through vibration and air or water movement.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "rQhyqFLpz54GMvDb",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "oMwyPU2ip0rGnOow": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": 1722209017665,
+        "modifiedTime": 1722209046892,
+        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+      },
+      "_key": "!actors.items!B20vUHAJipFoWUfu.rQhyqFLpz54GMvDb"
+    },
+    {
+      "type": "action",
+      "name": "Greater Arkna Ooze Acid",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A greater arkna ooze's acid damages only metal and organic materials, not stone.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "Gz9ylrEVX5Gxkb7J",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "oMwyPU2ip0rGnOow": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": 1722209060856,
+        "modifiedTime": 1722209118383,
+        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+      },
+      "_key": "!actors.items!B20vUHAJipFoWUfu.Gz9ylrEVX5Gxkb7J"
+    },
+    {
+      "type": "action",
+      "name": "Arkna Sludge Blast",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The Arkna Ooze unleashes a wave of congealed Arkna powder, covering all creatures in a @Template[type:emanation|distance:30]. Each creature in the area must succeed at a @Check[type:reflex|dc:21|basic:true] save or take @Damage[1d6[acid]] damage and take a -10-foot penalty to its speeds for 1 minute (on a critical failure, the creature also falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. While covered in this way, Arkna Oozes gain a +1 status bonus to attacks against the covered creature.</p><p>A creature can spend an Interact action to clean someone off, decreasing the speed penalty by 5 feet with each action.</p><p>@UUID[Compendium.aedenir-homebrew.aed-effects.Item.UtPrihcDssvxq0CC]{Effect: Arkna Sludge Blast}</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "rQ5tX86JepL89uU7",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "oMwyPU2ip0rGnOow": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": 1722209104667,
+        "modifiedTime": 1722209295833,
+        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+      },
+      "_key": "!actors.items!B20vUHAJipFoWUfu.rQ5tX86JepL89uU7"
+    },
+    {
+      "folder": "KlDa7opgselZ8cty",
+      "name": "Effect: Arkna Sense",
+      "type": "effect",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "arkna-sense",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": null,
+          "sustained": false
+        },
+        "start": {
+          "value": 0,
+          "initiative": null
+        },
+        "tokenIcon": {
+          "show": false
+        },
+        "badge": null,
+        "context": null,
+        "unidentified": false
+      },
+      "img": "systems/pf2e/icons/default-icons/effect.svg",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "oMwyPU2ip0rGnOow": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.aedenir-homebrew.aed-effects.Item.nHYSE3UtugppnP6p",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": 1722209490333,
+        "modifiedTime": 1722209490333,
+        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+      },
+      "_id": "K0tFoQGJnr0uJrrJ",
+      "_key": "!actors.items!B20vUHAJipFoWUfu.K0tFoQGJnr0uJrrJ"
+    },
+    {
+      "type": "action",
+      "name": "Arkna Sense",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The Arkna Ooze can detect the presence of Arkna powder and determine accurately whether it is an ally or attached to an enemy.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": null,
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "EF7fcj2sZl7g1QVT",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "oMwyPU2ip0rGnOow": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": 1722209638211,
+        "modifiedTime": 1722209717526,
+        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+      },
+      "_key": "!actors.items!B20vUHAJipFoWUfu.EF7fcj2sZl7g1QVT"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722207469969,
+    "modifiedTime": 1722209555640,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow"
+  },
+  "_key": "!actors!B20vUHAJipFoWUfu"
+}

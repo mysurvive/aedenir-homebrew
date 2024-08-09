@@ -1,0 +1,132 @@
+{
+  "name": "Draconic Senses",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can start sensing creatures as well as a dragon can. You gain one of the following senses: darkvision, low-light vision, or scent (imprecise) 30 feet. You must have low-light vision before you can gain darkvision with this feat.</p>\n<p><br><strong>Special</strong>&nbsp;You can select this feat multiple times, choosing a different sense each time.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "adjustName": true,
+        "choices": [
+          {
+            "label": "Low-Light Vision",
+            "value": "low-light-vision"
+          },
+          {
+            "label": "Darkvision",
+            "value": "darkvision"
+          },
+          {
+            "label": "Scent (Imprecise 30 ft.)",
+            "value": "scent-imprecise"
+          }
+        ],
+        "flag": "draconicSenses",
+        "prompt": "Choose a Draconic Sense.",
+        "rollOption": "draconic-senses"
+      },
+      {
+        "key": "Sense",
+        "selector": "darkvision",
+        "predicate": [
+          "draconic-senses:darkvision"
+        ]
+      },
+      {
+        "key": "Sense",
+        "selector": "lowLightVision",
+        "predicate": [
+          "draconic-senses:low-light-vision"
+        ]
+      },
+      {
+        "key": "Sense",
+        "acuity": "imprecise",
+        "range": 30,
+        "selector": "scent",
+        "predicate": [
+          "draconic-senses:scent-imprecise"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_drakkgebor"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": null,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-31T01:49:24.457-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667195364460,
+    "modifiedTime": 1697579512720,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "9RYl4SErMpAR4C10",
+  "folder": null,
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!9RYl4SErMpAR4C10"
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Draconic Defenses",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You become hardy like a dragon. You gain a +2 status bonus to saves against paralysis and sleep. If you roll a success against these effects, you get a critical success instead.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "value": 2,
+        "type": "status",
+        "predicate": {
+          "or": [
+            "sleep",
+            "paralysis"
+          ]
+        }
+      },
+      {
+        "key": "AdjustDegreeOfSuccess",
+        "type": "save",
+        "selectors": [
+          "fortitude",
+          "will",
+          "reflex"
+        ],
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "predicate": {
+          "or": [
+            "sleep",
+            "paralysis"
+          ]
+        }
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_drakkgebor"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.796,
+      "lastMigration": {
+        "datetime": "2022-10-31T03:49:15.916-04:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.288",
+          "system": "4.3.2"
+        }
+      }
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "actionCategory": {
+      "value": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "12.330",
+    "createdTime": 1667202555919,
+    "modifiedTime": 1697581268223,
+    "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "pwY5KGrF1pMSKivE",
+  "folder": null,
+  "sort": 6600000,
+  "ownership": {
+    "default": 0,
+    "xpVv7XfgbBbBSa8z": 3
+  },
+  "_key": "!items!pwY5KGrF1pMSKivE"
+}
