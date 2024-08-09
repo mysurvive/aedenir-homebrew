@@ -15,6 +15,7 @@ import { hideBin } from "yargs/helpers";
 import rollupStream from "@rollup/stream";
 
 import rollupConfig from "./rollup.config.mjs";
+import { buildModulePacks } from "./build/buildPacks.js";
 import gulpSass from "gulp-sass";
 import dartSass from "sass";
 
@@ -96,6 +97,7 @@ export function watch() {
 
 export const build = gulp.series(
   clean,
+  buildPacks,
   gulp.parallel(buildCode, copyFiles, buildStyles)
 );
 
@@ -119,6 +121,14 @@ export async function clean() {
   for (const filePath of files) {
     await fs.remove(`${distDirectory}/${filePath}`);
   }
+}
+
+/********************/
+/*    BUILD PACKS   */
+/********************/
+
+async function buildPacks() {
+  await buildModulePacks();
 }
 
 /********************/
