@@ -44,7 +44,7 @@ Hooks.on("init", async () => {
 Hooks.on("ready", async () => {
   //#region Pathfinder 2e
   if (game.system.id === "pf2e") {
-    checkVersion();
+    await checkVersion();
   }
   //#endregion Pathfinder 2e
 });
@@ -85,6 +85,7 @@ async function checkVersion() {
       }
     );
   }
+  return Promise.resolve();
 }
 
 async function loadCompendiumPacks() {
@@ -147,6 +148,10 @@ async function loadHomebrew() {
       "%cAedenir Homebrew Traits have been successfully loaded",
       "color: green; font-weight: bold"
     );
+    console.log(
+      "%cAedenir Homebrew settings have been set",
+      "color: green; font-weight: bold"
+    );
     return Promise.resolve();
   }
 }
@@ -169,6 +174,10 @@ async function loadSettings() {
     await game.settings.set(moduleId, "loadedSettings", true);
     console.log(
       "%cAedenir Specific System Settings have been successfully loaded",
+      "color: green; font-weight: bold"
+    );
+    console.log(
+      "%cPF2e settings for Aedenir Homebrew have been set",
       "color: green; font-weight: bold"
     );
     return Promise.resolve();
