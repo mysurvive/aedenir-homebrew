@@ -30,7 +30,7 @@ const stylesDirectory = `${sourceDirectory}/styles`;
 const stylesExtension = "scss";
 const sourceFileExtension = "js";
 const sass = gulpSass(dartSass);
-const staticFiles = ["module.json", "packs"];
+const staticFiles = ["module.json", "packs", "assets"];
 
 /********************/
 /*      BUILD       */

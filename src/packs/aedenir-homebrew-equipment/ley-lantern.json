@@ -1,0 +1,132 @@
+{
+  "name": "Ley Lantern",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Ley Lanterns utilize stabilized and stored ley energy as a source to excite the normally dormant Arkna powder in the glass bulb. When excited in this way, the Arkna powder glows the same power and intensity of a torch, the benefit being that it is not actually an open flame, therefore being unaffected by environmental effects.</p><p>A normal Ley Lantern can burn for about 4 hours before expending its energy.</p><p>If a Ley Lantern is damaged while turned on, it explodes in a @Template[type:emanation|distance:5]{5 foot emanation} where it was damaged dealing @Damage[2d6[ley]]{2d6 ley damage} to all creatures within the emanation and the stored energy is expended.</p><p>If a Ley Lantern is turned off when it is damaged, the energy is not expended and does not explode.</p>"
+    },
+    "rules": [
+      {
+        "category": "simple",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "key": "Strike",
+        "otherTags": [
+          "improvised"
+        ],
+        "range": null
+      },
+      {
+        "damageType": "fire",
+        "key": "FlatModifier",
+        "predicate": [
+          "lit-torch"
+        ],
+        "selector": "{item|_id}-damage",
+        "value": 1
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "label": "PF2E.SpecificRule.LitTorch",
+        "option": "lit-torch",
+        "toggleable": true,
+        "value": false
+      },
+      {
+        "key": "TokenEffectIcon",
+        "predicate": [
+          "lit-torch"
+        ],
+        "value": "modules/aedenir-homebrew/assets/icons/leyLanternIcon.webp"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 1
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": []
+  },
+  "_id": "89dnpm8iHnQwc1Hd",
+  "img": "modules/aedenir-homebrew/assets/icons/leyLanternIcon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "createdTime": 1723296382286,
+    "modifiedTime": 1723297367963,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow"
+  },
+  "_key": "!items!89dnpm8iHnQwc1Hd"
+}
