@@ -64,7 +64,7 @@ async function checkVersion() {
     `%cLatest version: ${latestVersion}`,
     "color: green; font-weight: bold"
   );
-  if (loadedVersion < latestVersion) {
+  if (loadedVersion != latestVersion) {
     console.log(
       "%cVersion mismatch, updating.",
       "color: red; font-weight: bold"
