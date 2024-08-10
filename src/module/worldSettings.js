@@ -58,6 +58,8 @@ function languageToRarity() {
   };
 }
 
+const damageTypes = [{ label: "Ley", category: "energy", icon: "fa-drone" }];
+
 const languages = [
   { id: "ereben", value: "Ereben", rarity: "common" },
   { id: "skin-cant", value: "Skin Cant", rarity: "secret" },
@@ -89,6 +91,7 @@ const weaponTraits = [{ id: "oropin", value: "Oropin" }];
 
 export {
   creatureTraits,
+  damageTypes,
   featTraits,
   languages,
   weaponGroups,

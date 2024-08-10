@@ -1,6 +1,7 @@
 import {
   baseWeapons,
   creatureTraits,
+  damageTypes,
   featTraits,
   languages,
   languageToRarity,
@@ -73,7 +74,8 @@ async function checkVersion() {
     game.settings.set(moduleId, "loadedSettings", false);
 
     Promise.all([loadCompendiumPacks(), loadHomebrew(), loadSettings()]).then(
-      await game.settings.set(moduleId, latestVersion)
+      async () =>
+        await game.settings.set(moduleId, "homebrewVersion", latestVersion)
     );
   }
 }
@@ -125,6 +127,7 @@ async function loadHomebrew() {
         "homebrew.languageRarities",
         languageToRarity()
       );
+      await game.settings.set("pf2e", "homebrew.damageTypes", damageTypes);
     } catch {
       console.error("Error loading homebrew.");
       return Promise.reject();
