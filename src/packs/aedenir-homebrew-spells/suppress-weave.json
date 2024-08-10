@@ -1,0 +1,100 @@
+{
+  "name": "Suppress Weave",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You suppress the magical power of the weave that flows through up to 5 willing allies you can touch. For one hour, traces of the weave are suppressed on your target and any equipment they are wearing or holding. This does not remove the magic associated with the person or items, but renders them nearly imperceptible. The traces of suppressed Weave can still be detected with a perception check versus the spell save DC of the caster.</p><hr /><p><span style=\"font-family:Roboto, sans-serif\"><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;color:rgb(239, 230, 216);font-family:Roboto, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">Heightened (+1)</strong> You can add one additional target.</span></p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.931,
+        "foundry": "12.329",
+        "system": "6.1.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": "Up to 5 willing allies"
+    },
+    "range": {
+      "value": "Touch"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 hour",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {}
+    }
+  },
+  "img": "systems/pf2e/icons/spells/behold-the-weave.webp",
+  "folder": null,
+  "flags": {
+    "exportSource": {
+      "world": "blessings-of-aedenir",
+      "system": "pf2e",
+      "coreVersion": "12.330",
+      "systemVersion": "6.1.3"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "createdTime": 1723259779816,
+    "modifiedTime": 1723259876632,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow"
+  },
+  "_id": "lvNaQpJ2D2ShUbgB",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!lvNaQpJ2D2ShUbgB"
+}

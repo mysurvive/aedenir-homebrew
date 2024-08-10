@@ -73,9 +73,16 @@ async function checkVersion() {
     game.settings.set(moduleId, "loadedHomebrew", false);
     game.settings.set(moduleId, "loadedSettings", false);
 
-    Promise.all([loadCompendiumPacks(), loadHomebrew(), loadSettings()]).then(
+    Promise.all([
+      await loadCompendiumPacks(),
+      await loadHomebrew(),
+      await loadSettings(),
+    ]).then(
       async () =>
-        await game.settings.set(moduleId, "homebrewVersion", latestVersion)
+        await game.settings.set(moduleId, "homebrewVersion", latestVersion),
+      (reject) => {
+        console.error(reject);
+      }
     );
   }
 }
@@ -91,8 +98,10 @@ async function loadCompendiumPacks() {
       settings.equipment[`${moduleId}.aed-equipment`].load = true;
       settings.feat[`${moduleId}.aed-featsfeatures`].load = true;
       settings.bestiary[`${moduleId}.aed-bestiary-i`].load = true;
-    } catch {
-      return Promise.reject();
+      settings.spell[`${moduleId}.aed-spells`].load = true;
+    } catch (error) {
+      console.error(error);
+      return Promise.reject("Error loading packs");
     }
 
     // Set the settings, both in the client settings and the current session respectively
@@ -130,7 +139,7 @@ async function loadHomebrew() {
       await game.settings.set("pf2e", "homebrew.damageTypes", damageTypes);
     } catch {
       console.error("Error loading homebrew.");
-      return Promise.reject();
+      return Promise.reject("Error in loadHomebrew");
     }
 
     await game.settings.set(moduleId, "loadedHomebrew", true);
@@ -154,7 +163,7 @@ async function loadSettings() {
       await game.settings.set("pf2e", "freeArchetypeVariant", true);
     } catch {
       console.error("Error loading system settings.");
-      return Promise.reject();
+      return Promise.reject("Error in loadSettings");
     }
 
     await game.settings.set(moduleId, "loadedSettings", true);

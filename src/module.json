@@ -125,6 +125,18 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "name": "aed-spells",
+      "label": "Aedenir Homebrew Spells",
+      "system": "pf2e",
+      "path": "packs/aedenir-homebrew-spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -139,7 +151,8 @@
         "aed-equipment",
         "aed-featsfeatures",
         "aed-heritages",
-        "aed-bestiary-i"
+        "aed-bestiary-i",
+        "aed-spells"
       ]
     }
   ],
