@@ -75,6 +75,7 @@ const languages = [
   { id: "dockspeak", value: "Dockspeak", rarity: "uncommon" },
   { id: "patchwerk", value: "Patchwerk", rarity: "rare" },
   { id: "tripup", value: "Tripup", rarity: "rare" },
+  { id: "ephysio", value: "Ephysio", rarity: "secret" },
 ];
 
 const weaponGroups = [{ id: "oropin", value: "Oropin" }];
