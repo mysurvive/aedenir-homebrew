@@ -36,7 +36,7 @@
     "level": {
       "value": 17
     },
-    "category": "bonus",
+    "category": "ancestry",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -60,10 +60,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "systemVersion": "6.5.1",
+    "coreVersion": "12.331",
     "createdTime": 1667093713661,
-    "modifiedTime": 1723171397601,
+    "modifiedTime": 1730051226605,
     "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "compendiumSource": null,
     "duplicateSource": null
