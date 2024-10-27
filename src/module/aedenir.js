@@ -1,7 +1,11 @@
+import { registerTemplates } from "../scripts/loadTemplates.js";
+import { CookingMenu } from "./cooking/cookingMenu.js";
+import { globals } from "./globals.js";
 import {
   baseWeapons,
   creatureTraits,
   damageTypes,
+  equipmentTraits,
   featTraits,
   languages,
   languageToRarity,
@@ -39,6 +43,12 @@ Hooks.on("init", async () => {
     type: String,
     default: "0.0.0",
   });
+
+  CookingMenu.registerSettings();
+
+  registerTemplates();
+
+  game.aedenir = globals;
 });
 
 Hooks.on("ready", async () => {
@@ -136,6 +146,11 @@ async function loadHomebrew() {
         "pf2e",
         "homebrew.languageRarities",
         languageToRarity()
+      );
+      await game.settings.set(
+        "pf2e",
+        "homebrew.equipmentTraits",
+        equipmentTraits
       );
       await game.settings.set("pf2e", "homebrew.damageTypes", damageTypes);
     } catch {

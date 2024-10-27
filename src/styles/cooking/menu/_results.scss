@@ -1,0 +1,56 @@
+ul.result-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  // 'overflow: auto' causes excessive layout/redraw times
+  // Use a fixed setting instead, to avoid stuttering
+  > :not(.title) {
+    overflow: visible scroll;
+  }
+
+  > li {
+    &.recipe {
+      &:nth-child(even) {
+        background-color: rgba(0, 0, 0, 0.12);
+      }
+    }
+    &.title {
+      border: 2px solid black;
+      > .level {
+        padding-right: 0.625em;
+        font-weight: 100;
+      }
+    }
+
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.125rem 0.25rem;
+
+    > * {
+      align-items: center;
+      display: flex;
+      min-height: 2rem;
+      justify-content: center;
+    }
+
+    > .image {
+      max-width: 2rem;
+    }
+
+    > .name {
+      gap: 0.25em;
+      flex-basis: 6ch;
+      justify-content: start;
+    }
+
+    > .level {
+      flex-grow: 1;
+      font-weight: 900;
+      max-width: 1.5em;
+    }
+  }
+}

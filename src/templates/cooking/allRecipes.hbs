@@ -1,0 +1,19 @@
+<form autocomplete="off" spellcheck="false">
+    <p>List of all recipes</p>
+    <ul class="result-list">
+        <li class="flexrow title">
+            <div class="image">
+                <img src="icons/consumables/meat/ribs-bones-glowing-pink.webp" alt="image"/>
+            </div>
+            <div class="name">
+                Name
+            </div>
+            <div class="level">
+                Level
+            </div>
+        </li>
+        {{#each recipes as |recipe|}}
+            {{> "modules/aedenir-homebrew/templates/cooking/partials/recipeItem.hbs"}}
+        {{/each}}
+    </ul>
+</form>

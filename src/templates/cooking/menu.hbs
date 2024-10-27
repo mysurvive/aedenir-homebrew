@@ -1,0 +1,26 @@
+<div class="cooking-menu">
+    <span class="nav-container">
+        <nav class="cooking-tabs tabs" data-group="primary">
+            <a data-tab="known-recipes">Known Recipes</a>
+            <a data-tab="learn-recipe">Learn New Recipe</a>
+            <a data-tab="preserve">Preserve Ingredients</a>
+            {{#if user.isGM}}
+                <a data-tab="all-recipes">All Recipes</a>
+            {{/if}}
+        </nav>
+    </span>
+    <section class="content">
+        <div class="tab" data-group="primary" data-tab="known-recipes">
+            {{> "modules/aedenir-homebrew/templates/cooking/knownRecipes.hbs"}}
+        </div>
+        <div class="tab" data-group="primary" data-tab="learn-recipe">
+            {{> "modules/aedenir-homebrew/templates/cooking/learnRecipe.hbs"}}
+        </div>
+        <div class="tab" data-group="primary" data-tab="preserve">
+            {{> "modules/aedenir-homebrew/templates/cooking/preserveIngredients.hbs"}}
+        </div>
+        <div class="tab" data-group="primary" data-tab="all-recipes">
+            {{> "modules/aedenir-homebrew/templates/cooking/allRecipes.hbs"}}
+        </div>
+    </section>
+</div>

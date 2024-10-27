@@ -137,6 +137,30 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "name": "aed-ingredients",
+      "label": "Ingredients",
+      "system": "pf2e",
+      "path": "packs/aed-ingredients",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "aed-meals",
+      "label": "Meals",
+      "system": "pf2e",
+      "path": "packs/aed-meals",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -153,6 +177,13 @@
         "aed-heritages",
         "aed-bestiary-i",
         "aed-spells"
+      ],
+      "folders": [
+        {
+          "name": "Cooking",
+          "sorting": "m",
+          "packs": ["aed-ingredients", "aed-meals"]
+        }
       ]
     }
   ],

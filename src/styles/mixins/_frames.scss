@@ -1,0 +1,9 @@
+@mixin corner-boxes {
+  border-style: solid;
+  border-image-outset: 0px;
+  border-width: 24px;
+  border-image: url("/modules/aedenir-homebrew/assets/sheet/corner-box.webp")
+    25%;
+  border-color: gold;
+  box-shadow: 0 0 20px rgba(black, 0.8);
+}

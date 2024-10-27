@@ -1,0 +1,17 @@
+#aedenir-cooking-menu > .window-content > .cooking-menu {
+  @import "nav";
+  @import "tab";
+  @import "results";
+
+  flex: 1;
+  overflow: hidden;
+  height: inherit;
+
+  > section.content {
+    form > fieldset {
+      margin-bottom: 20px;
+    }
+
+    height: inherit;
+  }
+}

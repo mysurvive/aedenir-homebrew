@@ -89,6 +89,18 @@ const baseWeapons = [
 
 const weaponTraits = [{ id: "oropin", value: "Oropin" }];
 
+const ingredientTraits = [
+  { id: "ingredient", value: "Ingredient" },
+  { id: "meat", value: "Meat" },
+  { id: "vegetable", value: "Vegetable" },
+  { id: "seasoning", value: "Seasoning" },
+  { id: "aromatic", value: "Aromatic" },
+  { id: "dairy", value: "Dairy" },
+  { id: "fruit", value: "Fruit" },
+];
+
+const equipmentTraits = [...ingredientTraits];
+
 export {
   creatureTraits,
   damageTypes,
@@ -97,5 +109,6 @@ export {
   weaponGroups,
   baseWeapons,
   weaponTraits,
+  equipmentTraits,
   languageToRarity,
 };

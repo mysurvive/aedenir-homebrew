@@ -1,0 +1,92 @@
+<form autocomplete="off" spellcheck="false">
+  <fieldset>
+    <legend>Cooking Configuration</legend>
+    <label for="cooking-skill">Skill:</label>
+    <select id="cooking-skill">
+      {{#each cookingSkills as |skill|}}
+        <option value="{{skill}}">{{skill}}</option>
+      {{/each}}
+    </select>
+    <hr />
+    <p>Equipment:</p>
+    <input
+      type="radio"
+      id="fire"
+      name="equipment"
+      value="fire"
+      checked="checked"
+    />
+    <label for="fire">Campfire</label>
+    <input
+      type="radio"
+      id="fire-cookware"
+      name="equipment"
+      value="fireCookware"
+    />
+    <label for="fire-cookware">Campfire and Cookware</label>
+    <input type="radio" id="kitchen" name="equipment" value="kitchen" />
+    <label for="kitchen">Kitchen</label>
+    <input
+      type="radio"
+      id="stocked-kitchen"
+      name="equipment"
+      value="stockedKitchen"
+    />
+    <label for="stocked-kitchen">Well-stocked Kitchen</label>
+    <hr />
+    <p>Ingredients:</p>
+    <div>
+      <label for="ingredient1">Ingredient 1</label>
+      <select name="ingredient1">
+        {{#each ingredients as |ingredient|}}
+          <option value=""></option>
+          <option value="{{ingredient.name}}">{{ingredient.name}}</option>
+        {{/each}}
+      </select>
+      <label for="ingredient2">Ingredient 2</label>
+      <select name="ingredient2">
+        {{#each ingredients as |ingredient|}}
+          <option value=""></option>
+          <option value="{{ingredient.name}}">{{ingredient.name}}</option>
+        {{/each}}
+      </select>
+      <label for="ingredient3">Ingredient 3</label>
+      <select name="ingredient3">
+        {{#each ingredients as |ingredient|}}
+          <option value=""></option>
+          <option value="{{ingredient.name}}">{{ingredient.name}}</option>
+        {{/each}}
+      </select>
+      <label for="ingredient4">Ingredient 4</label>
+      <select name="ingredient4">
+        {{#each ingredients as |ingredient|}}
+          <option value=""></option>
+          <option value="{{ingredient.name}}">{{ingredient.name}}</option>
+        {{/each}}
+      </select>
+      <label for="ingredient5">Ingredient 5</label>
+      <select name="ingredient5">
+        {{#each ingredients as |ingredient|}}
+          <option value=""></option>
+          <option value="{{ingredient.name}}">{{ingredient.name}}</option>
+        {{/each}}
+      </select>
+    </div>
+  </fieldset>
+    <ul class="result-list">
+        <li class="flexrow title">
+            <div class="image">
+                <img src="icons/consumables/meat/ribs-bones-glowing-pink.webp" alt="image"/>
+            </div>
+            <div class="name">
+                Name
+            </div>
+            <div class="level">
+                Level
+            </div>
+        </li>
+        {{#each recipes as |recipe|}}
+            {{> "modules/aedenir-homebrew/templates/cooking/partials/recipeItem.hbs"}}
+        {{/each}}
+    </ul>
+</form>
