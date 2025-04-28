@@ -1,3 +1,4 @@
+import { ancestralEndurance } from "./macros/ancestralEndurance.js";
 import {
   baseWeapons,
   creatureTraits,
@@ -39,6 +40,10 @@ Hooks.on("init", async () => {
     type: String,
     default: "0.0.0",
   });
+
+  game.aedenir = {
+    ancestralEndurance,
+  };
 });
 
 Hooks.on("ready", async () => {

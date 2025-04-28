@@ -86,9 +86,7 @@
   },
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.0T73V4bOhNT3wJQ5"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "pf2e",
@@ -96,8 +94,7 @@
     "coreVersion": "12.330",
     "createdTime": 1667226402712,
     "modifiedTime": 1723171377041,
-    "lastModifiedBy": "oMwyPU2ip0rGnOow",
-    "compendiumSource": "Item.0T73V4bOhNT3wJQ5",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-ancestries.Item.0T73V4bOhNT3wJQ5",
     "duplicateSource": null
   },
   "_id": "0T73V4bOhNT3wJQ5",

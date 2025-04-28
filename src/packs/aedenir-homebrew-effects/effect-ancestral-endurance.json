@@ -1,0 +1,72 @@
+{
+  "name": "Effect: Ancestral Endurance",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can shrug off the mightiest of blows. You gain resistance to physical damage equal to 1d6 + your constitution modifier against the triggering damage. This increases by 1d6 at levels 9, 13, and 17.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": [
+          "physical"
+        ],
+        "value": 0
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "bO9ny317NbXrpzut",
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-effects.Item.bO9ny317NbXrpzut",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1744649335299,
+    "modifiedTime": 1744650165225
+  },
+  "_key": "!items!bO9ny317NbXrpzut"
+}

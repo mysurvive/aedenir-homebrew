@@ -137,6 +137,29 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "name": "aed-macros",
+      "label": "Aedenir Homebrew Macros",
+      "system": "pf2e",
+      "path": "packs/aedenir-homebrew-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "aed-random-encounters",
+      "label": "Aedenir Random Encounters",
+      "system": "pf2e",
+      "path": "packs/aedenir-random-encounters",
+      "type": "RollTable",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -152,7 +175,9 @@
         "aed-featsfeatures",
         "aed-heritages",
         "aed-bestiary-i",
-        "aed-spells"
+        "aed-spells",
+        "aed-macros",
+        "aed-random-encounters"
       ]
     }
   ],

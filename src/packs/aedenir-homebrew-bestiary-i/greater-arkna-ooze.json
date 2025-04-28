@@ -881,14 +881,13 @@
   "sort": 0,
   "flags": {},
   "_stats": {
-    "compendiumSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-bestiary-i.Actor.B20vUHAJipFoWUfu",
     "duplicateSource": null,
     "coreVersion": "12.330",
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
     "createdTime": 1722207469969,
-    "modifiedTime": 1723171405112,
-    "lastModifiedBy": "oMwyPU2ip0rGnOow"
+    "modifiedTime": 1723171405112
   },
   "_key": "!actors!B20vUHAJipFoWUfu"
 }

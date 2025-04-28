@@ -121,9 +121,7 @@
   },
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.ivRWocWojjzMzTAI"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "pf2e",
@@ -131,8 +129,7 @@
     "coreVersion": "12.330",
     "createdTime": 1667229775628,
     "modifiedTime": 1723171392749,
-    "lastModifiedBy": "oMwyPU2ip0rGnOow",
-    "compendiumSource": "Item.ivRWocWojjzMzTAI",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-equipment.Item.ivRWocWojjzMzTAI",
     "duplicateSource": null
   },
   "_id": "ivRWocWojjzMzTAI",

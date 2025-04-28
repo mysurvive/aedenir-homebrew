@@ -122,9 +122,7 @@
   },
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.Exoam2jrv0MTtCWr"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "pf2e",
@@ -132,8 +130,7 @@
     "coreVersion": "12.330",
     "createdTime": 1667246810054,
     "modifiedTime": 1723171392749,
-    "lastModifiedBy": "oMwyPU2ip0rGnOow",
-    "compendiumSource": "Item.Exoam2jrv0MTtCWr",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-equipment.Item.Exoam2jrv0MTtCWr",
     "duplicateSource": null
   },
   "_id": "Exoam2jrv0MTtCWr",

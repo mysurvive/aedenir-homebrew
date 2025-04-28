@@ -119,14 +119,13 @@
   },
   "flags": {},
   "_stats": {
-    "compendiumSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-equipment.Item.89dnpm8iHnQwc1Hd",
     "duplicateSource": null,
     "coreVersion": "12.330",
     "systemId": "pf2e",
     "systemVersion": "6.2.1",
     "createdTime": 1723296382286,
-    "modifiedTime": 1723297367963,
-    "lastModifiedBy": "oMwyPU2ip0rGnOow"
+    "modifiedTime": 1723297367963
   },
   "_key": "!items!89dnpm8iHnQwc1Hd"
 }

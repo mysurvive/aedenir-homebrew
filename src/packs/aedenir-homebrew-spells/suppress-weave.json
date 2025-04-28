@@ -82,14 +82,13 @@
     }
   },
   "_stats": {
-    "compendiumSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-spells.Item.lvNaQpJ2D2ShUbgB",
     "duplicateSource": null,
     "coreVersion": "12.330",
     "systemId": "pf2e",
     "systemVersion": "6.2.1",
     "createdTime": 1723259779816,
-    "modifiedTime": 1723259876632,
-    "lastModifiedBy": "oMwyPU2ip0rGnOow"
+    "modifiedTime": 1723259876632
   },
   "_id": "lvNaQpJ2D2ShUbgB",
   "sort": 0,

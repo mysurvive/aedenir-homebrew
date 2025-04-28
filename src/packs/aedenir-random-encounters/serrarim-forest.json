@@ -1,0 +1,208 @@
+{
+  "name": "Serrarim Forest",
+  "_id": "pAGOYy41Tnhaa4IE",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        3
+      ],
+      "drawn": false,
+      "_id": "vMqTrRG6OA5iZREq",
+      "text": "2 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.1ZRHjuGOluR4IUrs] (Moderate 6)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!pAGOYy41Tnhaa4IE.vMqTrRG6OA5iZREq"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        5
+      ],
+      "drawn": false,
+      "_id": "4eBcMGnsozUs23yD",
+      "text": "1 @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.coNTMrHerjBIf2ig] looking for \"fish.\" If the party does not provide the creature with a fish, it will consider them a fish and attack. (Trivial 6)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!pAGOYy41Tnhaa4IE.4eBcMGnsozUs23yD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "flkBjprAVYrcux4s",
+      "text": "1 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.dY1wqHKN6PV4oJ07]. Far before the creature is seen, its devastation is seen. (Moderate 6)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!pAGOYy41Tnhaa4IE.flkBjprAVYrcux4s"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "_id": "f467qFrLG25i7DaG",
+      "text": "2 @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.nzLGh9GKCk7imto3] &amp; 1 @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.F5QibbbxUeO8A3Kj] (Moderate 6)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!pAGOYy41Tnhaa4IE.f467qFrLG25i7DaG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "fbsd3L7RPFcCS9Ui",
+      "text": "1 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.dY1wqHKN6PV4oJ07] &amp; 2 @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.nzLGh9GKCk7imto3] (Severe 6)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!pAGOYy41Tnhaa4IE.fbsd3L7RPFcCS9Ui"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "_id": "Izvt0ajckE8hiOJj",
+      "text": "1 @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.SfPoGbcaQqPlgJ85] &amp; 3 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.fWAjkhQ0y50Eh2BT]",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!pAGOYy41Tnhaa4IE.Izvt0ajckE8hiOJj"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        15
+      ],
+      "drawn": false,
+      "_id": "EsCBZE1aHXeD8Aby",
+      "text": "4 @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.Kr5LtF0bqZJAC2Wn]",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!pAGOYy41Tnhaa4IE.EsCBZE1aHXeD8Aby"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        16
+      ],
+      "drawn": false,
+      "_id": "7APws57nd5TjQeeA",
+      "text": "1 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.6aaBmiOgqZ5h2IhW] &amp; 4 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.h7je8nkscJQ2Ac8j] (Low 6)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!pAGOYy41Tnhaa4IE.7APws57nd5TjQeeA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_id": "BAmRDlHYQViRJz1u",
+      "text": "1 @UUID[Compendium.pf2e.pathfinder-bestiary-3.Actor.sp0CZ8B2IPw3bBVi] willing to manipulate luck if the party helps her. (Trivial 6)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!pAGOYy41Tnhaa4IE.BAmRDlHYQViRJz1u"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_id": "gONtcg7OLbve9JAB",
+      "text": "1 @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.R0YrD0izubtQYbTU] that scams the party.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!pAGOYy41Tnhaa4IE.gONtcg7OLbve9JAB"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_id": "uUXgLUMi92Ao4OUs",
+      "text": "1 @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.R0YrD0izubtQYbTU] that helps the party",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!pAGOYy41Tnhaa4IE.uUXgLUMi92Ao4OUs"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        21
+      ],
+      "drawn": false,
+      "_id": "6CzeoguAaiHsSl56",
+      "text": "Soldiers march through",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!pAGOYy41Tnhaa4IE.6CzeoguAaiHsSl56"
+    }
+  ],
+  "replacement": false,
+  "displayRoll": false,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1744657973942,
+    "modifiedTime": 1745798778095,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow"
+  },
+  "formula": "1d1",
+  "_key": "!tables!pAGOYy41Tnhaa4IE"
+}

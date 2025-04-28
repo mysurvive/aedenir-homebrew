@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Prerequisite</strong> Stone Oropin</p>\n<p><strong>Frequency</strong> Once per day</p>\n<p><strong>Trigger</strong> You would take physical damage</p>\n<p>You can shrug off the mightiest of blows. You gain resistance to physical damage equal to [[/r floor(@actor.level/4)d6+@actor.abilities.con.mod]]{1d6 + your constitution modifier} against the triggering damage. This increases by 1d6 at levels 9, 13, and 17.</p>"
+      "value": "<p><strong>Prerequisite</strong> Stone Oropin</p><p><strong>Frequency</strong> Once per day</p><p><strong>Trigger</strong> You would take physical damage</p><p>You can shrug off the mightiest of blows. You gain resistance to physical damage equal to1d6 + your constitution modifier against the triggering damage. This increases by 1d6 at levels 9, 13, and 17.</p><p></p><p>@UUID[Compendium.aedenir-homebrew.aed-macros.Macro.bL9gGDbEz5BUKBt9]{Ancestral Endurance}</p>"
     },
     "rules": [],
     "slug": null,
@@ -67,12 +67,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.5.1",
+    "systemVersion": "6.11.1",
     "coreVersion": "12.331",
     "createdTime": 1667255272890,
-    "modifiedTime": 1730051042987,
-    "lastModifiedBy": "oMwyPU2ip0rGnOow",
-    "compendiumSource": null,
+    "modifiedTime": 1744655084295,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.rX53wrfch6DOxNmK",
     "duplicateSource": null
   },
   "_id": "rX53wrfch6DOxNmK",
