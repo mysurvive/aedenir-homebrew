@@ -75,7 +75,6 @@
       }
     },
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -90,16 +89,21 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "img": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Tokens/Bestiary/token-Bastaal_Warrior.webp",
   "items": [
     {
       "_id": "7N81J13tH9opZBPI",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Item.JNt7GmLCCVz5BiEI"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/equipment/weapons/javelin.webp",
       "name": "Javelin",
@@ -189,9 +193,6 @@
           "damageType": "piercing",
           "persistent": null
         },
-        "bonusDamage": {
-          "value": 0
-        },
         "splashDamage": {
           "value": 0
         },
@@ -206,6 +207,9 @@
         },
         "specific": null,
         "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
         "property1": {
           "value": "",
           "dice": 0,
@@ -226,21 +230,20 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.JNt7GmLCCVz5BiEI",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!xb45uoGUPTIwgQNe.7N81J13tH9opZBPI"
     },
     {
       "_id": "JHfMmaXNeMW7jIqG",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Item.J6H5UbLVsSXShoTs"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/equipment/weapons/orc-necksplitter.webp",
       "name": "Necksplitter",
@@ -332,9 +335,6 @@
           "damageType": "slashing",
           "persistent": null
         },
-        "bonusDamage": {
-          "value": 0
-        },
         "splashDamage": {
           "value": 0
         },
@@ -349,6 +349,9 @@
         },
         "specific": null,
         "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
         "property1": {
           "value": "",
           "dice": 0,
@@ -373,21 +376,20 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": 1692476817643,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.J6H5UbLVsSXShoTs",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!xb45uoGUPTIwgQNe.JHfMmaXNeMW7jIqG"
     },
     {
       "_id": "lomadIB0iDyESztp",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Item.7tKkkF8eZ4iCLJtp"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/equipment/weapons/shortsword.webp",
       "name": "Shortsword",
@@ -479,9 +481,6 @@
           "damageType": "piercing",
           "persistent": null
         },
-        "bonusDamage": {
-          "value": 0
-        },
         "splashDamage": {
           "value": 0
         },
@@ -496,6 +495,9 @@
         },
         "specific": null,
         "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
         "property1": {
           "value": "",
           "dice": 0,
@@ -516,21 +518,20 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.7tKkkF8eZ4iCLJtp",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!xb45uoGUPTIwgQNe.lomadIB0iDyESztp"
     },
     {
       "_id": "4D2PeMPJfrwdbJ3e",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Item.r0ifJfoz8aqf0mwk"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/equipment/armor/breastplate.webp",
       "name": "Breastplate",
@@ -627,12 +628,13 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.r0ifJfoz8aqf0mwk",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!xb45uoGUPTIwgQNe.4D2PeMPJfrwdbJ3e"
     },
@@ -697,12 +699,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": 1692476808840,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!xb45uoGUPTIwgQNe.mHS7Uj0GKGKhQiNo"
     },
@@ -767,12 +770,13 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!xb45uoGUPTIwgQNe.54j0gybWlIAueFkZ"
     },
@@ -833,12 +837,13 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!xb45uoGUPTIwgQNe.U7gmP0tQ6eQor3xT"
     },
@@ -902,21 +907,20 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!xb45uoGUPTIwgQNe.freYXZtmDhD5zIrA"
     },
     {
       "_id": "V9zIFbIReO27zwGu",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "name": "Darkvision",
@@ -975,21 +979,20 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!xb45uoGUPTIwgQNe.V9zIFbIReO27zwGu"
     },
     {
       "_id": "AsGPSfdLJ7pQhwZZ",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/actions/Reaction.webp",
       "name": "Attack of Opportunity",
@@ -1048,21 +1051,20 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": 1692479913852,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!xb45uoGUPTIwgQNe.AsGPSfdLJ7pQhwZZ"
     },
     {
       "_id": "AtTvfif8mNvTl8HD",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.N1kstYbHScxgUQtN"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/actions/Reaction.webp",
       "name": "Ferocity",
@@ -1121,12 +1123,13 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.N1kstYbHScxgUQtN",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!xb45uoGUPTIwgQNe.AtTvfif8mNvTl8HD"
     }
@@ -1266,11 +1269,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "coreVersion": "13.345",
     "createdTime": 1692473215561,
     "modifiedTime": 1723171405112,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-bestiary-i.Actor.xb45uoGUPTIwgQNe",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "_id": "xb45uoGUPTIwgQNe",
   "sort": 1200000,

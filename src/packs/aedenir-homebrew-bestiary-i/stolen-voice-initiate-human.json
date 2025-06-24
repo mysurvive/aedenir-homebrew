@@ -75,7 +75,6 @@
     },
     "detectionModes": [],
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -90,7 +89,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "folder": "ojrwaNrOSQDGyAAp",
   "name": "Stolen Voice Initiate (Human)",
@@ -282,12 +288,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.5.1",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1694925700326,
         "modifiedTime": 1694925780926,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!n6ELqbvJ6yehxm1i.LcCHZfCZ6PapOcFU"
     },
@@ -421,12 +428,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.5.1",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1694925700372,
         "modifiedTime": 1694925700372,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!n6ELqbvJ6yehxm1i.YXQAyDOGKZpgPLu7"
     },
@@ -489,12 +497,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.5.1",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1694925783152,
         "modifiedTime": 1694925831902,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!n6ELqbvJ6yehxm1i.8curDnqkg5mUHFpo"
     },
@@ -590,9 +599,6 @@
           "damageType": "piercing",
           "persistent": null
         },
-        "bonusDamage": {
-          "value": 0
-        },
         "splashDamage": {
           "value": 0
         },
@@ -607,6 +613,9 @@
         },
         "specific": null,
         "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
         "property1": {
           "value": "",
           "dice": 0,
@@ -620,9 +629,7 @@
       },
       "type": "weapon",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Item.rQWaJhI5Bko5x14Z"
-        }
+        "core": {}
       },
       "effects": [],
       "folder": null,
@@ -634,12 +641,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.5.1",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1694925943684,
         "modifiedTime": 1694925943684,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.rQWaJhI5Bko5x14Z",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "E3FBq7XoEkk6n3g1",
       "_key": "!actors.items!n6ELqbvJ6yehxm1i.E3FBq7XoEkk6n3g1"
@@ -651,11 +659,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "coreVersion": "13.345",
     "createdTime": 1694925643992,
     "modifiedTime": 1723171405112,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-bestiary-i.Actor.n6ELqbvJ6yehxm1i",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "_id": "n6ELqbvJ6yehxm1i",
   "sort": 200000,

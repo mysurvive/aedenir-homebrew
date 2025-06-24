@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your instincts help you take advantage of a foe's opening. You gain the @UUID[Compendium.pf2e.actionspf2e.KAVf7AmRnbCAHrkT]{Attack of Opportunity} reaction, except you can only make fist Strikes or Strikes with unarmed attacks you gained from an ancestry feat when using the reaction. If you already had the Attack of Opportunity reaction, you gain a +4 circumstance bonus to damage when you make an unarmed attack Strike as part of the reaction.</p>"
+      "value": "<p>Your instincts help you take advantage of a foe's opening. You gain the @UUID[Compendium.pf2e.actionspf2e.KAVf7AmRnbCAHrkT]{Reactive Strike} reaction, except you can only make fist Strikes or Strikes with unarmed attacks you gained from an ancestry feat when using the reaction. If you already had the Reactive Strike reaction, you gain a +4 circumstance bonus to damage when you make an unarmed attack Strike as part of the reaction.</p>"
     },
     "rules": [
       {
@@ -94,12 +94,14 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.5.1",
-    "coreVersion": "12.331",
+    "systemVersion": "7.1.1",
+    "coreVersion": "13.345",
     "createdTime": 1667223294584,
-    "modifiedTime": 1730050448491,
+    "modifiedTime": 1750797131923,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.V0b8nbGXSqwyyUGI",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
+    "exportSource": null
   },
   "_id": "V0b8nbGXSqwyyUGI",
   "folder": null,

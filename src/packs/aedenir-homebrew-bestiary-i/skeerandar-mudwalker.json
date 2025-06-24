@@ -75,7 +75,6 @@
     },
     "detectionModes": [],
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -90,7 +89,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "name": "Skeerandar Mudwalker",
   "type": "npc",
@@ -280,12 +286,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692461154058,
         "modifiedTime": 1692461833093,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!MmxW27lhVhsrhhHn.h3yYkaYQo5yGksr9"
     },
@@ -419,12 +426,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692461154100,
         "modifiedTime": 1692461154100,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!MmxW27lhVhsrhhHn.GJYkTv8jQZgcZ3k9"
     },
@@ -558,12 +566,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692461415308,
         "modifiedTime": 1692461415308,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!MmxW27lhVhsrhhHn.LOB1FN8wVIkvnXSg"
     },
@@ -624,12 +633,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692461752033,
         "modifiedTime": 1692461920301,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!MmxW27lhVhsrhhHn.1tbPirkJfaX07nbn"
     }
@@ -641,11 +651,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "coreVersion": "13.345",
     "createdTime": 1692460457716,
     "modifiedTime": 1723171405112,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-bestiary-i.Actor.MmxW27lhVhsrhhHn",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "_id": "MmxW27lhVhsrhhHn",
   "sort": 100000,

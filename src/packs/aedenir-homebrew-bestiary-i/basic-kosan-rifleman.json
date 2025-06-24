@@ -75,7 +75,6 @@
       }
     },
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -90,16 +89,21 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "img": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Tokens/Bestiary/token-Basic_Kosan_Rifleman.webp",
   "items": [
     {
       "_id": "lWJzDC0Xb7eqZARN",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Item.x1TOpwH755Ami5bC"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/equipment/weapons/light-mace.webp",
       "name": "Light Mace",
@@ -191,9 +195,6 @@
           "damageType": "bludgeoning",
           "persistent": null
         },
-        "bonusDamage": {
-          "value": 0
-        },
         "splashDamage": {
           "value": 0
         },
@@ -208,6 +209,9 @@
         },
         "specific": null,
         "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
         "property1": {
           "value": "",
           "dice": 0,
@@ -228,21 +232,20 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": 1692475136125,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.x1TOpwH755Ami5bC",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!m5bVNXFl3wq9MY8F.lWJzDC0Xb7eqZARN"
     },
     {
       "_id": "7otredeGK9A2mwet",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Item.MPcM4Wt6KmWE2kGL"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/equipment/armor/chainshirt.webp",
       "name": "Chain Shirt",
@@ -343,12 +346,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": 1692475124399,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.MPcM4Wt6KmWE2kGL",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!m5bVNXFl3wq9MY8F.7otredeGK9A2mwet"
     },
@@ -414,12 +418,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": 1692479887643,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!m5bVNXFl3wq9MY8F.C5O7yPqYGSLmmeA2"
     },
@@ -512,9 +517,6 @@
           "damageType": "piercing",
           "persistent": null
         },
-        "bonusDamage": {
-          "value": 0
-        },
         "splashDamage": {
           "value": 0
         },
@@ -529,6 +531,9 @@
         },
         "specific": null,
         "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
         "property1": {
           "value": "",
           "dice": 0,
@@ -542,9 +547,7 @@
       },
       "type": "weapon",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Item.hqMtsTwmOShdAdQW"
-        }
+        "core": {}
       },
       "effects": [],
       "folder": null,
@@ -556,12 +559,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692474890446,
         "modifiedTime": 1692475132972,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.hqMtsTwmOShdAdQW",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "XTFYgz0eJBsYP2Zl",
       "_key": "!actors.items!m5bVNXFl3wq9MY8F.XTFYgz0eJBsYP2Zl"
@@ -630,12 +634,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692474893080,
         "modifiedTime": 1692474893080,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!m5bVNXFl3wq9MY8F.5Rdsc5Nrj627tCe8"
     }
@@ -771,11 +776,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "coreVersion": "13.345",
     "createdTime": 1692473553303,
     "modifiedTime": 1723171405112,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-bestiary-i.Actor.m5bVNXFl3wq9MY8F",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "_id": "m5bVNXFl3wq9MY8F",
   "sort": 900000,

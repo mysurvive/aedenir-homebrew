@@ -57,7 +57,9 @@
     },
     "badge": {
       "type": "counter",
-      "value": 5
+      "value": 5,
+      "min": null,
+      "max": null
     },
     "context": null,
     "target": null,
@@ -67,12 +69,14 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "systemVersion": "7.1.1",
+    "coreVersion": "13.345",
     "createdTime": 1667270811491,
-    "modifiedTime": 1723171387460,
+    "modifiedTime": 1750795691738,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-effects.Item.71AQ3kUT2uYzK8mL",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
+    "exportSource": null
   },
   "_id": "71AQ3kUT2uYzK8mL",
   "folder": null,

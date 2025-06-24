@@ -94,11 +94,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "coreVersion": "13.345",
     "createdTime": 1667012438045,
     "modifiedTime": 1723171377041,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-ancestries.Item.eX4um0tcofPPfgqY",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "_id": "eX4um0tcofPPfgqY",
   "folder": null,

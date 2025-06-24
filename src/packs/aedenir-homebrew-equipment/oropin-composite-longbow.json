@@ -89,9 +89,6 @@
       "persistent": null,
       "value": ""
     },
-    "bonusDamage": {
-      "value": 0
-    },
     "splashDamage": {
       "value": 0
     },
@@ -106,6 +103,9 @@
     },
     "specific": null,
     "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
     "property1": {
       "value": "",
       "dice": 0,
@@ -128,11 +128,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "coreVersion": "13.345",
     "createdTime": 1667246535760,
     "modifiedTime": 1723171392749,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-equipment.Item.FLRZ0cTGCQutXLmZ",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "_id": "FLRZ0cTGCQutXLmZ",
   "folder": null,

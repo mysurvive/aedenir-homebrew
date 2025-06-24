@@ -75,7 +75,6 @@
       }
     },
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -90,16 +89,21 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "img": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Tokens/Bestiary/token-Rebel_Brute.webp",
   "items": [
     {
       "_id": "qGzTmE2E9QyetOo9",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Item.XGtIUZ4ZNKuFx1uL"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/equipment/weapons/falchion.webp",
       "name": "Falchion",
@@ -190,9 +194,6 @@
           "damageType": "slashing",
           "persistent": null
         },
-        "bonusDamage": {
-          "value": 0
-        },
         "splashDamage": {
           "value": 0
         },
@@ -207,6 +208,9 @@
         },
         "specific": null,
         "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
         "property1": {
           "value": "",
           "dice": 0,
@@ -227,21 +231,20 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.XGtIUZ4ZNKuFx1uL",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!lXZC12Iu9ML136ln.qGzTmE2E9QyetOo9"
     },
     {
       "_id": "EobAoZCUwXdhOaOq",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Item.giO4LwIKGzJZoaxa"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/equipment/weapons/heavy-crossbow.webp",
       "name": "Heavy Crossbow",
@@ -329,9 +332,6 @@
           "damageType": "piercing",
           "persistent": null
         },
-        "bonusDamage": {
-          "value": 0
-        },
         "splashDamage": {
           "value": 0
         },
@@ -346,6 +346,9 @@
         },
         "specific": null,
         "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
         "property1": {
           "value": "",
           "dice": 0,
@@ -366,21 +369,20 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.giO4LwIKGzJZoaxa",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!lXZC12Iu9ML136ln.EobAoZCUwXdhOaOq"
     },
     {
       "_id": "maBI3VjuA2LlNaq5",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Item.Kf4eJEXnFPuAsseP"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/equipment/armor/chainmail.webp",
       "name": "Chain Mail",
@@ -481,21 +483,20 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Kf4eJEXnFPuAsseP",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!lXZC12Iu9ML136ln.maBI3VjuA2LlNaq5"
     },
     {
       "_id": "Bx9BxoQ34y2ycBbx",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Item.8Jdw4yAzWYylGePS"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/equipment/adventuring-gear/torch.webp",
       "name": "Torch",
@@ -638,21 +639,20 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.8Jdw4yAzWYylGePS",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!lXZC12Iu9ML136ln.Bx9BxoQ34y2ycBbx"
     },
     {
       "_id": "l6CSv2JAaWNaDMep",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Item.AITVZmakiu3RgfKo"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/equipment/weapons/bolts.webp",
       "name": "Bolts",
@@ -748,12 +748,13 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.AITVZmakiu3RgfKo",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!lXZC12Iu9ML136ln.l6CSv2JAaWNaDMep"
     },
@@ -818,12 +819,13 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!lXZC12Iu9ML136ln.xzmUJl69w9f4hNNo"
     },
@@ -888,21 +890,20 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!lXZC12Iu9ML136ln.FJLJcH55uiVkurNq"
     },
     {
       "_id": "41qokNeWrfqIG04j",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/actions/Reaction.webp",
       "name": "Attack of Opportunity",
@@ -961,12 +962,13 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!lXZC12Iu9ML136ln.41qokNeWrfqIG04j"
     },
@@ -1032,12 +1034,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": null,
         "modifiedTime": 1692477373561,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!lXZC12Iu9ML136ln.n1960SvW9XyzQmK6"
     }
@@ -1168,11 +1171,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "coreVersion": "13.345",
     "createdTime": 1692474537424,
     "modifiedTime": 1723171405112,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-bestiary-i.Actor.lXZC12Iu9ML136ln",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "_id": "lXZC12Iu9ML136ln",
   "sort": 1000000,

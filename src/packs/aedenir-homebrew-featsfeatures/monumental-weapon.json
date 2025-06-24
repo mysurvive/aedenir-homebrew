@@ -10,7 +10,9 @@
     "rules": [
       {
         "key": "AdjustStrike",
-        "definition": "weapon:oversized",
+        "definition": [
+          "weapon:oversized"
+        ],
         "mode": "add",
         "property": "weapon-traits",
         "value": "forceful"
@@ -67,12 +69,14 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.5.1",
-    "coreVersion": "12.331",
+    "systemVersion": "7.1.1",
+    "coreVersion": "13.345",
     "createdTime": 1667270234103,
-    "modifiedTime": 1730051266508,
+    "modifiedTime": 1750797324213,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.LZ93arKVrzneGHou",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
+    "exportSource": null
   },
   "_id": "LZ93arKVrzneGHou",
   "folder": null,

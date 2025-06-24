@@ -19,12 +19,8 @@
         "selector": "swim",
         "value": "@self.speed.land",
         "predicate": [
-          {
-            "and": [
-              "shift-shape",
-              "aquatic-adaptation"
-            ]
-          }
+          "shift-shape",
+          "aquatic-adaptation"
         ]
       }
     ],
@@ -83,12 +79,14 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.5.1",
-    "coreVersion": "12.331",
+    "systemVersion": "7.1.1",
+    "coreVersion": "13.345",
     "createdTime": 1667090874407,
-    "modifiedTime": 1730051048658,
+    "modifiedTime": 1750796310998,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.KH9GEWDb0yfPKt1v",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
+    "exportSource": null
   },
   "_id": "KH9GEWDb0yfPKt1v",
   "folder": null,

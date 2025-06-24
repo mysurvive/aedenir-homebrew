@@ -75,7 +75,6 @@
     },
     "detectionModes": [],
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -90,7 +89,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "name": "Eerdot",
   "type": "npc",
@@ -215,9 +221,7 @@
   "items": [
     {
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.rqfnQ5VHT5hxm25r"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "name": "Scent (Imprecise) 30 feet",
@@ -277,12 +281,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692417530921,
         "modifiedTime": 1692417540477,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.rqfnQ5VHT5hxm25r",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "bak2a2tQ3uJRie6k",
       "_key": "!actors.items!Fwaenj6ssw4eAKPD.bak2a2tQ3uJRie6k"
@@ -342,12 +347,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692417548802,
         "modifiedTime": 1692417849109,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!Fwaenj6ssw4eAKPD.NfYbYi7fkx6LGWVJ"
     },
@@ -408,12 +414,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692417758592,
         "modifiedTime": 1692417929715,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!Fwaenj6ssw4eAKPD.98rKjyRTFC7pClUp"
     },
@@ -474,12 +481,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692417931772,
         "modifiedTime": 1692418252591,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!Fwaenj6ssw4eAKPD.D7nucbbrbS8kobKQ"
     }
@@ -491,11 +499,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "coreVersion": "13.345",
     "createdTime": 1692416694023,
     "modifiedTime": 1723171405112,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-bestiary-i.Actor.Fwaenj6ssw4eAKPD",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "ownership": {
     "default": 0

@@ -75,7 +75,6 @@
     },
     "detectionModes": [],
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -90,7 +89,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "name": "Drakkgebor Levy",
   "type": "npc",
@@ -306,9 +312,6 @@
           "damageType": "slashing",
           "persistent": null
         },
-        "bonusDamage": {
-          "value": 0
-        },
         "splashDamage": {
           "value": 0
         },
@@ -323,6 +326,9 @@
         },
         "specific": null,
         "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
         "property1": {
           "value": "",
           "dice": 0,
@@ -336,9 +342,7 @@
       },
       "type": "weapon",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi"
-        }
+        "core": {}
       },
       "effects": [],
       "folder": null,
@@ -350,12 +354,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692485757153,
         "modifiedTime": 1692485757153,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "gskq9TKKrSYUFT35",
       "_key": "!actors.items!LGh5ocyn4GMbLJcs.gskq9TKKrSYUFT35"
@@ -421,12 +426,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692485816076,
         "modifiedTime": 1692485816076,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!LGh5ocyn4GMbLJcs.xhd4DGhtU6jrXJih"
     },
@@ -520,9 +526,7 @@
       },
       "type": "armor",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Item.MPcM4Wt6KmWE2kGL"
-        }
+        "core": {}
       },
       "effects": [],
       "folder": null,
@@ -534,12 +538,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692485910668,
         "modifiedTime": 1692485910668,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.MPcM4Wt6KmWE2kGL",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "9hAGI8iZpLxpYTPW",
       "_key": "!actors.items!LGh5ocyn4GMbLJcs.9hAGI8iZpLxpYTPW"
@@ -601,12 +606,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692485976361,
         "modifiedTime": 1692486999735,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!LGh5ocyn4GMbLJcs.9w8ipY5IEqowuso5"
     }
@@ -618,11 +624,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "coreVersion": "13.345",
     "createdTime": 1692485448004,
     "modifiedTime": 1723171405112,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-bestiary-i.Actor.LGh5ocyn4GMbLJcs",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "_id": "LGh5ocyn4GMbLJcs",
   "sort": 1300000,

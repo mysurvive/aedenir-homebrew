@@ -13,7 +13,9 @@
         "selector": "all",
         "value": 2,
         "type": "circumstance",
-        "predicate": "detect-polymorphed-creature"
+        "predicate": [
+          "detect-polymorphed-creature"
+        ]
       },
       {
         "key": "GrantItem",
@@ -59,12 +61,14 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "systemVersion": "7.1.1",
+    "coreVersion": "13.345",
     "createdTime": 1667051465008,
-    "modifiedTime": 1723171401531,
+    "modifiedTime": 1750797463089,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-heritages.Item.KoehMMt72A5MGmQB",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow",
+    "exportSource": null
   },
   "_id": "KoehMMt72A5MGmQB",
   "folder": null,

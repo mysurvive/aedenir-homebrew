@@ -65,11 +65,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "coreVersion": "13.345",
     "createdTime": 1687894656638,
     "modifiedTime": 1723171380843,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-deities.Item.nNxKwWnrCGtGxtbz",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "_key": "!items!nNxKwWnrCGtGxtbz"
 }

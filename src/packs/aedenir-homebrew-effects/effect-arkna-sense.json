@@ -54,11 +54,13 @@
   "_stats": {
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-effects.Item.nHYSE3UtugppnP6p",
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.345",
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
     "createdTime": 1722209393879,
-    "modifiedTime": 1723171387460
+    "modifiedTime": 1723171387460,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "_key": "!items!nHYSE3UtugppnP6p"
 }

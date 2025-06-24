@@ -15,11 +15,13 @@
   "_stats": {
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-macros.Macro.bL9gGDbEz5BUKBt9",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.345",
     "systemId": "pf2e",
     "systemVersion": "6.11.1",
     "createdTime": 1744654732747,
-    "modifiedTime": 1744654745382
+    "modifiedTime": 1744654745382,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "_key": "!macros!bL9gGDbEz5BUKBt9"
 }

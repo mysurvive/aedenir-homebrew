@@ -53,11 +53,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "coreVersion": "13.345",
     "createdTime": 1667179892363,
     "modifiedTime": 1723171401531,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-heritages.Item.X9LMozGps4GXTPvu",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "_id": "X9LMozGps4GXTPvu",
   "folder": null,

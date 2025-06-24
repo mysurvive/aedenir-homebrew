@@ -27,7 +27,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -90,7 +89,14 @@
         "texture": null
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "folder": "TAkkrZviS9lqlAbJ",
   "name": "Greater Arkna Ooze",
@@ -266,12 +272,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722207639194,
         "modifiedTime": 1722209312650,
-        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+        "lastModifiedBy": "oMwyPU2ip0rGnOow",
+        "exportSource": null
       },
       "_key": "!actors.items!B20vUHAJipFoWUfu.hBePdW3qv1lpQZQ4"
     },
@@ -318,12 +325,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722207639235,
         "modifiedTime": 1722208766116,
-        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+        "lastModifiedBy": "oMwyPU2ip0rGnOow",
+        "exportSource": null
       },
       "_key": "!actors.items!B20vUHAJipFoWUfu.7akrWrgKISLuQvT2"
     },
@@ -380,12 +388,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722207639274,
         "modifiedTime": 1722207805215,
-        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+        "lastModifiedBy": "oMwyPU2ip0rGnOow",
+        "exportSource": null
       },
       "_key": "!actors.items!B20vUHAJipFoWUfu.5aqQEnpihcF6TwXC"
     },
@@ -440,12 +449,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722208898777,
         "modifiedTime": 1722208975065,
-        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+        "lastModifiedBy": "oMwyPU2ip0rGnOow",
+        "exportSource": null
       },
       "_key": "!actors.items!B20vUHAJipFoWUfu.4Z8nI3ERYxc0bU6e"
     },
@@ -488,17 +498,16 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722208986625,
         "modifiedTime": 1722208986625,
-        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+        "lastModifiedBy": "oMwyPU2ip0rGnOow",
+        "exportSource": null
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV"
-        }
+        "core": {}
       },
       "effects": [],
       "folder": null,
@@ -549,17 +558,16 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722208991841,
         "modifiedTime": 1722208991841,
-        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+        "lastModifiedBy": "oMwyPU2ip0rGnOow",
+        "exportSource": null
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr"
-        }
+        "core": {}
       },
       "effects": [],
       "folder": null,
@@ -622,12 +630,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722209017665,
         "modifiedTime": 1722209046892,
-        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+        "lastModifiedBy": "oMwyPU2ip0rGnOow",
+        "exportSource": null
       },
       "_key": "!actors.items!B20vUHAJipFoWUfu.rQhyqFLpz54GMvDb"
     },
@@ -682,12 +691,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722209060856,
         "modifiedTime": 1722209118383,
-        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+        "lastModifiedBy": "oMwyPU2ip0rGnOow",
+        "exportSource": null
       },
       "_key": "!actors.items!B20vUHAJipFoWUfu.Gz9ylrEVX5Gxkb7J"
     },
@@ -742,12 +752,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722209104667,
         "modifiedTime": 1722209295833,
-        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+        "lastModifiedBy": "oMwyPU2ip0rGnOow",
+        "exportSource": null
       },
       "_key": "!actors.items!B20vUHAJipFoWUfu.rQ5tX86JepL89uU7"
     },
@@ -807,12 +818,13 @@
       "_stats": {
         "compendiumSource": "Compendium.aedenir-homebrew.aed-effects.Item.nHYSE3UtugppnP6p",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722209490333,
         "modifiedTime": 1722209490333,
-        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+        "lastModifiedBy": "oMwyPU2ip0rGnOow",
+        "exportSource": null
       },
       "_id": "K0tFoQGJnr0uJrrJ",
       "_key": "!actors.items!B20vUHAJipFoWUfu.K0tFoQGJnr0uJrrJ"
@@ -868,12 +880,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722209638211,
         "modifiedTime": 1722209717526,
-        "lastModifiedBy": "oMwyPU2ip0rGnOow"
+        "lastModifiedBy": "oMwyPU2ip0rGnOow",
+        "exportSource": null
       },
       "_key": "!actors.items!B20vUHAJipFoWUfu.EF7fcj2sZl7g1QVT"
     }
@@ -883,11 +896,13 @@
   "_stats": {
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-bestiary-i.Actor.B20vUHAJipFoWUfu",
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.345",
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
     "createdTime": 1722207469969,
-    "modifiedTime": 1723171405112
+    "modifiedTime": 1723171405112,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "_key": "!actors!B20vUHAJipFoWUfu"
 }

@@ -101,11 +101,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.5.1",
-    "coreVersion": "12.331",
+    "coreVersion": "13.345",
     "createdTime": 1667272568921,
     "modifiedTime": 1730051277372,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.85MjeCaufG62psx6",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "_id": "85MjeCaufG62psx6",
   "folder": null,

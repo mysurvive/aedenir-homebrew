@@ -75,7 +75,6 @@
     },
     "detectionModes": [],
     "randomImg": true,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -90,7 +89,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "name": "Rank 5 Remembrancer (Soldier)",
   "type": "npc",
@@ -350,12 +356,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1693173739659,
         "modifiedTime": 1693173739659,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!NOr7bLowlaicfLaO.UAuCQrNN15ZMPeUe"
     },
@@ -408,12 +415,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1693173834237,
         "modifiedTime": 1693173834237,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!NOr7bLowlaicfLaO.xQ6EF6O9nMfu8JHQ"
     },
@@ -547,12 +555,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1693173834286,
         "modifiedTime": 1693173834286,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!NOr7bLowlaicfLaO.RM5mxsH1WLaI5aNv"
     }
@@ -564,11 +573,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "coreVersion": "13.345",
     "createdTime": 1693173688690,
     "modifiedTime": 1723171405112,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-bestiary-i.Actor.NOr7bLowlaicfLaO",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "_id": "NOr7bLowlaicfLaO",
   "sort": 400000,

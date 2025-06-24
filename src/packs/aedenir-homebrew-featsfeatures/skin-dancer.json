@@ -98,11 +98,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.5.1",
-    "coreVersion": "12.331",
+    "coreVersion": "13.345",
     "createdTime": 1667092534733,
     "modifiedTime": 1730051367528,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.1nFDOBlsT29kWuV2",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "_id": "1nFDOBlsT29kWuV2",
   "folder": null,

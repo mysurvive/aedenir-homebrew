@@ -75,7 +75,6 @@
     },
     "detectionModes": [],
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -90,7 +89,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "folder": "k9RYtYbfZsRKVqlF",
   "name": "Leontophonos",
@@ -266,12 +272,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.5.1",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1694965207999,
         "modifiedTime": 1694965230463,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!hDrrg2Dzcc1PPqIc.hFyyJqCs9SwDJ1aE"
     },
@@ -405,12 +412,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.5.1",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1694965208072,
         "modifiedTime": 1694965208072,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!hDrrg2Dzcc1PPqIc.DcTy3ImAUGB1BOVo"
     },
@@ -471,12 +479,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.5.1",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1694965271247,
         "modifiedTime": 1694965302388,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!hDrrg2Dzcc1PPqIc.md36PwWLavLhwCfF"
     },
@@ -543,9 +552,7 @@
       },
       "type": "action",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.wCnsRCHvtZkZTmO0"
-        }
+        "core": {}
       },
       "effects": [],
       "folder": null,
@@ -557,12 +564,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.5.1",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1694965410376,
         "modifiedTime": 1694965410376,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.wCnsRCHvtZkZTmO0",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "ojeU5lxXTKl2YCHl",
       "_key": "!actors.items!hDrrg2Dzcc1PPqIc.ojeU5lxXTKl2YCHl"
@@ -574,11 +582,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "coreVersion": "13.345",
     "createdTime": 1694965103039,
     "modifiedTime": 1723171405112,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-bestiary-i.Actor.hDrrg2Dzcc1PPqIc",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "_id": "hDrrg2Dzcc1PPqIc",
   "sort": 0,

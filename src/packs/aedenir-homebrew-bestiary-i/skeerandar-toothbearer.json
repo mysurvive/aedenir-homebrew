@@ -75,7 +75,6 @@
     },
     "detectionModes": [],
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -90,7 +89,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "name": "Skeerandar Toothbearer",
   "type": "npc",
@@ -273,12 +279,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692463013135,
         "modifiedTime": 1692463086643,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!rkBEimYfssmWXpEB.AUQyYYBEu1ngca4k"
     },
@@ -340,12 +347,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692463094421,
         "modifiedTime": 1692463178146,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!rkBEimYfssmWXpEB.jSsmn801WLyTLGBh"
     },
@@ -406,12 +414,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692463196292,
         "modifiedTime": 1692463253122,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!rkBEimYfssmWXpEB.TBzQP6wK5mWljtRt"
     },
@@ -472,12 +481,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692463277474,
         "modifiedTime": 1692463378941,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!rkBEimYfssmWXpEB.8yBey8eCBV5S3wzp"
     },
@@ -552,12 +562,13 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692463355868,
         "modifiedTime": 1692463606478,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!rkBEimYfssmWXpEB.73xQI9ZKeznqUvWK"
     },
@@ -618,19 +629,18 @@
         "fQ2bdOYk7CfBvPdF": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Actor.1HWcyydfLPCRm4Om.Item.y9nL7kklEoVqLV06"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "12.330",
+        "coreVersion": "13.345",
         "createdTime": 1692463627845,
         "modifiedTime": 1692463642957,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
         "compendiumSource": "Actor.1HWcyydfLPCRm4Om.Item.y9nL7kklEoVqLV06",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "eN3DlNmCJ89bTNgk",
       "_key": "!actors.items!rkBEimYfssmWXpEB.eN3DlNmCJ89bTNgk"
@@ -643,11 +653,13 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "coreVersion": "13.345",
     "createdTime": 1692462913053,
     "modifiedTime": 1723171405112,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-bestiary-i.Actor.rkBEimYfssmWXpEB",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "lastModifiedBy": null,
+    "exportSource": null
   },
   "_id": "rkBEimYfssmWXpEB",
   "sort": 700000,
