@@ -1,0 +1,70 @@
+{
+  "_id": "VLCAFIXzUtiv1VuE",
+  "folder": "GHUywtwPBtgniS26",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Flexible Tail",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You can perform simple Interact actions with your tail, such as opening an unlocked door. Your tail can't perform actions that require fingers or significant manual dexterity, including any action that would require a check to accomplish, and you can't use it to hold items.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "skeerandar"
+      ],
+      "otherTags": []
+    },
+    "slug": "flexible-tail",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.VLCAFIXzUtiv1VuE",
+    "createdTime": 1776835696175,
+    "modifiedTime": 1776874146799,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "sort": 800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!VLCAFIXzUtiv1VuE"
+}

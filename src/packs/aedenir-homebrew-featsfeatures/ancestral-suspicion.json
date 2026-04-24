@@ -1,0 +1,102 @@
+{
+  "_id": "scNrNhnGTgPIzoj7",
+  "folder": "eecAsQsyAvctWUww",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Ancestral Suspicion",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Long-lived faerefolk have seen civilizations rise and fall, often at the hands of outside forces. As a result, they have developed a wariness of others who might seek to influence or control them. You've been trained to resist such manipulation, gaining a +2 circumstance bonus to saving throws against effects that would make you @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled}, such as @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]{Dominate}, and to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive} when trying to determine if a creature is under the influence of such an effect. When you roll a success on a saving throw against such an effect, you get a critical success instead.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "inflicts:controlled"
+        ],
+        "selector": "saving-throw",
+        "type": "circumstance",
+        "value": 2
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "action:sense-motive",
+          "ancestral-suspicion"
+        ],
+        "selector": "perception",
+        "type": "circumstance",
+        "value": 2
+      },
+      {
+        "key": "Note",
+        "outcome": [
+          "success"
+        ],
+        "predicate": [
+          "inflicts:controlled"
+        ],
+        "selector": "saving-throw",
+        "text": "When you roll a success on a saving throw against an effect that would make you controlled, you get a critical success instead.",
+        "title": "{item|name}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "faerefolk"
+      ],
+      "otherTags": []
+    },
+    "slug": "ancestral-suspicion",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776816238626,
+    "modifiedTime": 1776873868203,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.scNrNhnGTgPIzoj7",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 500000,
+  "_key": "!items!scNrNhnGTgPIzoj7"
+}

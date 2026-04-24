@@ -1,0 +1,63 @@
+{
+  "_id": "MTTU2t7x6TjvUDnE",
+  "folder": "1CZa5ecTz7pGZnLS",
+  "img": "systems/pf2e/icons/features/ancestry/hold-scarred-orc.webp",
+  "name": "Hold-Scarred Bastaal",
+  "system": {
+    "ancestry": {
+      "name": "Bastaal",
+      "slug": "bastaal",
+      "uuid": "Compendium.aedenir-homebrew.aed-ancestries.Item.lSGWXjcbOa6O5fTx"
+    },
+    "description": {
+      "value": "<p>You are part of an bastaal community that participates in ritual scarification or tattooing. The marks on your skin show your exceptional hardiness and vitality. You gain 12 Hit Points from your ancestry instead of 10. You also gain the @UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{Diehard} feat.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.ancestryhp",
+        "value": 12
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "hold-scarred-bastaal",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1777060236500,
+    "modifiedTime": 1777060380281,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-heritages.Item.MTTU2t7x6TjvUDnE",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 0,
+  "_key": "!items!MTTU2t7x6TjvUDnE"
+}

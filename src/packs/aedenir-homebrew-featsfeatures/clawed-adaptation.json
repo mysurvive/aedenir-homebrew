@@ -89,12 +89,14 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "vexbalg"
+      ],
       "rarity": "common",
       "custom": ""
     },
     "publication": {
-      "title": "",
+      "title": "Aedenir Homebrew",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -126,18 +128,17 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.2.0",
-    "coreVersion": "13.345",
+    "systemVersion": "8.0.2",
+    "coreVersion": "14.360",
     "createdTime": 1667053523160,
-    "modifiedTime": 1723171397601,
+    "modifiedTime": 1776797557340,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.LUFIt6l7QA8p1r4P",
     "duplicateSource": null,
-    "lastModifiedBy": null,
     "exportSource": null
   },
   "_id": "LUFIt6l7QA8p1r4P",
-  "folder": null,
-  "sort": 2500000,
+  "folder": "p82N2w9LhDpmUGrT",
+  "sort": 250000,
   "ownership": {
     "default": 0
   },

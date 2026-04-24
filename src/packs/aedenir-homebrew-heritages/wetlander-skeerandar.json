@@ -1,0 +1,58 @@
+{
+  "_id": "dJeiekfqGQ8dkwsO",
+  "folder": "5pAmJNGx2VlQ2zF6",
+  "img": "systems/pf2e/icons/features/ancestry/wetlander-lizardfolk.webp",
+  "name": "Wetlander Skeerandar",
+  "system": {
+    "ancestry": {
+      "name": "Skeerandar",
+      "slug": "skeerandar",
+      "uuid": "Compendium.aedenir-homebrew.aed-ancestries.Item.HWEgF7Gmoq55VhTL"
+    },
+    "description": {
+      "value": "<p>Your family is descended from the most common Skeerandar heritage, and you are accustomed to aquatic environments. You gain a 15-foot swim Speed.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": 15
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "wetlander-skeerandar",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776785850874,
+    "modifiedTime": 1776786220880,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-heritages.Item.dJeiekfqGQ8dkwsO",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 0,
+  "_key": "!items!dJeiekfqGQ8dkwsO"
+}

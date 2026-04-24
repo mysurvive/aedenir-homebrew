@@ -27,7 +27,7 @@
       "custom": ""
     },
     "publication": {
-      "title": "",
+      "title": "Aedenir Homebrew",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -68,17 +68,16 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.5.1",
-    "coreVersion": "13.345",
+    "coreVersion": "14.360",
     "createdTime": 1667310670856,
-    "modifiedTime": 1730051311133,
+    "modifiedTime": 1776797421669,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.PQw9FWpxkZVmTy8s",
     "duplicateSource": null,
-    "lastModifiedBy": null,
     "exportSource": null
   },
   "_id": "PQw9FWpxkZVmTy8s",
-  "folder": null,
-  "sort": 3200000,
+  "folder": "JVJikj0Ad0WJ91N5",
+  "sort": 2400000,
   "ownership": {
     "default": 0
   },

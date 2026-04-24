@@ -1,0 +1,62 @@
+{
+  "folder": "DkZkuquenBnY9Zce",
+  "img": "systems/pf2e/icons/features/ancestry/woodland-elf.webp",
+  "name": "South Seillian",
+  "system": {
+    "ancestry": {
+      "name": "Faerefolk",
+      "slug": "faerefolk",
+      "uuid": "Compendium.aedenir-homebrew.aed-ancestries.Item.PgKmsA2aKdbLU6O0"
+    },
+    "description": {
+      "value": "<p>You're adapted to life in the badlands of southern Seillia. In predominantly sandy or rocky terrain, you can ignore 5 feet of movement penalty caused by difficult terrain or greater difficult terrain.</p><p>You can always use the @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} action when you are within desert or badlands terrain to gain cover, even if you're not next to an obstacle you can Take Cover behind.</p><p>You do not know Liluathan as a benefit of being faerefolk. Instead, you know Baltian.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.build.languages.granted",
+        "value": {
+          "slug": "baltian",
+          "source": "{item|name}"
+        }
+      }
+    ],
+    "traits": {
+      "rarity": "rare",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "south-seillian",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776774597947,
+    "modifiedTime": 1776775792756,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-heritages.Item.yAx8EJY4DJKLX0gq",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "yAx8EJY4DJKLX0gq",
+  "sort": 0,
+  "_key": "!items!yAx8EJY4DJKLX0gq"
+}

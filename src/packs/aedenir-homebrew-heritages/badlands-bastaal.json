@@ -1,0 +1,52 @@
+{
+  "_id": "8Gsa8KFsHizEwSHU",
+  "folder": "1CZa5ecTz7pGZnLS",
+  "img": "systems/pf2e/icons/features/ancestry/badlands-orc.webp",
+  "name": "Badlands Bastaal",
+  "system": {
+    "ancestry": {
+      "name": "Bastaal",
+      "slug": "bastaal",
+      "uuid": "Compendium.aedenir-homebrew.aed-ancestries.Item.lSGWXjcbOa6O5fTx"
+    },
+    "description": {
+      "value": "<p>You come from sun-scorched badlands, where long legs and an ability to withstand the elements helped you thrive. You can @UUID[Compendium.pf2e.actionspf2e.Item.JuqmIAnkL9hVGai8]{Hustle} twice as long while exploring before you have to stop, and you treat environmental heat effects as if they were one step less extreme (incredible heat becomes extreme, extreme heat becomes severe, and so on).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "badlands-bastaal",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1777060228314,
+    "modifiedTime": 1777060320014,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-heritages.Item.8Gsa8KFsHizEwSHU",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 100000,
+  "_key": "!items!8Gsa8KFsHizEwSHU"
+}

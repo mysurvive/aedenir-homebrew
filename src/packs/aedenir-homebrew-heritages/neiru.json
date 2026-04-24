@@ -1,0 +1,66 @@
+{
+  "_id": "NfIAGatB1KIzt8G7",
+  "folder": "DkZkuquenBnY9Zce",
+  "img": "systems/pf2e/icons/features/ancestry/caveren-elf.webp",
+  "name": "Neiru",
+  "system": {
+    "ancestry": {
+      "name": "Faerefolk",
+      "slug": "faerefolk",
+      "uuid": "Compendium.aedenir-homebrew.aed-ancestries.Item.PgKmsA2aKdbLU6O0"
+    },
+    "description": {
+      "value": "<p>You were born or spent many years in underground tunnels or caverns where light is scarce. You gain darkvision.</p><p>You do not know Liluathan as a benefit of being faerefolk. Instead, you know Nobeleisse.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Sense",
+        "selector": "darkvision"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.build.languages.granted",
+        "value": {
+          "slug": "nobeleisse",
+          "source": "{item|name}"
+        }
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "neiru",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776774165202,
+    "modifiedTime": 1776776211587,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-heritages.Item.NfIAGatB1KIzt8G7",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 500000,
+  "_key": "!items!NfIAGatB1KIzt8G7"
+}

@@ -1,0 +1,74 @@
+{
+  "_id": "itjTPh76mZfJCBxQ",
+  "folder": "GHUywtwPBtgniS26",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Marsh Runner",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>When you use the Step action, you can ignore difficult terrain caused by flooding, swamps, or quicksand. In addition, when you use the Acrobatics skill to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} on narrow surfaces or uneven marshy ground, you aren't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}, and if you roll a success on the Acrobatics check, you get a critical success instead.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "You have a swim Speed"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "skeerandar"
+      ],
+      "otherTags": []
+    },
+    "slug": "marsh-runner",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.itjTPh76mZfJCBxQ",
+    "createdTime": 1776835692290,
+    "modifiedTime": 1776874146800,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "sort": 1700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!itjTPh76mZfJCBxQ"
+}

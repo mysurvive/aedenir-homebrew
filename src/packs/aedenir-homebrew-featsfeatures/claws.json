@@ -1,0 +1,103 @@
+{
+  "_id": "NfkxFWUeG6g41e8w",
+  "folder": "GHUywtwPBtgniS26",
+  "img": "systems/pf2e/icons/features/ancestry/claws.webp",
+  "name": "Claws",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>Your sharp claws offer an alternative to the fists other humanoids bring to a fight. You have a claw unarmed attack that deals 1d4 slashing damage and has the agile and finesse traits.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "baseType": "claw",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.claw",
+        "range": null,
+        "slug": "claw",
+        "traits": [
+          "finesse",
+          "agile",
+          "unarmed"
+        ]
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:id:{item|id}"
+        ],
+        "priority": 119,
+        "property": "other-tags",
+        "value": "skeerandar-claws"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "skeerandar"
+      ],
+      "otherTags": []
+    },
+    "slug": "claws",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776797831573,
+    "modifiedTime": 1776874146800,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.NfkxFWUeG6g41e8w",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 2400000,
+  "_key": "!items!NfkxFWUeG6g41e8w"
+}

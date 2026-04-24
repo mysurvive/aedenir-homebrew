@@ -2,6 +2,9 @@ const creatureTraits = [
   { id: "vexbalg", value: "Vexbalg" },
   { id: "drakkgebor", value: "Drakkgebor" },
   { id: "oropin", value: "Oropin" },
+  { id: "faerefolk", value: "Faerefolk" },
+  { id: "bastaal", value: "Bastaal" },
+  { id: "skeerandar", value: "Skeerandar" },
 ];
 
 const featTraits = [
@@ -9,11 +12,14 @@ const featTraits = [
   { id: "drakkgebor", value: "Drakkgebor" },
   { id: "dragon", value: "Dragon" },
   { id: "oropin", value: "Oropin" },
+  { id: "faerefolk", value: "Faerefolk" },
+  { id: "bastaal", value: "Bastaal" },
+  { id: "skeerandar", value: "Skeerandar" },
 ];
 
 function getDeadLanguages() {
   const allLanguagesList = Object.keys(
-    game.pf2e.settings.campaign.languages
+    game.pf2e.settings.campaign.languages,
   ).flatMap((language) => {
     if (typeof game.pf2e.settings.campaign.languages[language] === "string")
       return game.pf2e.settings.campaign.languages[language];
@@ -71,6 +77,9 @@ const languages = [
   { id: "skree", value: "Skree", rarity: "common" },
   { id: "oropini", value: "Oropini", rarity: "common" },
   { id: "sultic", value: "Sultic", rarity: "common" },
+  { id: "sionese", value: "Sionese", rarity: "secret" },
+  { id: "baltian", value: "Baltian", rarity: "secret" },
+  { id: "nobeleisse", value: "Nobeleisse", rarity: "uncommon" },
   { id: "bastaandi", value: "Bastaandi", rarity: "common" },
   { id: "dockspeak", value: "Dockspeak", rarity: "uncommon" },
   { id: "patchwerk", value: "Patchwerk", rarity: "rare" },
@@ -88,7 +97,11 @@ const baseWeapons = [
   { id: "oropin-composite-shortbow", value: "Oropin Composite Shortbow" },
 ];
 
-const weaponTraits = [{ id: "oropin", value: "Oropin" }];
+const weaponTraits = [
+  { id: "oropin", value: "Oropin" },
+  { id: "seillian", value: "Seillian" },
+  { id: "faerefolk", value: "Faerefolk" },
+];
 
 export {
   creatureTraits,

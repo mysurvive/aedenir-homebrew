@@ -1,0 +1,58 @@
+{
+  "_id": "6xxXtgj3fcCi53lt",
+  "folder": "5pAmJNGx2VlQ2zF6",
+  "img": "systems/pf2e/icons/features/ancestry/sandstrider-lizardfolk.webp",
+  "name": "Sandstrider Skeerandar",
+  "system": {
+    "ancestry": {
+      "name": "Skeerandar",
+      "slug": "skeerandar",
+      "uuid": "Compendium.aedenir-homebrew.aed-ancestries.Item.HWEgF7Gmoq55VhTL"
+    },
+    "description": {
+      "value": "<p>Your thick scales help you retain water and combat the sun's glare. You gain fire resistance equal to half your level (minimum 1). Environmental heat effects are one step less extreme for you, and you can go 10 times as long as normal before you are affected by starvation or thirst. However, unless you wear protective gear or take shelter, environmental cold effects are one step more extreme for you.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "fire",
+        "value": "max(1,floor(@actor.level/2))"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "sandstrider-skeerandar",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776785848832,
+    "modifiedTime": 1776786213638,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-heritages.Item.6xxXtgj3fcCi53lt",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 200000,
+  "_key": "!items!6xxXtgj3fcCi53lt"
+}

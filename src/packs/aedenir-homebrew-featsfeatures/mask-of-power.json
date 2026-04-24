@@ -1,0 +1,74 @@
+{
+  "_id": "RrtqD8WmoUumauJD",
+  "folder": "2nTQjyLG0xb8CwE9",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Mask of Power",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Your <em>warmask</em> sharpens your connection to the source of your mask's power. During your daily preparations, choose @UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{Fear}, @UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{Phantom Pain}, or @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]{Sure Strike}.</p>\n<p>Until your next daily preparations, you can cast this spell as a 1st-rank innate spell once per day; the spell's tradition is determined by the tradition tied to your <em>warmask</em>. You must be wearing your <em>warmask</em> to Cast the Spell.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Bastaal Warmask"
+        }
+      ]
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "bastaal"
+      ],
+      "otherTags": []
+    },
+    "slug": "mask-of-power",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.RrtqD8WmoUumauJD",
+    "createdTime": 1776837470218,
+    "modifiedTime": 1776874022071,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "sort": 1800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!RrtqD8WmoUumauJD"
+}

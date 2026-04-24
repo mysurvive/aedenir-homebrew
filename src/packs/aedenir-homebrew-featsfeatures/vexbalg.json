@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "hrVS5befs3Z88Ozv",
+  "name": "Vexbalg",
+  "color": null,
+  "sorting": "a",
+  "_id": "p82N2w9LhDpmUGrT",
+  "description": "",
+  "sort": 600000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776797041895,
+    "modifiedTime": 1777060668038,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!folders!p82N2w9LhDpmUGrT"
+}

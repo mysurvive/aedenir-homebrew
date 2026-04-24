@@ -18,9 +18,6 @@
       "src": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Tokens/Bestiary/Remembrancers/*",
       "scaleX": 1,
       "scaleY": 1,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "tint": "#ffffff",
       "anchorX": 0.5,
       "anchorY": 0.5,
@@ -73,7 +70,7 @@
       "contrast": 0,
       "color": null
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "randomImg": true,
     "occludable": {
       "radius": 0
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "name": "Rank 5 Remembrancer (Soldier)",
   "type": "npc",
@@ -112,17 +110,17 @@
         "max": 75,
         "details": ""
       },
-      "speed": {
-        "value": 25,
-        "otherSpeeds": [],
-        "details": ""
-      },
       "ac": {
         "value": 22,
         "details": ""
       },
       "allSaves": {
         "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
       }
     },
     "initiative": {
@@ -356,7 +354,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": 1693173739659,
         "modifiedTime": 1693173739659,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
@@ -415,7 +413,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": 1693173834237,
         "modifiedTime": 1693173834237,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
@@ -555,7 +553,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": 1693173834286,
         "modifiedTime": 1693173834286,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
@@ -573,7 +571,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "13.345",
+    "coreVersion": "14.360",
     "createdTime": 1693173688690,
     "modifiedTime": 1723171405112,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-bestiary-i.Actor.NOr7bLowlaicfLaO",

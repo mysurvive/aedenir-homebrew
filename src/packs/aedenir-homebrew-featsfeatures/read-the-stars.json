@@ -1,0 +1,74 @@
+{
+  "_id": "DhqsKns2SaGcOKO9",
+  "folder": "GHUywtwPBtgniS26",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Read the Stars",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You're incredibly skilled in iruxi astrology, and you can gain useful (if cryptic) hints from the stars' alignment. Once per night, if you can clearly see the stars, you can spend 1 hour reading the heavens to see how they relate to a particular goal, event, or activity that will occur within 1 week. The GM rolls a secret check, either a @Check[astrology-lore|dc:28|traits:secret] check or a @Check[occultism|dc:32|traits:secret] check. On a success, you learn a cryptic clue or piece of advice that could help with the chosen event, and on a critical failure, you learn a misleading cryptic clue or piece of advice.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 9
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "trained in Astrology Lore or Occultism"
+        }
+      ]
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "skeerandar"
+      ],
+      "otherTags": []
+    },
+    "slug": "read-the-stars",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.DhqsKns2SaGcOKO9",
+    "createdTime": 1776835699467,
+    "modifiedTime": 1776874146801,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "sort": 2700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!DhqsKns2SaGcOKO9"
+}

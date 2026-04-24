@@ -1,0 +1,86 @@
+{
+  "_id": "pivX2SxPQjKDyvHU",
+  "folder": "GHUywtwPBtgniS26",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Skeerandar Spirit Strike",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Your skeerandar unarmed attacks channel the spiritual energy of your ancestors. Any unarmed attacks you acquire from the skeerandar ancestry, skeerandar heritages, or skeerandar ancestry feats gain the effects of a <em>ghost touch</em> property rune.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "definition": [
+          {
+            "or": [
+              "item:slug:claws",
+              "item:slug:fangs",
+              "item:slug:tail"
+            ]
+          }
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "property-runes",
+        "value": "ghost-touch"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "skeerandar"
+      ],
+      "otherTags": []
+    },
+    "slug": "skeerandar-spirit-strike",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.pivX2SxPQjKDyvHU",
+    "createdTime": 1776835702057,
+    "modifiedTime": 1777062228230,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "sort": 125000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!pivX2SxPQjKDyvHU"
+}

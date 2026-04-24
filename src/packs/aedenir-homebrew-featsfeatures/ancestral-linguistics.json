@@ -1,0 +1,74 @@
+{
+  "_id": "eCWQU16hRLfN1KaX",
+  "folder": "eecAsQsyAvctWUww",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Ancestral Linguistics",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Over your extensive lifespan, you've studied many languages. During your daily preparations, you can recede into old memories to become fluent in one common language or one other language you have access to. You know this language until you prepare again. Since this knowledge is temporary, you can't use it as a prerequisite for a permanent character option.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "at least 100 years old"
+        }
+      ]
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "faerefolk"
+      ],
+      "otherTags": []
+    },
+    "slug": "ancestral-linguistics",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776800263244,
+    "modifiedTime": 1776873858752,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.eCWQU16hRLfN1KaX",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 300000,
+  "_key": "!items!eCWQU16hRLfN1KaX"
+}

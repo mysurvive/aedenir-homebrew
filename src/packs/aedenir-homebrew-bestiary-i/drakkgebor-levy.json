@@ -18,9 +18,6 @@
       "src": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Tokens/Bestiary/token-Drakkgebor_Levy.webp",
       "scaleX": 1,
       "scaleY": 1,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
@@ -73,7 +70,7 @@
       "contrast": 0,
       "color": null
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "randomImg": false,
     "occludable": {
       "radius": 0
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "name": "Drakkgebor Levy",
   "type": "npc",
@@ -112,17 +110,17 @@
         "max": 16,
         "details": ""
       },
-      "speed": {
-        "value": 25,
-        "otherSpeeds": [],
-        "details": ""
-      },
       "ac": {
         "value": 15,
         "details": ""
       },
       "allSaves": {
         "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
       }
     },
     "initiative": {
@@ -316,9 +314,12 @@
           "value": 0
         },
         "range": null,
+        "expend": null,
+        "ammo": null,
         "reload": {
           "value": ""
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -354,7 +355,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": 1692485757153,
         "modifiedTime": 1692485757153,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
@@ -426,7 +427,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": 1692485816076,
         "modifiedTime": 1692485816076,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
@@ -517,6 +518,7 @@
         "dexCap": 3,
         "checkPenalty": -1,
         "speedPenalty": 0,
+        "grade": null,
         "runes": {
           "potency": 0,
           "resilient": 0,
@@ -538,7 +540,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": 1692485910668,
         "modifiedTime": 1692485910668,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
@@ -606,7 +608,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": 1692485976361,
         "modifiedTime": 1692486999735,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
@@ -624,7 +626,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "13.345",
+    "coreVersion": "14.360",
     "createdTime": 1692485448004,
     "modifiedTime": 1723171405112,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-bestiary-i.Actor.LGh5ocyn4GMbLJcs",

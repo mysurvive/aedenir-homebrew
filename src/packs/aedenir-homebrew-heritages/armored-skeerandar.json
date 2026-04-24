@@ -1,0 +1,57 @@
+{
+  "_id": "OIW3UYrdaWLwUZCh",
+  "folder": "5pAmJNGx2VlQ2zF6",
+  "img": "icons/commodities/bones/bones-dragon-grey.webp",
+  "name": "Armored Skeerandar",
+  "system": {
+    "ancestry": {
+      "name": "Skeerandar",
+      "slug": "skeerandar",
+      "uuid": "Compendium.aedenir-homebrew.aed-ancestries.Item.HWEgF7Gmoq55VhTL"
+    },
+    "description": {
+      "value": "<p>Your body is covered in bony plates. Your plates are medium armor in the plate armor group that grant a +4 item bonus to AC, a Dex cap of +1, a check penalty of –2, a Speed penalty of –5 feet, a Strength value of +3, and have the aquadynamic and comfort traits. You can never wear other armor or remove your plates. You can etch armor runes onto your plates.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.equipment-srd.Item.mrgtvEbYTjGpOi7F"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "armored-skeerandar",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776785836421,
+    "modifiedTime": 1776786176832,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-heritages.Item.OIW3UYrdaWLwUZCh",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 400000,
+  "_key": "!items!OIW3UYrdaWLwUZCh"
+}

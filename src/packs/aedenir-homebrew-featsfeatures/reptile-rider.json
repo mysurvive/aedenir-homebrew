@@ -1,0 +1,91 @@
+{
+  "_id": "k31sg0xBIwvkfWyg",
+  "folder": "GHUywtwPBtgniS26",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Reptile Rider",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>To you, crocodilians, giant lizards, and dinosaurs are loyal steeds, not monsters. You gain the @UUID[Compendium.pf2e.feats-srd.Item.Rq5wkA8DtsmbzoGV]{Ride} feat, even if you don't meet the prerequisites. You gain a +1 circumstance bonus to Nature checks to Handle an Animal as long as the animal is a reptile, dinosaur, or even a non-sapient dragon.</p>\n<hr>\n<p><em><strong>Note</strong> This feat refers to Nature checks to Handle an Animal. This check does not exist in Pathfinder 2, and so the feat instead gives a bonus to Nature checks to @UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]{Command an Animal}.</em></p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.Rq5wkA8DtsmbzoGV"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "action:command-an-animal",
+          {
+            "or": [
+              "target:tag:reptile",
+              "target:trait:dinosaur",
+              "target:tag:non-sapient-dragon"
+            ]
+          }
+        ],
+        "selector": "nature",
+        "type": "circumstance",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "skeerandar"
+      ],
+      "otherTags": []
+    },
+    "slug": "reptile-rider",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.k31sg0xBIwvkfWyg",
+    "createdTime": 1776835692291,
+    "modifiedTime": 1776874146799,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "sort": 1500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!k31sg0xBIwvkfWyg"
+}

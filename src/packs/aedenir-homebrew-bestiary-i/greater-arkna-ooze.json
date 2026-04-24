@@ -18,12 +18,9 @@
       "src": "modules/pf2e-tokens-bestiaries/tokens/aberrant/ooze/gray-ooze.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": "TAkkrZviS9lqlAbJ",
   "name": "Greater Arkna Ooze",
@@ -113,6 +111,13 @@
         "max": 60,
         "details": ""
       },
+      "ac": {
+        "value": 14,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
       "speed": {
         "value": 10,
         "otherSpeeds": [
@@ -122,13 +127,6 @@
           }
         ],
         "details": ""
-      },
-      "ac": {
-        "value": 14,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
       }
     },
     "initiative": {
@@ -272,7 +270,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722207639194,
@@ -325,7 +323,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722207639235,
@@ -388,7 +386,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722207639274,
@@ -449,7 +447,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722208898777,
@@ -498,7 +496,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722208986625,
@@ -558,7 +556,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722208991841,
@@ -630,7 +628,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722209017665,
@@ -691,7 +689,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722209060856,
@@ -752,7 +750,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722209104667,
@@ -818,7 +816,7 @@
       "_stats": {
         "compendiumSource": "Compendium.aedenir-homebrew.aed-effects.Item.nHYSE3UtugppnP6p",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722209490333,
@@ -880,7 +878,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.3",
         "createdTime": 1722209638211,
@@ -896,7 +894,7 @@
   "_stats": {
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-bestiary-i.Actor.B20vUHAJipFoWUfu",
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "14.360",
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
     "createdTime": 1722207469969,

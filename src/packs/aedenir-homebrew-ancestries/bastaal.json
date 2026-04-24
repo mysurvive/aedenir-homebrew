@@ -1,0 +1,107 @@
+{
+  "_id": "lSGWXjcbOa6O5fTx",
+  "img": "systems/pf2e/icons/ancestries/orc.webp",
+  "name": "Bastaal",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Originating from the islands south of Kagorn, the Bastaal migrated northward and then spread throughout the world when their islands were decimated from constant warring and the eradication of most of the life during The Fasting. Bastaal society very heavily relies on constant vying for power both between and within each of the tribes. There is nearly always a raid on a nearby village or another Bastaal tribe in the area - the survivors are often captured as slaves or integrated into the winning tribe while a portion of the wealth and treasure gathered is provided to the chieftain, the rest being divvied among the raiders that take what they're owed. Because of the connotation with Bastaal being warmongers, many cities look at Bastaal with suspicion, if not outright hostility. There are a number of regions, particularly to the south of Kagorn, that have active, thriving communities of Bastaal within the cities and towns. These regions tend to be more lenient and accepting of the people.</em></p><p><em>This concept of constant war, strife, and death does not sit well with all Bastaal, however. Some move to other cities, towns, and villages looking for work as a mercenary. Fewer still have no desire for fighting at all and decide to work as laborers. Bastaal tend to gravitate towards the more physically intense labor, such as leatherworking, blacksmithing, and even weaving. That's not to say that some Bastaal can't find love in the fine arts like acting, dancing, painting, or writing.</em></p><p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.GCxhDyf1ZNlLiDKZ]{Orc}</em></p>"
+    },
+    "rules": [],
+    "slug": "bastaal",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "bastaal",
+        "humanoid"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Aedenir Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 10,
+    "size": "med",
+    "hands": 2,
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "common",
+        "bastaandi"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [
+        "ekkdu",
+        "hetzlati",
+        "liluathan",
+        "oropini",
+        "skree",
+        "sultic"
+      ],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "darkvision"
+  },
+  "type": "ancestry",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776773736503,
+    "modifiedTime": 1776795790129,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-ancestries.Item.lSGWXjcbOa6O5fTx",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 0,
+  "_key": "!items!lSGWXjcbOa6O5fTx"
+}

@@ -1,0 +1,103 @@
+{
+  "_id": "PgKmsA2aKdbLU6O0",
+  "img": "systems/pf2e/icons/ancestries/elf.webp",
+  "name": "Faerefolk",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Faerefolk are among the longest lived people of Aedenir, occasionally living over 400 years old. Their ability to understand the weave that some Faerefolk possess coupled with their aloof and mysterious demeanor often cause various misconceptions regarding Faerefolk as a whole. Some common misconceptions are that all Faerefolk are extremely magically adept, the lands surrounding Faerefolk cities are cursed (or blessed) by denizens of the Wildlands, and some even believe that Faerefolk can read minds and manipulate thought.</em></p><p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.3cfdiId1IoxLsF9V]{Elf}</em></p>"
+    },
+    "rules": [],
+    "slug": "faerefolk",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "faerefolk",
+        "humanoid"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Aedenir Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 6,
+    "size": "med",
+    "hands": 2,
+    "reach": 5,
+    "speed": 30,
+    "boosts": {
+      "0": {
+        "value": [
+          "dex"
+        ]
+      },
+      "1": {
+        "value": [
+          "int"
+        ]
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "con"
+        ]
+      }
+    },
+    "languages": {
+      "value": [
+        "common"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [
+        "bastaandi",
+        "hetzlati",
+        "skree",
+        "sultic"
+      ],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "low-light-vision"
+  },
+  "type": "ancestry",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776772735433,
+    "modifiedTime": 1776795801596,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-ancestries.Item.PgKmsA2aKdbLU6O0",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 200000,
+  "_key": "!items!PgKmsA2aKdbLU6O0"
+}

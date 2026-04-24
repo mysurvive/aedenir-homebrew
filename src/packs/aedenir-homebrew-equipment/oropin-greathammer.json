@@ -28,7 +28,7 @@
       "custom": ""
     },
     "publication": {
-      "title": "",
+      "title": "Aedenir Homebrew",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -94,9 +94,12 @@
       "value": 0
     },
     "range": null,
+    "expend": null,
+    "ammo": null,
     "reload": {
       "value": ""
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -129,17 +132,16 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "13.345",
+    "coreVersion": "14.360",
     "createdTime": 1667244830875,
-    "modifiedTime": 1723171392749,
+    "modifiedTime": 1777061110667,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-equipment.Item.p75oKA8XvsVeMq7d",
     "duplicateSource": null,
-    "lastModifiedBy": null,
     "exportSource": null
   },
   "_id": "p75oKA8XvsVeMq7d",
   "folder": null,
-  "sort": 0,
+  "sort": 600000,
   "ownership": {
     "default": 0
   },

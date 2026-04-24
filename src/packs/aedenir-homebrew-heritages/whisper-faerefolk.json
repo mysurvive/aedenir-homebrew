@@ -1,0 +1,83 @@
+{
+  "_id": "1wVDYY9Wue0G5R9Q",
+  "folder": "DkZkuquenBnY9Zce",
+  "img": "systems/pf2e/icons/features/ancestry/whisper-elf.webp",
+  "name": "Whisper Faerefolk",
+  "system": {
+    "ancestry": {
+      "name": "Faerefolk",
+      "slug": "faerefolk",
+      "uuid": "Compendium.aedenir-homebrew.aed-ancestries.Item.PgKmsA2aKdbLU6O0"
+    },
+    "description": {
+      "value": "<p>Your ears are finely tuned, able to detect even the slightest whispers of sound. You gain a +2 circumstance bonus when using the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to find @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} or @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} creatures within 30 feet of you. When you target an opponent that is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} from you or hidden from you, reduce the DC of the flat check to 3 for a concealed target or 9 for a hidden one. This benefit doesn't apply if you can't hear or if the creature is incapable of making sound (for example, if it's affected by a @UUID[Compendium.pf2e.spells-srd.Item.gIdDLrbswTV3OBJy]{Silence} spell).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "target:condition:undetected",
+              "target:condition:hidden"
+            ]
+          },
+          {
+            "lte": [
+              "target:distance",
+              30
+            ]
+          },
+          "target:audible"
+        ],
+        "selector": "perception",
+        "type": "circumstance",
+        "value": 2
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.build.languages.granted",
+        "value": {
+          "slug": "liluathan",
+          "source": "Faerefolk"
+        }
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "whisper-faerefolk",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776774172877,
+    "modifiedTime": 1776775982998,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-heritages.Item.1wVDYY9Wue0G5R9Q",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 200000,
+  "_key": "!items!1wVDYY9Wue0G5R9Q"
+}

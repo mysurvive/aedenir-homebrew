@@ -1,0 +1,74 @@
+{
+  "_id": "ne7nVluvvVXMvuB1",
+  "folder": "eecAsQsyAvctWUww",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Wandering Heart",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>While all faerefolk adapt to their environments over time, you have traveled so widely and become attuned to so many environs that your body now changes more rapidly than other faerefolk. After spending a week in an environment associated with an faerefolk heritage (such as snow for arctic faerefolk) your heritage automatically changes to become that heritage. This never causes you to change to an faerefolk heritage that isn't related to an environment.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Faerefolk heritage that adapts to an evnironment"
+        }
+      ]
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "faerefolk"
+      ],
+      "otherTags": []
+    },
+    "slug": "wandering-heart",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776817064196,
+    "modifiedTime": 1776874208297,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.ne7nVluvvVXMvuB1",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 106250,
+  "_key": "!items!ne7nVluvvVXMvuB1"
+}

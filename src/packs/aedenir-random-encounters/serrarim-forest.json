@@ -326,14 +326,13 @@
   },
   "flags": {},
   "_stats": {
-    "compendiumSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-random-encounters.RollTable.pAGOYy41Tnhaa4IE",
     "duplicateSource": null,
     "coreVersion": "13.345",
     "systemId": "pf2e",
     "systemVersion": "6.11.1",
     "createdTime": 1744657973942,
     "modifiedTime": 1745798778095,
-    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "exportSource": null
   },
   "formula": "1d1",

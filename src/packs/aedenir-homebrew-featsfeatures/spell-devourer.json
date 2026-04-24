@@ -1,0 +1,96 @@
+{
+  "_id": "pedHIDAVLFzzjGO1",
+  "folder": "2nTQjyLG0xb8CwE9",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Spell Devourer",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You don't just resist magic; you devour it. Whenever you succeed at a saving throw against a spell or magical effect, you gain temporary Hit Points equal to double the spell's rank, or equal to the level if the magical effect isn't a spell. These temporary Hit Points last until the end of your next turn.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Pervasive Superstition"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "outcome": [
+          "criticalSuccess",
+          "success"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "arcane",
+              "divine",
+              "primal",
+              "occult",
+              "magical"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "text": "Whenever you succeed at a saving throw against a spell or magical effect, you gain temporary Hit Points equal to double the spell's rank, or equal to the level if the magical effect isn't a spell. These temporary Hit Points last until the end of your next turn.",
+        "title": "{item|name}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "bastaal"
+      ],
+      "otherTags": []
+    },
+    "slug": "spell-devourer",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.pedHIDAVLFzzjGO1",
+    "createdTime": 1776837475138,
+    "modifiedTime": 1776874162674,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "sort": 101563,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!pedHIDAVLFzzjGO1"
+}

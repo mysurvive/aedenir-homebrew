@@ -1,0 +1,75 @@
+{
+  "_id": "AzGJN1wwLFaLJIeo",
+  "folder": "GHUywtwPBtgniS26",
+  "img": "systems/pf2e/icons/features/ancestry//aquatic-adaptation.webp",
+  "name": "Aquatic Adaptation (Skeerandar)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>Your reptilian biology allows you to hold your breath for a long time. You gain the @UUID[Compendium.pf2e.feats-srd.Item.aJUXbe9HJVvv0Mxa]{Breath Control} general feat as a bonus feat.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.aJUXbe9HJVvv0Mxa"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "skeerandar"
+      ],
+      "otherTags": []
+    },
+    "slug": "aquatic-adaptation",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776799321471,
+    "modifiedTime": 1776874146800,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.AzGJN1wwLFaLJIeo",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 2200000,
+  "_key": "!items!AzGJN1wwLFaLJIeo"
+}

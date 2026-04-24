@@ -1,0 +1,74 @@
+{
+  "_id": "KboQgBhYXI2WdCt8",
+  "folder": "2nTQjyLG0xb8CwE9",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Mask of Fear",
+  "system": {
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p><strong>Trigger</strong> You start your turn with the @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} condition.</p>\n<p><strong>Requirements</strong> You're wearing your <em>warmask</em>.</p>\n<hr>\n<p>Your <em>warmask</em> burns off of your face, releasing your apprehension. You remove the frightened condition. Your <em>warmask</em> is destroyed, and you can't reapply it until your next daily preparations.</p>\n<hr>\n<p><strong>Special</strong> You can use this free action even if you have a condition tied to the frightened condition that would normally prevent you from using a free action, such as \"@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing} as long as you're frightened\" or \"@UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} as long as you're frightened.\"</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Bastaal Warmask"
+        }
+      ]
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "bastaal"
+      ],
+      "otherTags": []
+    },
+    "slug": "mask-of-fear",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.KboQgBhYXI2WdCt8",
+    "createdTime": 1776837475138,
+    "modifiedTime": 1776874046645,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "sort": 125000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!KboQgBhYXI2WdCt8"
+}

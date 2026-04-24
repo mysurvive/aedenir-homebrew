@@ -1,0 +1,84 @@
+{
+  "_id": "JvTSfyCkG70bmY7f",
+  "folder": "2nTQjyLG0xb8CwE9",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Bloody Blows",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Your lethal unarmed attacks leave bloody gouges or cause severe internal bleeding. When you critically hit with a Strike using an unarmed attack that isn't nonlethal, the target takes 1d4 persistent bleed damage. This can be because you're taking the penalty to use a fist for a lethal attack or because you have an unarmed attack without the nonlethal trait due to @UUID[Compendium.pf2e.feats-srd.Item.M5195FvfCN3X7gi9]{Tusks} or a similar ability.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "critical": true,
+        "damageType": "bleed",
+        "diceNumber": 1,
+        "dieSize": "d4",
+        "key": "DamageDice",
+        "predicate": [
+          {
+            "not": "nonlethal"
+          }
+        ],
+        "selector": "unarmed-damage"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "bastaal"
+      ],
+      "otherTags": []
+    },
+    "slug": "bloody-blows",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.JvTSfyCkG70bmY7f",
+    "createdTime": 1776837470216,
+    "modifiedTime": 1776874022072,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "sort": 2000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!JvTSfyCkG70bmY7f"
+}

@@ -1,0 +1,84 @@
+{
+  "_id": "iliy0ONIb8Hw6muA",
+  "folder": "GHUywtwPBtgniS26",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Swift Swimmer",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You gain a swim Speed of 15 feet.</p><hr><p><strong>Special</strong> If you have the wetlander skeerandar heritage, your swim Speed instead increases to 25 feet.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": 15
+      },
+      {
+        "key": "BaseSpeed",
+        "predicate": [
+          "heritage:wetlander-skeerandar"
+        ],
+        "selector": "swim",
+        "value": 25
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "skeerandar"
+      ],
+      "otherTags": []
+    },
+    "slug": "swift-swimmer",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.iliy0ONIb8Hw6muA",
+    "createdTime": 1776835696176,
+    "modifiedTime": 1777062257055,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "sort": 112500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!iliy0ONIb8Hw6muA"
+}

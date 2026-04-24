@@ -1,0 +1,52 @@
+{
+  "_id": "sEnMG5zbnXdJvVPz",
+  "folder": "5pAmJNGx2VlQ2zF6",
+  "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
+  "name": "Cloudleaper Skeerandar",
+  "system": {
+    "ancestry": {
+      "name": "Skeerandar",
+      "slug": "skeerandar",
+      "uuid": "Compendium.aedenir-homebrew.aed-ancestries.Item.HWEgF7Gmoq55VhTL"
+    },
+    "description": {
+      "value": "<p>Your body is light with flaps of skin along your limbs that catch the air that passes beneath you. As long as you can act and have enough room, you can open the flaps to slow any fall just enough to avoid taking damage (whether you have the room to do so depends on the GM's discretion).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "cloudleaper-skeerandar",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776785841081,
+    "modifiedTime": 1776786197363,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-heritages.Item.sEnMG5zbnXdJvVPz",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 500000,
+  "_key": "!items!sEnMG5zbnXdJvVPz"
+}

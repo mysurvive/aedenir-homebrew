@@ -373,7 +373,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Core Rulebook",
+      "title": "Aedenir Homebrew",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -400,22 +400,21 @@
     "core": {}
   },
   "effects": [],
-  "folder": null,
+  "folder": "NWsTOobiJcU96xhb",
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "13.345",
+    "coreVersion": "14.360",
     "createdTime": 1697571012455,
-    "modifiedTime": 1723171397601,
+    "modifiedTime": 1776797032552,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.XTJ7wWj1Tg1QuI1J",
     "duplicateSource": null,
-    "lastModifiedBy": null,
     "exportSource": null
   },
   "_id": "XTJ7wWj1Tg1QuI1J",
-  "sort": 0,
+  "sort": 100000,
   "_key": "!items!XTJ7wWj1Tg1QuI1J"
 }

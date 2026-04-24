@@ -18,9 +18,6 @@
       "src": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Tokens/Bestiary/token%20-%20drakkgebor%20thug.webp",
       "scaleX": 1,
       "scaleY": 1,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "tint": "#ffffff",
       "anchorX": 0.5,
       "anchorY": 0.5,
@@ -73,7 +70,7 @@
       "contrast": 0,
       "color": null
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "randomImg": false,
     "occludable": {
       "radius": 0
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": "ojrwaNrOSQDGyAAp",
   "name": "Stolen Voice Initiate (Drakkgebor)",
@@ -113,17 +111,17 @@
         "max": 7,
         "details": ""
       },
-      "speed": {
-        "value": 25,
-        "otherSpeeds": [],
-        "details": ""
-      },
       "ac": {
         "value": 14,
         "details": ""
       },
       "allSaves": {
         "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
       }
     },
     "initiative": {
@@ -290,7 +288,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.5.1",
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": 1694925700326,
         "modifiedTime": 1694925780926,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
@@ -430,7 +428,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.5.1",
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": 1694925700372,
         "modifiedTime": 1694925700372,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
@@ -499,7 +497,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.5.1",
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": 1694925783152,
         "modifiedTime": 1694925831902,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
@@ -605,9 +603,12 @@
           "value": 0
         },
         "range": null,
+        "expend": null,
+        "ammo": null,
         "reload": {
           "value": "-"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -643,7 +644,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.5.1",
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": 1694925943684,
         "modifiedTime": 1694925943684,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
@@ -714,7 +715,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.5.1",
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": 1694926423155,
         "modifiedTime": 1694926777855,
         "lastModifiedBy": "NX3qHeMsqsVjwJ0v",
@@ -731,7 +732,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "13.345",
+    "coreVersion": "14.360",
     "createdTime": 1694925643992,
     "modifiedTime": 1723171405112,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-bestiary-i.Actor.wazz3PMO3HyXmFxb",

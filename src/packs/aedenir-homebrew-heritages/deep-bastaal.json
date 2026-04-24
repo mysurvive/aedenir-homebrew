@@ -1,0 +1,64 @@
+{
+  "_id": "wn4EbYk1QN3tyFhh",
+  "folder": "1CZa5ecTz7pGZnLS",
+  "img": "systems/pf2e/icons/features/ancestry/deep-orc.webp",
+  "name": "Deep Bastaal",
+  "system": {
+    "ancestry": {
+      "name": "Bastaal",
+      "slug": "bastaal",
+      "uuid": "Compendium.aedenir-homebrew.aed-ancestries.Item.lSGWXjcbOa6O5fTx"
+    },
+    "description": {
+      "value": "<p>Your calloused hands and red eyes speak to a life spent in the deep darkness of mountain caverns, where you learned to battle on rocky cliffs and survive with minimal resources. You gain the @UUID[Compendium.pf2e.feats-srd.Item.4tTkRyOQ0VuRBac3]{Terrain Expertise} skill feat for underground terrain and the @UUID[Compendium.pf2e.feats-srd.Item.09PurtIanNUPfNRq]{Combat Climber} skill feat.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "preselectChoices": {
+          "terrain": "underground"
+        },
+        "uuid": "Compendium.pf2e.feats-srd.Item.4tTkRyOQ0VuRBac3"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.09PurtIanNUPfNRq"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "deep-bastaal",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1777060232084,
+    "modifiedTime": 1777060333627,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-heritages.Item.wn4EbYk1QN3tyFhh",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 200000,
+  "_key": "!items!wn4EbYk1QN3tyFhh"
+}

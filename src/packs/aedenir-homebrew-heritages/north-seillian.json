@@ -1,0 +1,73 @@
+{
+  "_id": "nW1gi13E62Feto2w",
+  "folder": "DkZkuquenBnY9Zce",
+  "img": "systems/pf2e/icons/features/ancestry/woodland-elf.webp",
+  "name": "North Seillian",
+  "system": {
+    "ancestry": {
+      "name": "Faerefolk",
+      "slug": "faerefolk",
+      "uuid": "Compendium.aedenir-homebrew.aed-ancestries.Item.PgKmsA2aKdbLU6O0"
+    },
+    "description": {
+      "value": "<p>You're adapted to life in the forest, the deep jungle, or a similar environment, and you know how to climb trees and use foliage to your advantage. When @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climbing} trees, vines, and other foliage, you move at half your Speed on a success and at full Speed on a critical success (and you move at full Speed on a success if you have @UUID[Compendium.pf2e.feats-srd.Item.P04Hw8E6WAWARKHP]{Quick Climb}). This doesn't affect you if you're using a climb Speed.</p><p>You can always use the @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} action when you are within forest terrain to gain cover, even if you're not next to an obstacle you can Take Cover behind.</p><p>You do not know Liluathan as a benefit of being faerefolk. Instead, you know Sionese.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "outcome": [],
+        "predicate": [
+          "action:climb",
+          "terrain:foliage"
+        ],
+        "selector": "athletics",
+        "text": "When you climb trees, vines or other foliage, you move at half your Speed on a success, and full speed on a critical success.",
+        "title": "{item|name}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.build.languages.granted",
+        "value": {
+          "slug": "sionese",
+          "source": "{item|name}"
+        }
+      }
+    ],
+    "traits": {
+      "rarity": "rare",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "north-seillian",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776774174989,
+    "modifiedTime": 1776775728046,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-heritages.Item.nW1gi13E62Feto2w",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 0,
+  "_key": "!items!nW1gi13E62Feto2w"
+}

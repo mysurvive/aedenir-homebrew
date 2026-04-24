@@ -1,0 +1,60 @@
+{
+  "_id": "TQFE10VFvh9wb8zb",
+  "folder": "5pAmJNGx2VlQ2zF6",
+  "img": "icons/magic/nature/tree-spirit-green.webp",
+  "name": "Woodstalker Skeerandar",
+  "system": {
+    "ancestry": {
+      "name": "Skeerandar",
+      "slug": "skeerandar",
+      "uuid": "Compendium.aedenir-homebrew.aed-ancestries.Item.HWEgF7Gmoq55VhTL"
+    },
+    "description": {
+      "value": "<p>You move easily through thick forest and jungle, using every branch or bush. You can always use the @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} action when in forest or jungle terrain to gain cover, even if you're not next to an obstacle you would normally be able to Take Cover behind. You gain the @UUID[Compendium.pf2e.feats-srd.Item.beyw5bdA5hkQbmaG]{Terrain Stalker} feat, even if you're not trained in Stealth, and you must choose underbrush as your chosen terrain.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "preselectChoices": {
+          "terrain-stalker": "underbrush"
+        },
+        "uuid": "Compendium.pf2e.feats-srd.Item.beyw5bdA5hkQbmaG"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "woodstalker-skeerandar",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776785852859,
+    "modifiedTime": 1776786234731,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-heritages.Item.TQFE10VFvh9wb8zb",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 0,
+  "_key": "!items!TQFE10VFvh9wb8zb"
+}

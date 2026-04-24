@@ -1,0 +1,82 @@
+{
+  "_id": "GU3EQVOMjD9S2YWj",
+  "folder": "GHUywtwPBtgniS26",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Hone Claws",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per hour</p><hr><p>You grind or gnaw a particularly wicked edge onto your claws. The next claws Strike you hit and deal damage with deals an additional 1d6 bleed damage. You cannot have more than one instance of Hone Claws active at a time.</p>",
+      "gm": ""
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    },
+    "level": {
+      "value": 9
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Skeerander Armaments (Claw)"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [],
+    "selfEffect": {
+      "name": "Effect: Hone Claws",
+      "uuid": "Compendium.pf2e.feat-effects.Item.cYtUBB2cO0FOUU8D"
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "skeerandar"
+      ],
+      "otherTags": []
+    },
+    "slug": "hone-claws",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.GU3EQVOMjD9S2YWj",
+    "createdTime": 1776835699468,
+    "modifiedTime": 1776874146801,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "sort": 2600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!GU3EQVOMjD9S2YWj"
+}

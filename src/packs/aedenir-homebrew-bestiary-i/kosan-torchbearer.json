@@ -10,9 +10,6 @@
       "src": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Tokens/Bestiary/token-Kosan_Torchbearer.webp",
       "scaleX": 1,
       "scaleY": 1,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
@@ -67,7 +64,7 @@
       "contrast": 0,
       "color": null
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "flags": {
       "pf2e": {
         "linkToActorSize": true,
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "img": "https://aedenir-foundry-s3.s3.us-east-1.amazonaws.com/GMUploads/Art/Tokens/Bestiary/token-Kosan_Torchbearer.webp",
   "items": [
@@ -200,9 +198,12 @@
           "value": 0
         },
         "range": null,
+        "expend": null,
+        "ammo": null,
         "reload": {
           "value": "-"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -233,7 +234,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -338,9 +339,12 @@
           "value": 0
         },
         "range": 60,
+        "expend": null,
+        "ammo": null,
         "reload": {
           "value": "1"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -371,7 +375,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -528,7 +532,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": null,
         "modifiedTime": 1692479678792,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
@@ -625,8 +629,8 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": "bolts",
-        "spell": null
+        "spell": null,
+        "stackGroup": "bolts"
       },
       "type": "consumable",
       "effects": [],
@@ -637,7 +641,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -706,7 +710,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -777,7 +781,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -848,7 +852,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -927,7 +931,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.2",
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": null,
         "modifiedTime": 1692481962120,
         "lastModifiedBy": "fQ2bdOYk7CfBvPdF",
@@ -984,7 +988,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -1004,17 +1008,17 @@
         "max": 15,
         "details": ""
       },
-      "speed": {
-        "value": 25,
-        "otherSpeeds": [],
-        "details": ""
-      },
       "ac": {
         "value": 15,
         "details": ""
       },
       "allSaves": {
         "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
       }
     },
     "initiative": {
@@ -1127,7 +1131,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
-    "coreVersion": "13.345",
+    "coreVersion": "14.360",
     "createdTime": 1692473950974,
     "modifiedTime": 1723171405112,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-bestiary-i.Actor.2XmQadcmpIpxdZ3H",

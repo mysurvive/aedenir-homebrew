@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Oropin",
+  "color": null,
+  "sorting": "a",
+  "_id": "EqcUAXS0yP8YnnPz",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776774047868,
+    "modifiedTime": 1776774047868,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!folders!EqcUAXS0yP8YnnPz"
+}

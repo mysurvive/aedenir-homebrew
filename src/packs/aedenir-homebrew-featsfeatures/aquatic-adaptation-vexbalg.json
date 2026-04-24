@@ -1,5 +1,5 @@
 {
-  "name": "Aquatic Adaptation",
+  "name": "Aquatic Adaptation (Vexbalg)",
   "type": "feat",
   "img": "systems/pf2e/icons/default-icons/feat.svg",
   "system": {
@@ -43,7 +43,7 @@
       "custom": ""
     },
     "publication": {
-      "title": "",
+      "title": "Aedenir Homebrew",
       "authors": "",
       "license": "OGL",
       "remaster": false
@@ -80,17 +80,16 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "7.1.1",
-    "coreVersion": "13.345",
+    "coreVersion": "14.360",
     "createdTime": 1667090874407,
-    "modifiedTime": 1750796310998,
+    "modifiedTime": 1776799238350,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.KH9GEWDb0yfPKt1v",
     "duplicateSource": null,
-    "lastModifiedBy": "oMwyPU2ip0rGnOow",
     "exportSource": null
   },
   "_id": "KH9GEWDb0yfPKt1v",
-  "folder": null,
-  "sort": 2200000,
+  "folder": "p82N2w9LhDpmUGrT",
+  "sort": 200000,
   "ownership": {
     "default": 0
   },

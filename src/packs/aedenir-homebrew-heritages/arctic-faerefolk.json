@@ -1,0 +1,58 @@
+{
+  "_id": "1dYDucCIaZpCJqBc",
+  "folder": "DkZkuquenBnY9Zce",
+  "img": "systems/pf2e/icons/features/ancestry/artic-elf.webp",
+  "name": "Arctic Faerefolk",
+  "system": {
+    "ancestry": {
+      "name": "Faerefolk",
+      "slug": "faerefolk",
+      "uuid": "Compendium.aedenir-homebrew.aed-ancestries.Item.PgKmsA2aKdbLU6O0"
+    },
+    "description": {
+      "value": "<p>You dwell deep in the frozen north and have gained incredible resilience against cold environments, granting you cold resistance equal to half your level (minimum 1). You treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "cold",
+        "value": "max(1,floor(@actor.level/2))"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "arctic-faerefolk",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776774162601,
+    "modifiedTime": 1776775372238,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-heritages.Item.1dYDucCIaZpCJqBc",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 600000,
+  "_key": "!items!1dYDucCIaZpCJqBc"
+}

@@ -1,0 +1,95 @@
+{
+  "_id": "vxE9hBKB6F2ctOX3",
+  "folder": "2nTQjyLG0xb8CwE9",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Mask of Rejection",
+  "system": {
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You fail a saving throw against an effect from your <em>warmask</em>'s magical tradition.</p>\n<p><strong>Requirements</strong> You're wearing your <em>warmask</em>.</p>\n<hr>\n<p>Your <em>warmask</em> projects a white-hot fury that attempts to vaporize the offending magic. You reroll the triggering check with a +2 circumstance bonus, but you must use the new result, even if it's worse than your first roll.</p>",
+      "gm": ""
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Bastaal Warmask"
+        }
+      ]
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Reroll using Mask of Rejection",
+        "option": "mask-of-rejection",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "mask-of-rejection"
+        ],
+        "selector": "saving-throw",
+        "type": "circumstance",
+        "value": 2
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "bastaal",
+        "fortune"
+      ],
+      "otherTags": []
+    },
+    "slug": "mask-of-rejection",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.vxE9hBKB6F2ctOX3",
+    "createdTime": 1776837470219,
+    "modifiedTime": 1776874022071,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "sort": 1700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!vxE9hBKB6F2ctOX3"
+}

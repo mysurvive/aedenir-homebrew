@@ -1,0 +1,101 @@
+{
+  "_id": "h3h6QWv1m3MOpx66",
+  "folder": "eecAsQsyAvctWUww",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Political Acumen",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You have spent years following the political maneuvering and secret alliances of faerefolk in Freyland. You gain a +2 circumstance bonus to Perception checks made to @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive} against other faerefolk.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "trained in Perception"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              {
+                "and": [
+                  "target:trait:faerefolk",
+                  "action:sense-motive"
+                ]
+              },
+              {
+                "and": [
+                  "origin:trait:faerefolk",
+                  "action:lie"
+                ]
+              }
+            ]
+          }
+        ],
+        "selector": [
+          "perception"
+        ],
+        "type": "circumstance",
+        "value": 2
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "faerefolk"
+      ],
+      "otherTags": []
+    },
+    "slug": "political-acumen",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776800303177,
+    "modifiedTime": 1776874077939,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.h3h6QWv1m3MOpx66",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 2400000,
+  "_key": "!items!h3h6QWv1m3MOpx66"
+}

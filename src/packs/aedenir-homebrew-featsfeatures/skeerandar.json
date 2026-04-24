@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "hrVS5befs3Z88Ozv",
+  "name": "Skeerandar",
+  "color": null,
+  "sorting": "a",
+  "_id": "GHUywtwPBtgniS26",
+  "description": "",
+  "sort": 500000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776797823571,
+    "modifiedTime": 1777060665587,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!folders!GHUywtwPBtgniS26"
+}

@@ -3,7 +3,7 @@ import { TYPE_COLLECTION_MAP } from "@foundryvtt/foundryvtt-cli/lib/package.mjs"
 import fs from "fs";
 
 const COLLECTION_TYPE = new Map(
-  Object.entries(TYPE_COLLECTION_MAP).map(([k, v]) => [v, k])
+  Object.entries(TYPE_COLLECTION_MAP).map(([k, v]) => [v, k]),
 );
 
 export async function buildModulePacks(packageId) {
@@ -23,8 +23,12 @@ export async function buildModulePacks(packageId) {
         if (entry.flags?.core?.sourceId) delete entry.flags.core.sourceId;
 
         // Add correct compendiumSource (except to folders)
-        if (collection !== "folders")
+        if (collection !== "folders") {
           entry._stats.compendiumSource = `Compendium.${packageId}.${pack}.${docType}.${entry._id}`;
+
+          if (entry.system && entry.system.publication)
+            entry.system.publication.title = "Aedenir Homebrew";
+        }
 
         // Remove any user IDs, they don't work on other servers
         for (const userId of Object.keys(entry.ownership ?? {})) {

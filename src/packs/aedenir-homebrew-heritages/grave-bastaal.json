@@ -1,0 +1,74 @@
+{
+  "_id": "VvEAFoxuddYNBmNc",
+  "folder": "1CZa5ecTz7pGZnLS",
+  "img": "icons/magic/death/grave-tombstone-glow-tan.webp",
+  "name": "Grave Bastaal",
+  "system": {
+    "ancestry": {
+      "name": "Bastaal",
+      "slug": "bastaal",
+      "uuid": "Compendium.aedenir-homebrew.aed-ancestries.Item.lSGWXjcbOa6O5fTx"
+    },
+    "description": {
+      "value": "<p>You were exposed to powerful necromantic energies that should have killed you—but you survived. Your skin is cold, clammy, and gray. You gain resistance to void damage equal to half your level (minimum 1). You also gain a +1 circumstance bonus to saving throws against effects with the death or void trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "void",
+        "value": "max(1,floor(@actor.level/2))"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:death",
+              "item:trait:void"
+            ]
+          }
+        ],
+        "selector": [
+          "saving-throw"
+        ],
+        "type": "circumstance",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "grave-bastaal",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1777060233731,
+    "modifiedTime": 1777060362091,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-heritages.Item.VvEAFoxuddYNBmNc",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 0,
+  "_key": "!items!VvEAFoxuddYNBmNc"
+}

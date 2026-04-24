@@ -1,0 +1,74 @@
+{
+  "_id": "zZOycr00XDVTKuXa",
+  "folder": "2nTQjyLG0xb8CwE9",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Undying Ferocity",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You resist death's clutches with supernatural vigor, daring death to claim you while promising that any such attempt will surely fail. When you use @UUID[Compendium.aedenir-homebrew.aed-featsfeatures.Item.PlhPpdwIV0rIAJ8K]{Bastaal Ferocity}, you gain temporary Hit Points equal to your level.</p><p>@UUID[Compendium.pf2e.feat-effects.Item.Px4E3Hyx2pmvSWAA]{Effect: Undying Ferocity}</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 9
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Bastaal Ferocity"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "bastaal"
+      ],
+      "otherTags": []
+    },
+    "slug": "undying-ferocity",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.zZOycr00XDVTKuXa",
+    "createdTime": 1776837472719,
+    "modifiedTime": 1776874197210,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "sort": 100391,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!zZOycr00XDVTKuXa"
+}

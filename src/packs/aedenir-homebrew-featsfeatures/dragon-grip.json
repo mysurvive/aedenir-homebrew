@@ -1,0 +1,90 @@
+{
+  "_id": "WSxHCapuTn8uRdLI",
+  "folder": "2nTQjyLG0xb8CwE9",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Dragon Grip",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Your hold has a unique draconic connection. You gain a +2 circumstance bonus when you attempt to Make an Impression on a creature with the dragon trait. You gain access to the Riding Drake animal companion.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 9
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Beast Trainer"
+        }
+      ]
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "target:trait:dragon",
+        "toggleable": "totm"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "action:make-an-impression",
+          "target:trait:dragon"
+        ],
+        "selector": "diplomacy",
+        "type": "circumstance",
+        "value": 2
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "bastaal"
+      ],
+      "otherTags": []
+    },
+    "slug": "dragon-grip",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.WSxHCapuTn8uRdLI",
+    "createdTime": 1776837472718,
+    "modifiedTime": 1776874022070,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!WSxHCapuTn8uRdLI"
+}

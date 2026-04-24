@@ -28,13 +28,14 @@
       "custom": ""
     },
     "publication": {
-      "title": "",
+      "title": "Aedenir Homebrew",
       "authors": "",
       "license": "OGL",
       "remaster": false
     },
     "hp": 12,
     "size": "med",
+    "hands": 2,
     "reach": 5,
     "speed": 25,
     "boosts": {
@@ -65,13 +66,21 @@
     "languages": {
       "value": [
         "common",
-        "oropin"
+        "oropini"
       ],
       "custom": ""
     },
     "additionalLanguages": {
       "count": 1,
-      "value": [],
+      "value": [
+        "bastaandi",
+        "ekkdu",
+        "ereben",
+        "liluathan",
+        "oropini",
+        "skree",
+        "sultic"
+      ],
       "custom": ""
     },
     "items": {
@@ -90,18 +99,17 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.2.0",
-    "coreVersion": "13.345",
+    "systemVersion": "8.0.2",
+    "coreVersion": "14.360",
     "createdTime": 1667226402712,
-    "modifiedTime": 1723171377041,
+    "modifiedTime": 1776795812555,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-ancestries.Item.0T73V4bOhNT3wJQ5",
     "duplicateSource": null,
-    "lastModifiedBy": null,
     "exportSource": null
   },
   "_id": "0T73V4bOhNT3wJQ5",
   "folder": null,
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },

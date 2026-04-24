@@ -1,0 +1,197 @@
+{
+  "_id": "VatkAzfBYjA6z6OP",
+  "folder": "GHUywtwPBtgniS26",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Skeerandar Armaments",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Your weapons are those you were born with. Choose one of the following options:</p><ul><li><strong>Claws</strong> Your claw attack deals 1d6 slashing damage instead of 1d4 and gains the versatile P trait.</li><li><strong>Fangs</strong> You gain a fangs unarmed attack that deals 1d8 piercing damage and is in the brawling group.</li><li><strong>Tail</strong> You gain a tail unarmed attack that deals 1d6 bludgeoning damage, is in the brawling group, and has the sweep trait.</li></ul><p>At 5th level, whenever you get a critical hit with one of the unarmed attacks you have gained or improved with this feat, you get its critical specialization effect.</p><hr><p><strong>Special</strong> You can take this feat multiple times, choosing a different unarmed attack option each time.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "maxTakable": 3,
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.BattleForm.Attack.Claw",
+            "predicate": [
+              {
+                "not": "skeerandar-armaments:claw"
+              }
+            ],
+            "value": "claw"
+          },
+          {
+            "label": "PF2E.BattleForm.Attack.Fangs",
+            "predicate": [
+              {
+                "not": "skeerandar-armaments:fangs"
+              }
+            ],
+            "value": "fangs"
+          },
+          {
+            "label": "PF2E.BattleForm.Attack.Tail",
+            "predicate": [
+              {
+                "not": "skeerandar-armaments:tail"
+              }
+            ],
+            "value": "tail"
+          }
+        ],
+        "flag": "skeerandarArmaments",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.UnarmedAttack",
+        "rollOption": "skeerandar-armaments"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "upgrade",
+        "predicate": [
+          "skeerandar-armaments:claw",
+          "item:tag:skeerandar-claws"
+        ],
+        "property": "damage-dice-faces"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:tag:skeerandar-claws",
+          "skeerandar-armaments:claw"
+        ],
+        "property": "traits",
+        "value": "versatile-p"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/fangs.webp",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Fangs",
+        "predicate": [
+          "skeerandar-armaments:fangs"
+        ],
+        "range": null,
+        "slug": "fangs",
+        "traits": [
+          "unarmed"
+        ]
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/tail.webp",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Tail",
+        "predicate": [
+          {
+            "not": "self:effect:shed-tail"
+          },
+          "skeerandar-armaments:tail"
+        ],
+        "range": null,
+        "slug": "tail",
+        "traits": [
+          "sweep",
+          "unarmed"
+        ]
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          },
+          {
+            "or": [
+              {
+                "and": [
+                  "item:tag:skeerandar-claws",
+                  "skeerandar-armaments:claw"
+                ]
+              },
+              "item:id:{item|id}"
+            ]
+          }
+        ]
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "skeerandar"
+      ],
+      "otherTags": []
+    },
+    "slug": "skeerandar-armaments",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.VatkAzfBYjA6z6OP",
+    "createdTime": 1776835692289,
+    "modifiedTime": 1776874146799,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "sort": 1300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!VatkAzfBYjA6z6OP"
+}

@@ -1,0 +1,76 @@
+{
+  "_id": "qS2VcFLez4PLOpIS",
+  "folder": "eecAsQsyAvctWUww",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Tree Climber (Faerefolk)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You've spent much of your life among the treetops and have become an expert at quickly and safely climbing them. You gain a @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb} Speed of 10 feet.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 9
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "climb",
+        "value": 10
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "faerefolk"
+      ],
+      "otherTags": []
+    },
+    "slug": "tree-climber-faerefolk",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1776816781143,
+    "modifiedTime": 1776874188196,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.qS2VcFLez4PLOpIS",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 112500,
+  "_key": "!items!qS2VcFLez4PLOpIS"
+}

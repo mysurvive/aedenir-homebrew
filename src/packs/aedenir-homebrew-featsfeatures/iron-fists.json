@@ -1,0 +1,90 @@
+{
+  "_id": "JP5pptkl1Fx1JK4m",
+  "folder": "2nTQjyLG0xb8CwE9",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Iron Fists",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Your fists have been forged by battle, your naturally tough skin and dense bone further hardened by conflict. Your fist unarmed attacks no longer have the nonlethal trait and gain the shove weapon trait.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "fist": true,
+        "img": "systems/pf2e/icons/features/classes/powerful-fist.webp",
+        "key": "Strike"
+      },
+      {
+        "itemId": "xxxxxxFISTxxxxxx",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "shove"
+      },
+      {
+        "itemId": "xxxxxxFISTxxxxxx",
+        "key": "ItemAlteration",
+        "mode": "remove",
+        "property": "traits",
+        "value": "nonlethal"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "bastaal"
+      ],
+      "otherTags": []
+    },
+    "slug": "iron-fists",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.JP5pptkl1Fx1JK4m",
+    "createdTime": 1776837467214,
+    "modifiedTime": 1776874022069,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!JP5pptkl1Fx1JK4m"
+}

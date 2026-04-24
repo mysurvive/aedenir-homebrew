@@ -1,0 +1,63 @@
+{
+  "_id": "nXQxlmjH24Eb8h2Q",
+  "folder": "1CZa5ecTz7pGZnLS",
+  "img": "icons/magic/control/fear-fright-monster-grin-green.webp",
+  "name": "Battle-Ready Bastaal",
+  "system": {
+    "ancestry": {
+      "name": "Bastaal",
+      "slug": "bastaal",
+      "uuid": "Compendium.aedenir-homebrew.aed-ancestries.Item.lSGWXjcbOa6O5fTx"
+    },
+    "description": {
+      "value": "<p>You descend from a line of terrifying battlefield commanders. You become trained in Intimidation, and you gain the @UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]{Intimidating Glare} skill feat.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Aedenir Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.intimidation.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "battle-ready-bastaal",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1777060230494,
+    "modifiedTime": 1777060318042,
+    "exportSource": null,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-heritages.Item.nXQxlmjH24Eb8h2Q",
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 300000,
+  "_key": "!items!nXQxlmjH24Eb8h2Q"
+}
