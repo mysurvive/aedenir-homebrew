@@ -1,0 +1,75 @@
+{
+  "folder": "EqSkwpvdYu4hFdRz",
+  "name": "Radiant Soul",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Aedenir Homebrew",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "IQOvSicPXl4VQJ73",
+  "img": "systems/pf2e/icons/default-icons/spell.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1777082145695,
+    "modifiedTime": 1777082145695,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-spells.Item.IQOvSicPXl4VQJ73",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!IQOvSicPXl4VQJ73"
+}

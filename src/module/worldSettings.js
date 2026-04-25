@@ -15,11 +15,12 @@ const featTraits = [
   { id: "faerefolk", value: "Faerefolk" },
   { id: "bastaal", value: "Bastaal" },
   { id: "skeerandar", value: "Skeerandar" },
+  { id: "soulseer", value: "Soulseer" },
 ];
 
 function getDeadLanguages() {
   const allLanguagesList = Object.keys(
-    game.pf2e.settings.campaign.languages,
+    game.pf2e.settings.campaign.languages
   ).flatMap((language) => {
     if (typeof game.pf2e.settings.campaign.languages[language] === "string")
       return game.pf2e.settings.campaign.languages[language];
@@ -64,7 +65,10 @@ function languageToRarity() {
   };
 }
 
-const damageTypes = [{ label: "Ley", category: "energy", icon: "fa-drone" }];
+const damageTypes = [
+  { label: "Ley", category: "energy", icon: "fa-drone" },
+  { label: "Soul", category: "energy", icon: "person-burst" },
+];
 
 const languages = [
   { id: "ereben", value: "Ereben", rarity: "common" },
@@ -103,6 +107,8 @@ const weaponTraits = [
   { id: "faerefolk", value: "Faerefolk" },
 ];
 
+const spellTraits = [{ id: "soulseer", value: "Soulseer" }];
+
 export {
   creatureTraits,
   damageTypes,
@@ -111,5 +117,6 @@ export {
   weaponGroups,
   baseWeapons,
   weaponTraits,
+  spellTraits,
   languageToRarity,
 };

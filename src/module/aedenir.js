@@ -6,6 +6,7 @@ import {
   featTraits,
   languages,
   languageToRarity,
+  spellTraits,
   weaponGroups,
   weaponTraits,
 } from "./worldSettings.js";
@@ -143,6 +144,7 @@ async function loadHomebrew() {
         languageToRarity()
       );
       await game.settings.set("pf2e", "homebrew.damageTypes", damageTypes);
+      await game.settings.set("pf2e", "homebrew.spellTraits", spellTraits);
     } catch {
       console.error("Error loading homebrew.");
       return Promise.reject("Error in loadHomebrew");

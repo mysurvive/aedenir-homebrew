@@ -1,19 +1,19 @@
 {
   "type": "Item",
-  "folder": "uC9D8coSCouR0H5X",
-  "name": "Drakkgebor",
+  "folder": null,
+  "name": "Soulseer Spells",
   "color": null,
   "sorting": "a",
-  "_id": "f6PS800WC10XM5UJ",
+  "_id": "EqSkwpvdYu4hFdRz",
   "description": "",
-  "sort": 200000,
+  "sort": 0,
   "flags": {},
   "_stats": {
     "coreVersion": "14.360",
     "systemId": "pf2e",
     "systemVersion": "8.0.2",
-    "createdTime": 1776797011076,
-    "modifiedTime": 1777074297987,
+    "createdTime": 1777082024779,
+    "modifiedTime": 1777082024779,
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
@@ -21,5 +21,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!folders!f6PS800WC10XM5UJ"
+  "_key": "!folders!EqSkwpvdYu4hFdRz"
 }

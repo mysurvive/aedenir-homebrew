@@ -1,0 +1,75 @@
+{
+  "folder": "u5NL6xMMq2ssuadQ",
+  "name": "Soulseer Dedication",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Soulseers have trained extensively in order to cultivate their ability to see - and eventually manipulate - the soul. After grueling training of mind, body, and soul, you too are able to see the unseen and glean information about an individual by inspecting the shape, texture, and color of their soul.</p><p>You are trained in Soulsight Lore, a special Lore skill that allows you to read the soul of another. Soulsight Lore uses Wisdom instead of Intelligence when determining the outcome of checks. Additionally, you gain the @UUID[Compendium.aedenir-homebrew.aed-abilities.Item.59yhhHJv7XqG66bE]{See Soul} ability.</p><p>During your daily preparations, you can glimpse your allies' souls as a prerequisite for using soulseer abilities on them. This lasts until your next daily preparations.</p><hr><p><em><strong>Special:</strong></em> <em>Further training as a soulseer requires downtime to be spent with a trained soulseer. Additional soulseer archetype feats cannot be taken without learning from a soulseer or GM's approval.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Aedenir Homebrew",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "dedication"
+      ],
+      "rarity": "rare"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "training from a soulseer"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "zyoW7fDzl2vZIjaz",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1777074606709,
+    "modifiedTime": 1777080661860,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-featsfeatures.Item.zyoW7fDzl2vZIjaz",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zyoW7fDzl2vZIjaz"
+}
