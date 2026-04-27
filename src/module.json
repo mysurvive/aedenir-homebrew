@@ -29,6 +29,69 @@
   "manifest": "https://github.com/mysurvive/aedenir-homebrew/releases/latest/download/module.json",
   "download": "https://github.com/mysurvive/aedenir-homebrew/archive/main.zip",
   "esmodules": ["module/aedenir-homebrew.js"],
+  "flags": {
+    "aedenir-homebrew": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "vexbalg": "Vexbalg",
+          "drakkgebor": "Drakkgebor",
+          "dragon": "Dragon",
+          "oropin": "Oropin",
+          "faerefolk": "Faerefolk",
+          "bastaal": "Bastaal",
+          "skeerandar": "Skeerandar",
+          "soulseer": "Soulseer"
+        },
+        "weaponTraits": {
+          "oropin": {
+            "label": "Oropin",
+            "description": "Weapons with this trait are ancestral weapons weilded by the Oropin peoples."
+          },
+          "seillian": {
+            "label": "Seillian",
+            "description": "Weapons with this trait are ancestral weapons weilded by the Seillian peoples."
+          },
+          "faerefolk": {
+            "label": "Faerefolk",
+            "description": "Weapons with this trait are ancestral weapons weilded by the Faerefolk peoples."
+          }
+        },
+        "weaponGroups": {
+          "oropin": "Oropin"
+        },
+        "spellTraits": {
+          "spellseer": "Spellseer"
+        },
+        "baseWeapons": {
+          "rock": "Rock",
+          "oropin-greathammer": "Oropin Greathammer",
+          "oropin-greatsword": "Oropin Greatsword",
+          "oropin-composite-longbow": "Oropin Composite Longbow",
+          "oropin-composite-shortbow": "Oropin Composite Shortbow"
+        },
+        "damageTypes": {
+          "ley": {
+            "label": "Ley",
+            "category": "energy",
+            "icon": "fa-drone"
+          },
+          "soul": {
+            "label": "Soul",
+            "category": "energy",
+            "icon": "fa-person-burst"
+          }
+        },
+        "creatureTraits": {
+          "vexbalg": "Vexbalg",
+          "drakkgebor": "Drakkgebor",
+          "oropin": "Oropin",
+          "faerefolk": "Faerefolk",
+          "bastaal": "Bastaal",
+          "skeerandar": "Skeerandar"
+        }
+      }
+    }
+  },
   "packs": [
     {
       "name": "aed-abilities",

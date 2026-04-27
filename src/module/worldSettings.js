@@ -1,26 +1,6 @@
-const creatureTraits = [
-  { id: "vexbalg", value: "Vexbalg" },
-  { id: "drakkgebor", value: "Drakkgebor" },
-  { id: "oropin", value: "Oropin" },
-  { id: "faerefolk", value: "Faerefolk" },
-  { id: "bastaal", value: "Bastaal" },
-  { id: "skeerandar", value: "Skeerandar" },
-];
-
-const featTraits = [
-  { id: "vexbalg", value: "Vexbalg" },
-  { id: "drakkgebor", value: "Drakkgebor" },
-  { id: "dragon", value: "Dragon" },
-  { id: "oropin", value: "Oropin" },
-  { id: "faerefolk", value: "Faerefolk" },
-  { id: "bastaal", value: "Bastaal" },
-  { id: "skeerandar", value: "Skeerandar" },
-  { id: "soulseer", value: "Soulseer" },
-];
-
 function getDeadLanguages() {
   const allLanguagesList = Object.keys(
-    game.pf2e.settings.campaign.languages
+    game.pf2e.settings.campaign.languages,
   ).flatMap((language) => {
     if (typeof game.pf2e.settings.campaign.languages[language] === "string")
       return game.pf2e.settings.campaign.languages[language];
@@ -65,11 +45,6 @@ function languageToRarity() {
   };
 }
 
-const damageTypes = [
-  { label: "Ley", category: "energy", icon: "fa-drone" },
-  { label: "Soul", category: "energy", icon: "person-burst" },
-];
-
 const languages = [
   { id: "ereben", value: "Ereben", rarity: "common" },
   { id: "skin-cant", value: "Skin Cant", rarity: "secret" },
@@ -91,32 +66,4 @@ const languages = [
   { id: "ephysio", value: "Ephysio", rarity: "secret" },
 ];
 
-const weaponGroups = [{ id: "oropin", value: "Oropin" }];
-
-const baseWeapons = [
-  { id: "rock", value: "Rock" },
-  { id: "oropin-greathammer", value: "Oropin Greathammer" },
-  { id: "oropin-greatsword", value: "Oropin Greatsword" },
-  { id: "oropin-composite-longbow", value: "Oropin Composite Longbow" },
-  { id: "oropin-composite-shortbow", value: "Oropin Composite Shortbow" },
-];
-
-const weaponTraits = [
-  { id: "oropin", value: "Oropin" },
-  { id: "seillian", value: "Seillian" },
-  { id: "faerefolk", value: "Faerefolk" },
-];
-
-const spellTraits = [{ id: "soulseer", value: "Soulseer" }];
-
-export {
-  creatureTraits,
-  damageTypes,
-  featTraits,
-  languages,
-  weaponGroups,
-  baseWeapons,
-  weaponTraits,
-  spellTraits,
-  languageToRarity,
-};
+export { languages, languageToRarity };
