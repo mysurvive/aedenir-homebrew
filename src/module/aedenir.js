@@ -75,12 +75,15 @@ async function checkVersion() {
 async function loadHomebrew() {
   if (!game.settings.get(moduleId, "loadedHomebrew")) {
     try {
-      await game.settings.set("pf2e", "homebrew.languages", languages);
-      await game.settings.set(
-        "pf2e",
-        "homebrew.languageRarities",
-        languageToRarity(),
-      );
+      await game.settings
+        .set("pf2e", "homebrew.languages", languages)
+        .then(
+          await game.settings.set(
+            "pf2e",
+            "homebrew.languageRarities",
+            languageToRarity(),
+          ),
+        );
     } catch {
       console.error("Error loading homebrew.");
       return Promise.reject("Error in loadHomebrew");
