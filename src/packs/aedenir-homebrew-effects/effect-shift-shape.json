@@ -1,0 +1,66 @@
+{
+  "name": "Effect: Shift Shape",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Aedenir Homebrew",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "effect-shift-shape",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "FjyoF50HOjkNPnXs",
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1777311666559,
+    "modifiedTime": 1777321363180,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-effects.Item.FjyoF50HOjkNPnXs",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!FjyoF50HOjkNPnXs"
+}

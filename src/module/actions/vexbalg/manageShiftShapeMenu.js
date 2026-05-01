@@ -1,7 +1,7 @@
 const { ApplicationV2, HandlebarsApplicationMixin } = foundry.applications.api;
 
 export class ManageShiftShapeMenu extends HandlebarsApplicationMixin(
-  ApplicationV2,
+  ApplicationV2
 ) {
   shiftShapeList = new Array();
 
@@ -43,7 +43,7 @@ export class ManageShiftShapeMenu extends HandlebarsApplicationMixin(
     const context = await super._prepareContext(options);
     this.shiftShapeList = (await this.actor.getFlag(
       "aedenir-homebrew",
-      "vexbalg.shiftShape.list",
+      "vexbalg.shiftShape.list"
     )) ?? [
       {
         img: "systems/pf2e/icons/default-icons/character.svg",
@@ -91,7 +91,7 @@ export class ManageShiftShapeMenu extends HandlebarsApplicationMixin(
     await this.actor.setFlag(
       "aedenir-homebrew",
       "vexbalg.shiftShape.list",
-      mappedData,
+      mappedData
     );
   }
 }

@@ -1,6 +1,6 @@
 function getDeadLanguages() {
   const allLanguagesList = Object.keys(
-    game.pf2e.settings.campaign.languages,
+    game.pf2e.settings.campaign.languages
   ).flatMap((language) => {
     if (typeof game.pf2e.settings.campaign.languages[language] === "string")
       return game.pf2e.settings.campaign.languages[language];

@@ -45,22 +45,22 @@ Hooks.on("ready", async () => {
 async function checkVersion() {
   console.log(
     "%cChecking homebrew version.",
-    "color: green; font-weight: bold",
+    "color: green; font-weight: bold"
   );
   const loadedVersion = await game.settings.get(moduleId, "homebrewVersion");
   const latestVersion = await game.modules.get(moduleId).version;
   console.log(
     `%cLoaded version: ${loadedVersion}`,
-    "color: green; font-weight: bold",
+    "color: green; font-weight: bold"
   );
   console.log(
     `%cLatest version: ${latestVersion}`,
-    "color: green; font-weight: bold",
+    "color: green; font-weight: bold"
   );
   if (loadedVersion != latestVersion) {
     console.log(
       "%cVersion mismatch, updating.",
-      "color: red; font-weight: bold",
+      "color: red; font-weight: bold"
     );
     game.settings.set(moduleId, "loadedHomebrew", false);
     game.settings.set(moduleId, "loadedSettings", false);
@@ -70,7 +70,7 @@ async function checkVersion() {
         await game.settings.set(moduleId, "homebrewVersion", latestVersion),
       (reject) => {
         console.error(reject);
-      },
+      }
     );
   }
   return Promise.resolve();
@@ -85,8 +85,8 @@ async function loadHomebrew() {
           await game.settings.set(
             "pf2e",
             "homebrew.languageRarities",
-            languageToRarity(),
-          ),
+            languageToRarity()
+          )
         );
     } catch {
       console.error("Error loading homebrew.");
@@ -96,11 +96,11 @@ async function loadHomebrew() {
     await game.settings.set(moduleId, "loadedHomebrew", true);
     console.log(
       "%cAedenir Homebrew Traits have been successfully loaded",
-      "color: green; font-weight: bold",
+      "color: green; font-weight: bold"
     );
     console.log(
       "%cAedenir Homebrew settings have been set",
-      "color: green; font-weight: bold",
+      "color: green; font-weight: bold"
     );
     return Promise.resolve();
   }
@@ -124,11 +124,11 @@ async function loadSettings() {
     await game.settings.set(moduleId, "loadedSettings", true);
     console.log(
       "%cAedenir Specific System Settings have been successfully loaded",
-      "color: green; font-weight: bold",
+      "color: green; font-weight: bold"
     );
     console.log(
       "%cPF2e settings for Aedenir Homebrew have been set",
-      "color: green; font-weight: bold",
+      "color: green; font-weight: bold"
     );
     return Promise.resolve();
   }

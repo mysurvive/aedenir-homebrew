@@ -11,14 +11,14 @@ Hooks.on("renderCharacterSheetPF2e", async (_sheet, html, character) => {
       _sheet.actor.setFlag("aedenir-homebrew", "vexbalg.shiftShape", {});
     }
     const shiftShapeEffect = vex.itemTypes.effect.find(
-      (e) => e.slug === "effect-shift-shape",
+      (e) => e.slug === "effect-shift-shape"
     );
 
     const opts = {
       changed: shiftShapeEffect ? true : false,
       currentShape: vex.getFlag(
         "aedenir-homebrew",
-        "vexbalg.shiftShape.currentShape",
+        "vexbalg.shiftShape.currentShape"
       ),
 
       /**
@@ -41,8 +41,8 @@ Hooks.on("renderCharacterSheetPF2e", async (_sheet, html, character) => {
     actionsPanel.prepend(
       await foundry.applications.handlebars.renderTemplate(
         "modules/aedenir-homebrew/templates/shiftShape/shiftShapeSheet.hbs",
-        opts,
-      ),
+        opts
+      )
     );
 
     const shiftShapeBtn = actionsPanel.find("button#shift-shape");
@@ -50,7 +50,7 @@ Hooks.on("renderCharacterSheetPF2e", async (_sheet, html, character) => {
 
     shiftShapeBtn.on("click", () => {
       const shiftShapeSelection = _sheet.form.querySelector(
-        "#shift-shape-selection",
+        "#shift-shape-selection"
       ).value;
       shiftShape(_sheet.actor, shiftShapeSelection);
     });
@@ -65,13 +65,13 @@ async function shiftShape(actor, shiftShapeSelection) {
   const shiftShapeEffectActive = actor.itemTypes.effect.find(
     (e) =>
       e.sourceId ===
-      "Compendium.aedenir-homebrew.aed-effects.Item.FjyoF50HOjkNPnXs",
+      "Compendium.aedenir-homebrew.aed-effects.Item.FjyoF50HOjkNPnXs"
   );
   if (shiftShapeEffectActive) {
     shiftShapeEffectActive.delete();
     await actor.unsetFlag(
       "aedenir-homebrew",
-      "vexbalg.shiftShape.currentShape",
+      "vexbalg.shiftShape.currentShape"
     );
   } else {
     if (shiftShapeSelection) {
@@ -81,7 +81,7 @@ async function shiftShape(actor, shiftShapeSelection) {
 
       const shiftShapeEffect = (
         await fromUuid(
-          "Compendium.aedenir-homebrew.aed-effects.Item.FjyoF50HOjkNPnXs",
+          "Compendium.aedenir-homebrew.aed-effects.Item.FjyoF50HOjkNPnXs"
         )
       ).toObject();
 
@@ -101,7 +101,7 @@ async function shiftShape(actor, shiftShapeSelection) {
         await actor.setFlag(
           "aedenir-homebrew",
           "vexbalg.shiftShape.currentShape",
-          shape.id,
+          shape.id
         );
     }
   }
