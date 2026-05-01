@@ -1,5 +1,7 @@
 import { ancestralEndurance } from "./macros/ancestralEndurance.js";
 import { languages, languageToRarity } from "./worldSettings.js";
+import "./hooks/shiftShape.js";
+import { registerHandlebarsHelpers } from "./config.js";
 
 const moduleId = "aedenir-homebrew";
 
@@ -28,6 +30,8 @@ Hooks.on("init", async () => {
   game.aedenir = {
     ancestralEndurance,
   };
+
+  registerHandlebarsHelpers();
 });
 
 Hooks.on("ready", async () => {

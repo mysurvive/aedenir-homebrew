@@ -1,0 +1,13 @@
+.shift-shape-sheet {
+  display: flex;
+  justify-content: space-between;
+  button {
+    justify-content: center;
+    align-content: center;
+    height: 34px;
+    width: 34px;
+  }
+  select {
+    min-width: 120px;
+  }
+}

@@ -1,0 +1,50 @@
+#shapes {
+  #shapes-header {
+    justify-content: left;
+    margin-bottom: 5px;
+    padding: 0 3px 0 3px;
+    > * {
+      justify-content: center;
+      margin: 2px;
+    }
+    .token-image-header {
+      width: 64px;
+    }
+    .token-path-header {
+      width: 170px;
+    }
+    .name-header {
+      width: 170px;
+    }
+  }
+
+  #shape-item {
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    margin: 2px 0 3px 0;
+    border: 2px solid white;
+    border-radius: 5px;
+    *.inputs {
+      align-items: center;
+      > * {
+        margin: 2px;
+      }
+
+      > file-picker {
+        width: 170px;
+      }
+
+      > input {
+        width: 180px;
+      }
+
+      > img {
+        height: 64px;
+        width: 64px;
+      }
+    }
+  }
+}

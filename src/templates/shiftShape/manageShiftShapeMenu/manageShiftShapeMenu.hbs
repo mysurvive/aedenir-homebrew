@@ -1,0 +1,13 @@
+<section>
+    <div class="flex column" id="shapes">
+        <div class="flex row" id="shapes-header">
+            <span class="token-image-header">Token</span>
+            <span class="token-path-header">Token Path</span>
+            <span class="name-header">Name</span>
+        </div>
+        {{#each shapes}}
+        {{>"modules/aedenir-homebrew/templates/shiftShape/manageShiftShapeMenu/partials/shape-item.hbs"}}
+        {{/each}}
+    </div>
+    <button class="justify-self-right btn-small" type="button" data-action="addRow">+</button>
+</section>

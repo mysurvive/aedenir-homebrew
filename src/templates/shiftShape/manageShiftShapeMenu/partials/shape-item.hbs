@@ -1,0 +1,25 @@
+<div class="flex row" id="shape-item">
+  <div class="flex row inputs">
+    <img src="{{img}}" />
+    <file-picker
+      name="{{@index}}-img"
+      value="{{img}}"
+      type="image"
+      required
+    ></file-picker>
+    <input
+      name="{{@index}}-name"
+      type="text"
+      id="shape-name"
+      value="{{name}}"
+      required
+    />
+  </div>
+  <button
+    type="button"
+    class="btn-small"
+    data-action="removeRow"
+    data-tooltip="Remove Row"
+    index="{{@index}}"
+  >-</button>
+</div>

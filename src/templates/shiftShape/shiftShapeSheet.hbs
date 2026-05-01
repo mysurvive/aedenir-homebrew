@@ -1,0 +1,24 @@
+<header>Shift Shape</header>
+<div class="shift-shape-sheet">
+  <div>
+    <select name="select-shape" id="shift-shape-selection" {{#if changed}}disabled{{/if}}>
+      {{#each shape}}
+        <option value="{{id}}" {{#when id "eq" @root.currentShape}}selected{{/when}}>
+          {{name}}
+        </option>
+      {{/each}}
+    </select>
+    <button id="shift-shape">
+      {{#if changed}}
+      <i class="fa-sharp fa-solid fa-arrow-left-from-bracket"></i>
+      {{else}}
+      <i class="fa-solid fa-transporter"></i>
+      {{/if}}
+    </button>
+  </div>
+  <div>
+    <button id="manage-shift-shape">
+      <i class="fa-solid fa-list"></i>
+    </button>
+  </div>
+</div>

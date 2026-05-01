@@ -1,2 +1,25 @@
 @import "journal/journal";
 @import "misc/icon";
+@import "sheet/shiftShape.scss";
+@import "menu/manageShiftShapeMenu.scss";
+
+.aedenir-homebrew {
+  .flex {
+    display: flex;
+
+    &.row {
+      flex-direction: row;
+    }
+
+    &.column {
+      flex-direction: column;
+    }
+  }
+  .justify-self-right {
+    justify-self: right;
+  }
+  button.btn-small {
+    height: 32px;
+    width: 32px;
+  }
+}

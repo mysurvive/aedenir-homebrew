@@ -30,7 +30,7 @@ const stylesDirectory = `${sourceDirectory}/styles`;
 const stylesExtension = "scss";
 const sourceFileExtension = "js";
 const sass = gulpSass(dartSass);
-const staticFiles = ["module.json", "packs", "assets"];
+const staticFiles = ["module.json", "packs", "assets", "templates"];
 
 /********************/
 /*      BUILD       */
@@ -81,24 +81,24 @@ export function watch() {
   gulp.watch(
     `${sourceDirectory}/**/*.${sourceFileExtension}`,
     { ignoreInitial: false },
-    buildCode
+    buildCode,
   );
   gulp.watch(
     `${stylesDirectory}/**/*.${stylesExtension}`,
     { ignoreInitial: false },
-    buildStyles
+    buildStyles,
   );
   gulp.watch(
     staticFiles.map((file) => `${sourceDirectory}/${file}`),
     { ignoreInitial: false },
-    copyFiles
+    copyFiles,
   );
 }
 
 export const build = gulp.series(
   clean,
   buildPacks,
-  gulp.parallel(buildCode, copyFiles, buildStyles)
+  gulp.parallel(buildCode, copyFiles, buildStyles),
 );
 
 /********************/
@@ -148,12 +148,12 @@ function getDataPaths() {
     return dataPaths.map((dataPath) => {
       if (typeof dataPath !== "string") {
         throw new Error(
-          `Property dataPath in foundryconfig.json is expected to be a string or an array of strings, but found ${dataPath}`
+          `Property dataPath in foundryconfig.json is expected to be a string or an array of strings, but found ${dataPath}`,
         );
       }
       if (!fs.existsSync(path.resolve(dataPath))) {
         throw new Error(
-          `The dataPath ${dataPath} does not exist on the file system`
+          `The dataPath ${dataPath} does not exist on the file system`,
         );
       }
       return path.resolve(dataPath);
@@ -175,7 +175,7 @@ export async function link() {
   }
 
   const linkDirectories = getDataPaths().map((dataPath) =>
-    path.resolve(dataPath, "Data", destinationDirectory, packageId)
+    path.resolve(dataPath, "Data", destinationDirectory, packageId),
   );
 
   const argv = yargs(hideBin(process.argv)).option("clean", {
