@@ -3,7 +3,7 @@ import { TYPE_COLLECTION_MAP } from "@foundryvtt/foundryvtt-cli/lib/package.mjs"
 import fs from "fs";
 
 const COLLECTION_TYPE = new Map(
-  Object.entries(TYPE_COLLECTION_MAP).map(([k, v]) => [v, k]),
+  Object.entries(TYPE_COLLECTION_MAP).map(([k, v]) => [v, k])
 );
 
 export async function buildModulePacks(packageId) {
