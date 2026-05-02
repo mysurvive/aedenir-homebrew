@@ -3,7 +3,7 @@ import { TYPE_COLLECTION_MAP } from "@foundryvtt/foundryvtt-cli/lib/package.mjs"
 import fs from "fs";
 
 const COLLECTION_TYPE = new Map(
-  Object.entries(TYPE_COLLECTION_MAP).map(([k, v]) => [v, k])
+  Object.entries(TYPE_COLLECTION_MAP).map(([k, v]) => [v, k]),
 );
 
 export async function buildModulePacks(packageId) {
@@ -19,7 +19,7 @@ export async function buildModulePacks(packageId) {
         const [, collection] = entry._key.split("!");
         const docType = COLLECTION_TYPE.get(collection);
 
-        // Remove obsolte sourceId flags
+        // Remove obsolete sourceId flags
         if (entry.flags?.core?.sourceId) delete entry.flags.core.sourceId;
 
         // Add correct compendiumSource (except to folders)

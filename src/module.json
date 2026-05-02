@@ -54,20 +54,31 @@
           "faerefolk": {
             "label": "Faerefolk",
             "description": "Weapons with this trait are ancestral weapons weilded by the Faerefolk peoples."
+          },
+          "breaker": {
+            "label": "Breaker",
+            "description": "This weapon is designed to break armor and shields. When dealing damage to an object's hardness, it gains a status bonus to damage equal to the number of damage dice."
+          },
+          "bounce": {
+            "label": "Ricochet",
+            "description": "This weapon is designed to bounce against hard objects like bone and armor. On a hit with a ranged strike, you may make an additional strike against a target within half of the weapons range increment with a -4 untyped penalty. Cover is calculated based on the position of the first and second targets, not the attacker and the second target."
           }
         },
         "weaponGroups": {
           "oropin": "Oropin"
         },
         "spellTraits": {
-          "spellseer": "Spellseer"
+          "soulseer": "Soulseer"
         },
         "baseWeapons": {
           "rock": "Rock",
           "oropin-greathammer": "Oropin Greathammer",
           "oropin-greatsword": "Oropin Greatsword",
           "oropin-composite-longbow": "Oropin Composite Longbow",
-          "oropin-composite-shortbow": "Oropin Composite Shortbow"
+          "oropin-composite-shortbow": "Oropin Composite Shortbow",
+          "seillian-chakram": "Seillian Chakram",
+          "seillian-bladed-bow": "Seillian Bladed Bow",
+          "seillian-pick-blade": "Seillian Pick Blade"
         },
         "damageTypes": {
           "ley": {

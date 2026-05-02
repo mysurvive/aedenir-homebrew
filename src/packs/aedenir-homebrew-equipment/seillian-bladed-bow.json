@@ -1,0 +1,140 @@
+{
+  "name": "Seillian Bladed Bow",
+  "type": "weapon",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Seillian Bladed Bow is a marvel of metal and woodwork. The limbs of the bow are made from layers of lacquer, wood, and composite material. Within the limbs are embedded specially treated and tempered sheets of metal sharpened to a razor's edge that are both durable and flexible. A skilled user of the Bladed Bow can easily switch between firing arrows at encroaching enemies to dancing between them in a crimson display.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "combination",
+        "deadly-d8",
+        "propulsive",
+        "seillian"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Aedenir Homebrew",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "seillian-bladed-bow",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 10
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "held-in-one-plus-hands"
+    },
+    "category": "advanced",
+    "group": "bow",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "piercing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": 80,
+    "expend": 1,
+    "ammo": {
+      "builtIn": false,
+      "baseType": "arrows"
+    },
+    "reload": {
+      "value": "0"
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "meleeUsage": {
+      "group": "sword",
+      "damage": {
+        "die": "d6",
+        "type": "slashing"
+      },
+      "traits": [
+        "fatal-d8",
+        "finesse",
+        "seillian",
+        "sweep"
+      ]
+    }
+  },
+  "_id": "YAcIw7fpLGm2nlXi",
+  "img": "icons/weapons/bows/longbow-leather-green.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1777742823643,
+    "modifiedTime": 1777743484039,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-equipment.Item.YAcIw7fpLGm2nlXi",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!YAcIw7fpLGm2nlXi"
+}

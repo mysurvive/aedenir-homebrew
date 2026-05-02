@@ -1,0 +1,125 @@
+{
+  "name": "Seillian Pick Blade",
+  "type": "weapon",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Seillian Pick Blade is designed after a tool that foragers and farmers use to gather fruits from difficult to reach places such as cacti and trees. The tool was adapted for combat by strengthening the curve of the blade and widening the hook on the end. This became a weapon similar to a khopesh, allowing the wielder to hack through shields or use the hook to tear a shield away or trip enemies by the ankles.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "breaker",
+        "forceful",
+        "seillian",
+        "trip"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Aedenir Homebrew",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "seillian-pick-blade",
+    "bulk": {
+      "value": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 4
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "sword",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d8",
+      "damageType": "slashing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "ammo": null,
+    "reload": {
+      "value": null
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": []
+  },
+  "_id": "cWc56ZQgSoXIs391",
+  "img": "systems/pf2e/icons/equipment/weapons/khopesh.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1777742149122,
+    "modifiedTime": 1777755104655,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-equipment.Item.cWc56ZQgSoXIs391",
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow"
+  },
+  "_key": "!items!cWc56ZQgSoXIs391"
+}

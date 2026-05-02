@@ -1,0 +1,127 @@
+{
+  "name": "Seillian Chakram",
+  "type": "weapon",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Seillian Chakram was designed originally as a hunting weapon in thick forests of Northern Seillia. Its efficacy was undeniable and became a staple in the kits of soldiers who could master its techniques.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "bounce",
+        "finesse",
+        "recovery",
+        "seillian",
+        "thrown-30"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Aedenir Homebrew",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "seillian-chakram",
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 1
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "held-in-one-hand",
+      "canBeAmmo": false
+    },
+    "category": "advanced",
+    "group": "dart",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d4",
+      "damageType": "slashing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "ammo": null,
+    "reload": {
+      "value": null
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": []
+  },
+  "_id": "BR0FwicVD2UmJtuT",
+  "img": "systems/pf2e/icons/equipment/weapons/chakri.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "8.0.2",
+    "createdTime": 1777741409320,
+    "modifiedTime": 1777755197455,
+    "compendiumSource": "Compendium.undefined.aedenir-homebrew-equipment.Item.BR0FwicVD2UmJtuT",
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "oMwyPU2ip0rGnOow"
+  },
+  "_key": "!items!BR0FwicVD2UmJtuT"
+}

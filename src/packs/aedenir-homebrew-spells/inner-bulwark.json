@@ -16,7 +16,9 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "soulseer"
+      ],
       "rarity": "common",
       "traditions": []
     },
@@ -66,7 +68,7 @@
     "systemId": "pf2e",
     "systemVersion": "8.0.2",
     "createdTime": 1777082122080,
-    "modifiedTime": 1777082122080,
+    "modifiedTime": 1777741348691,
     "compendiumSource": "Compendium.undefined.aedenir-homebrew-spells.Item.Wrzl30KzRUOU2ubu",
     "duplicateSource": null,
     "exportSource": null
